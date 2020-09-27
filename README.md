@@ -24,7 +24,7 @@ A curated list of problems and bugs that developers may find useful to know.
 
 ## Introduction
 
-As software developers, we can simply define our work as fixing bugs and developing solutions to problems. This is a curated list of problems and bugs that developers may find useful to know.
+As software developers, we can simply define our work as fixing bugs and developing solutions to problems. This is a curated list of problems and bugs that developers may find useful to know. I hope it will become a community driven list to create a value.
 
 ## Problems
 
