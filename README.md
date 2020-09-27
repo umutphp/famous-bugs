@@ -13,6 +13,7 @@ A curated list of problems and bugs that developers may find useful to know.
 - [Introduction](#introduction)
 - [Problems](#problems)
   - [Justin Bieber Problem of Instagram](#justin-bieber-problem-of-instagram)
+  - [Year 2000 Problem](#year-2000-problem)
 - [Bugs](#bugs)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
