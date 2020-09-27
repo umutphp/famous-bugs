@@ -51,7 +51,7 @@ The Year 2000 problem (also known as the Y2K problem, the Millennium bug, Y2K bu
 - On 1 January 1999, taxi meters in Singapore stopped working.
 - On 1 January 2000, in Onagawa, Japan, an alarm sounded at a nuclear power plant at two minutes after midnight.
 - On 1 March 2000, In the United States, the Coast Guard's message processing system was affected.
-- Norway and Finland had to change their national identification number, to indicate correctly the century in which a person was born. 
+- Norway and Finland had to change their national identification number, to indicate correctly the century in which a person was born.
 
 See also:
 
@@ -78,4 +78,4 @@ The horizontal velocity of the rocket with respect to the platform was larger th
 
 See also:
 
-- [Report: Software Design Errors Caused Ariane 5 Explosion](https://apnews.com/article/1d85f290e31cad8532636fcb576f4788) 
+- [Report: Software Design Errors Caused Ariane 5 Explosion](https://apnews.com/article/1d85f290e31cad8532636fcb576f4788)
