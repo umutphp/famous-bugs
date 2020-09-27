@@ -2,6 +2,8 @@
 
 Remarkable bugs and problems fixed by developers are listed thay may inspire others.
 
+---
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table Of Contents
@@ -13,6 +15,8 @@ Remarkable bugs and problems fixed by developers are listed thay may inspire oth
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+---
 
 ## Introduction
 
