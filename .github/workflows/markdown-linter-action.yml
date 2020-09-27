@@ -1,0 +1,15 @@
+on:
+  push:
+
+jobs:
+  hacker_laws_action:
+    runs-on: ubuntu-latest
+    name: Markdown Linter Action
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: "Markdown Linter"
+        uses: nosborn/github-action-markdown-cli@v1.1.1
+        with:
+          files: .
+          ignore_files: "LICENSE"
