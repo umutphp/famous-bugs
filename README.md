@@ -1,4 +1,5 @@
 # famous-bugs :bug: :honeybee: :ant: :beetle:
+
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./.github/CODE_OF_CONDUCT.md)
 A curated list of remarkable bugs and problems thay may inspire us.
 
