@@ -40,6 +40,22 @@ See also:
 - [Thundering herd problem](https://www.wikiwand.com/en/Thundering_herd_problem)
 - [How Instagram Solved Its Justin Bieber Problem](https://www.wired.com/2015/11/how-instagram-solved-its-justin-bieber-problem/)
 
+### Year 2000 Problem
+
+> ... making the year 2000 indistinguishable from 1900.
+>
+
+The Year 2000 problem (also known as the Y2K problem, the Millennium bug, Y2K bug, the Y2K glitch, or Y2K) refers to fails occured becuase of the formatting and storage of calendar data for dates beginning in the year 2000. Many errors documented all over the world. Here are some examples:
+
+- On 1 January 1999, taxi meters in Singapore stopped working.
+- On 1 January 2000, in Onagawa, Japan, an alarm sounded at a nuclear power plant at two minutes after midnight.
+- On 1 March 2000, In the United States, the Coast Guard's message processing system was affected.
+- Norway and Finland had to change their national identification number, to indicate correctly the century in which a person was born. 
+
+See also:
+
+- [Year 2000 Problem at Wikipedia](https://en.wikipedia.org/wiki/Year_2000_problem)
+
 ## Bugs
 
 ### Gangnam Style Broke YouTube
