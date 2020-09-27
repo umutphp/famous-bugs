@@ -6,12 +6,17 @@ Remarkable bugs and problems fixed by developers are listed thay may inspire oth
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table Of Contents
 
+- [Introduction](#introduction)
 - [Problems](#problems)
   - [Justin Bieber Problem of Instagram](#justin-bieber-problem-of-instagram)
 - [Bugs](#bugs)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+## Introduction
+
+As software developers, we can define our work as correcting mistakes and developing solutions to problems. This is a curated list of problems and bugs that developers may find useful to know.
 
 ## Problems
 
