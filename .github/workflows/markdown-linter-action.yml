@@ -1,10 +1,10 @@
 on:
   push:
-
+name: "Markdown Linter Action"
 jobs:
   hacker_laws_action:
     runs-on: ubuntu-latest
-    name: Markdown Linter Action
+    name: Markdown Linter Steps
     steps:
       - name: Checkout
         uses: actions/checkout@v2

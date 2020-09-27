@@ -1,11 +1,12 @@
 on:
   pull_request:
     types: [opened]
+name: "Hacker Laws Action"
 
 jobs:
   hacker_laws_action:
     runs-on: ubuntu-latest
-    name: Hacker Laws Action
+    name: Hacker Laws Steps
     steps:
       - name: Checkout
         uses: actions/checkout@v2
