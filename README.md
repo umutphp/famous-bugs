@@ -9,6 +9,7 @@ Remarkable bugs and problems fixed by developers are listed thay may inspire oth
 - [Problems](#problems)
   - [Justin Bieber Problem of Instagram](#justin-bieber-problem-of-instagram)
 - [Bugs](#bugs)
+  - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -28,3 +29,11 @@ See also:
 - [How Instagram Solved Its Justin Bieber Problem](https://www.wired.com/2015/11/how-instagram-solved-its-justin-bieber-problem/)
 
 ## Bugs
+
+### Gangnam Style Broke YouTube
+
+> We never thought a video would be watched in numbers greater than a 32-bit integer.
+> 
+> YouTube
+
+YouTube's counter was previously using  a 32-bit integer which means the maximum possible views it could count was 2,147,483,647. And "[Gangnam Style](https://www.youtube.com/watch?v=9bZkp7q19f0)" surpassed the 2-billion-view marker. YouTube has upgraded to a 64-bit integer so that the maximum views a video can receive is now 9,223,372,036,854,775,808.
