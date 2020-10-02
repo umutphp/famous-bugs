@@ -58,6 +58,20 @@ See also:
 
 - [Year 2000 Problem at Wikipedia](https://en.wikipedia.org/wiki/Year_2000_problem)
 
+### NPM Leftpad Breakage
+
+> An 11 line npm package called left-pad with only 10 stars on github was unpublished...it broke some of the most important packages on all of npm.
+>
+> [Reddit](https://www.reddit.com/r/programming/comments/4bjss2/an_11_line_npm_package_called_leftpad_with_only/)
+
+Azer Koçulu had been publishing a simple code he wrote to npm and It became very popular. Many projects has used his package as a dependency. On March 11, he received an email from a patent and trademark agent who works for Kik which was a messaging app. KiK was also the name of another package of him. They wanted him to rename the Kik package but he did not accept. Then the agency forced NPM to do so. After NPM's decision Azer Koçulu had taken down all of his packages including left-pad. Then many JavaScript programmers around the world started getting an error message "npm ERR! 404 'left-pad' is not in the npm registry".
+
+See also:
+
+- [I've Just Liberated My Modules
+](https://kodfabrik.com/journal/i-ve-just-liberated-my-modules)
+- [kik, left-pad, and npm](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm)
+
 ## Bugs
 
 ### Gangnam Style Broke YouTube
