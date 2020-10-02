@@ -17,6 +17,7 @@ A curated list of problems and bugs that developers may find useful to know.
 - [Bugs](#bugs)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
+  - [Metric System Mess Of NASA’s Mars Climate Orbiter](#metric-system-mess-of-nasas-mars-climate-orbiter)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
