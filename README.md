@@ -19,6 +19,7 @@ A curated list of problems and bugs that developers may find useful to know.
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
   - [Metric System Mess Of NASA’s Mars Climate Orbiter](#metric-system-mess-of-nasas-mars-climate-orbiter)
+- [Contributing](#contributing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -103,3 +104,11 @@ The Mars Climate Orbiter was a robotic space probe launched by NASA on December 
 See also:
 
 - [Mars_Climate_Orbiter#Cause_of_failure](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure)
+
+## Contributing
+
+Please do contribute! :pray:
+
+[Raise an issue]https://github.com/umutphp/famous-bugs/issues/new) if you'd like to suggest an addition or change, or [Open a pull request]https://github.com/umutphp/famous-bugs/pulls) to add your own.
+
+Please read the [Contributing Guidelines](./.github/contributing.md) and the [Code of Conduct](./.github/CODE_OF_CONDUCT.md) documents.
