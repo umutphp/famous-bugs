@@ -19,6 +19,7 @@ A curated list of problems and bugs that developers may find useful to know.
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
   - [Metric System Mess Of NASA’s Mars Climate Orbiter](#metric-system-mess-of-nasas-mars-climate-orbiter)
+  - [The Morris Worm](#the-morris-worm)
 - [Contributing](#contributing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -104,6 +105,20 @@ The Mars Climate Orbiter was a robotic space probe launched by NASA on December 
 See also:
 
 - [Mars_Climate_Orbiter#Cause_of_failure](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure)
+
+### The Morris Worm
+
+> This was a design flaw ...
+>
+
+According to its creator, [Robert Tappan Morris](https://en.wikipedia.org/wiki/Robert_Tappan_Morris), It was not written to cause damage, but to highlight security flaws. It was programmed to exploit the known vulnerabilities in [sendmail](https://en.wikipedia.org/wiki/Sendmail), [finger](https://en.wikipedia.org/wiki/Finger_protocol), [rsh/rexec](https://en.wikipedia.org/wiki/Berkeley_r-commands) and weak passwords. While creating the worm, Robert programmed the worm to copy itself 14% of the time to avoid system administrators trying to defeat the worm by instructing the computer to report a false positive. This was a design flaw and created fork bombs and crashes in the affected computer.
+
+The Morris Worm is accepted as one of the first computer worms distributed via the Internet and It was the first to gain significant mainstream media attention. A floppy disk containing the source code for the Morris Worm is held at the [Computer History Museum](https://computerhistory.org/).
+
+See also:
+
+- [Morris Worm](https://en.wikipedia.org/wiki/Morris_worm)
+- [Robert Tappan Morris](https://en.wikipedia.org/wiki/Robert_Tappan_Morris)
 
 ## Contributing
 
