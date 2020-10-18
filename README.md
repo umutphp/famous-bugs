@@ -142,6 +142,6 @@ See also:
 
 Please do contribute! :pray:
 
-[Raise an issue]https://github.com/umutphp/famous-bugs/issues/new) if you'd like to suggest an addition or change, or [Open a pull request]https://github.com/umutphp/famous-bugs/pulls) to add your own.
+[Raise an issue](https://github.com/umutphp/famous-bugs/issues/new) if you'd like to suggest an addition or change, or [Open a pull request](https://github.com/umutphp/famous-bugs/pulls) to add your own.
 
 Please read the [Contributing Guidelines](./.github/contributing.md) and the [Code of Conduct](./.github/CODE_OF_CONDUCT.md) documents.
