@@ -16,6 +16,7 @@ A curated list of problems and bugs that developers may find useful to know.
   - [Year 2000 Problem](#year-2000-problem)
   - [NPM Leftpad Breakage](#npm-leftpad-breakage)
 - [Bugs](#bugs)
+  - [The First Bug](#the-first-bug)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
   - [Metric System Mess Of NASA’s Mars Climate Orbiter](#metric-system-mess-of-nasas-mars-climate-orbiter)
@@ -76,6 +77,23 @@ See also:
 - [kik, left-pad, and npm](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm)
 
 ## Bugs
+
+### The First Bug
+
+> First actual case of bug being found.
+>
+> [Grace Murray Hopper](https://en.wikipedia.org/wiki/Grace_Hopper)
+
+On September 9, 1947, the [Mark II](https://en.wikipedia.org/wiki/Harvard_Mark_II) (at Harvard University) broke down. Engineers investigated and diagnosed the cause. A moth had entered the machine and had shorted out relay number 70 of Panel F. They attached the bug to the page with adhesive tape with a note "First actual case of bug found.". This is how the term "bug" was born.
+
+![First Bug](./assets/images/first_bug.jpg)
+
+The sheet is kept at the [National Museum of American History of the Smithsonian Institution](https://americanhistory.si.edu/collections/search/object/nmah_334663) in Washington.
+
+See also:
+
+- [Harvard Mark II](https://en.wikipedia.org/wiki/Harvard_Mark_II)
+- [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper)
 
 ### Gangnam Style Broke YouTube
 
