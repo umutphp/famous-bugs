@@ -84,7 +84,7 @@ See also:
 >
 > [Grace Murray Hopper](https://en.wikipedia.org/wiki/Grace_Hopper)
 
-On September 9, 1947, the [Mark II](https://en.wikipedia.org/wiki/Harvard_Mark_II) (at Harvard University) broke down. Engineers investigated and diagnosed the cause. A moth had entered the machine and had shorted out relay number 70 of Panel F. They attached the bug to the page with adhesive tape with a note "First actual case of bug found.". This is how the term "bug" was born.
+On September 9, 1947, the [Mark II](https://en.wikipedia.org/wiki/Harvard_Mark_II) (at Harvard University) broke down. Engineers investigated and diagnosed the cause. A moth had entered the machine and had shorted out relay number 70 of Panel F. They attached the bug to the page with with a note "First actual case of bug found.". This is how the term "bug" was born.
 
 ![First Bug](./assets/images/first_bug.jpg)
 
