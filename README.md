@@ -86,7 +86,7 @@ Heathrow Terminal 5 was officially opened on 14 March 2008. On the day of openin
 
 The newest luggage transporting system software couldn’t handle some simple real scenarios which for some reason weren’t tested. For example, a luggage was carried back manually because the owner forgot something in. In this case, the program went off and an item wasn’t recorded. The luggage processing was always disrupted by such kind of little details.
 
-During the following ten days, around 42,000 items weren’t delivered to owners, and over 500 flights were canceled. Check-in to other flights became temporarily unavailable. 
+During the following ten days, around 42,000 items weren’t delivered to owners, and over 500 flights were canceled. Check-in to other flights became temporarily unavailable.
 
 See also;
 
