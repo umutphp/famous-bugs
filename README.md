@@ -15,6 +15,7 @@ A curated list of problems and bugs that developers may find useful to know.
   - [Justin Bieber Problem of Instagram](#justin-bieber-problem-of-instagram)
   - [Year 2000 Problem](#year-2000-problem)
   - [NPM Leftpad Breakage](#npm-leftpad-breakage)
+  - [Heathrow Terminal 5 Opening](#heathrow-terminal-5-opening)
 - [Bugs](#bugs)
   - [The First Bug](#the-first-bug)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
@@ -68,13 +69,29 @@ See also:
 >
 > [Reddit](https://www.reddit.com/r/programming/comments/4bjss2/an_11_line_npm_package_called_leftpad_with_only/)
 
-Azer Koçulu had been publishing a simple code he wrote to npm and It became very popular. Many projects has used his package as a dependency. On March 11, he received an email from a patent and trademark agent who works for Kik which was a messaging app. KiK was also the name of another package of him. They wanted him to rename the Kik package but he did not accept. Then the agency forced NPM to do so. After NPM's decision Azer Koçulu had taken down all of his packages including left-pad. Then many JavaScript programmers around the world started getting an error message "npm ERR! 404 'left-pad' is not in the npm registry".
+[Azer Koçulu](https://kodfabrik.com/) had been publishing a simple code he wrote to npm and It became very popular. Many projects has used his package as a dependency. On March 11, he received an email from a patent and trademark agent who works for Kik which was a messaging app. KiK was also the name of another package of him. They wanted him to rename the Kik package but he did not accept. Then the agency forced NPM to do so. After NPM's decision, Azer Koçulu had taken down all of his packages including left-pad. Then, many JavaScript programmers around the world started getting an error message "npm ERR! 404 'left-pad' is not in the npm registry".
 
 See also:
 
 - [I've Just Liberated My Modules
 ](https://kodfabrik.com/journal/i-ve-just-liberated-my-modules)
 - [kik, left-pad, and npm](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm)
+
+### Heathrow Terminal 5 Opening
+
+> ... simple real scenarios which for some reason weren’t tested.
+>
+
+Heathrow Terminal 5 was officially opened on 14 March 2008. On the day of opening, it did not operate as planned, so It forced British Airways to cancel 34 flights and suspend baggage check-in.
+
+The newest luggage transporting system software couldn’t handle some simple real scenarios which for some reason weren’t tested. For example, a luggage was carried back manually because the owner forgot something in. In this case, the program went off and an item wasn’t recorded. The luggage processing was always disrupted by such kind of little details.
+
+During the following ten days, around 42,000 items weren’t delivered to owners, and over 500 flights were canceled. Check-in to other flights became temporarily unavailable. 
+
+See also;
+
+- [Technical glitches hit T5 opening](http://news.bbc.co.uk/2/hi/uk_news/7314816.stm)
+- [Heathrow Terminal 5](https://en.wikipedia.org/wiki/Heathrow_Terminal_5#Opening) at Wikipedia
 
 ## Bugs
 
