@@ -22,6 +22,7 @@ A curated list of problems and bugs that developers may find useful to know.
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
   - [Metric System Mess Of NASA’s Mars Climate Orbiter](#metric-system-mess-of-nasas-mars-climate-orbiter)
   - [The Morris Worm](#the-morris-worm)
+  - [Death by IT](#death-by-it)
 - [Contributing](#contributing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -154,6 +155,18 @@ See also:
 
 - [Morris Worm](https://en.wikipedia.org/wiki/Morris_worm)
 - [Robert Tappan Morris](https://en.wikipedia.org/wiki/Robert_Tappan_Morris)
+
+### Death by IT
+
+> One digit was dropped from a computer code to indicate the patients were "deceased" rather than "discharged to home".
+> 
+> [Apnew](https://apnews.com/article/6870c9bd785360007b5981f0d5443b19#:~:text=A%20computer%20error%20at%20Saint,of%20other%20patients%20as%20deceased.&text=The%20glitch%20happened%20during%20a,told%20The%20Grand%20Rapids%20Press.)
+
+In 2002, St. Mary's Mercy Medical Center in Grand Rapids erroneously reported that 8500 patients dead because of a glitch in their patient management software. False death reports weren't only sent to patients but also to the insurance companies and social security offices. There is clear announcement about how the problem was fixed but the management software was changed.
+
+See also:
+
+- [Hospital Revives Its "Dead" Patients](https://www.baselinemag.com/c/a/Projects-Networks-and-Storage/Hospital-Revives-Its-QTEDeadQTE-Patients)
 
 ## Contributing
 
