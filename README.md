@@ -179,7 +179,23 @@ Before this collapse, AT&T's long-distance network was accepted as reliable and 
 
 The bug occured because of a break statement in an if clause nested in a switch clause in the upgraded recovery software of all switches. All the switches became unreliable at the same time while each switch tries to determine if the neighbor switches were reliable or not.
 
-![Pseudocode of the bug](./assets/images/att_network_collapse.png)
+```
+1  while (ring receive buffer not empty  and side buffer not empty) DO
+2    Initialize pointer to first message in side buffer or ring receive buffer
+3    get copy of buffer
+4    switch (message)
+5       case (incoming_message):
+6             if (sending switch is out of service) DO
+7                 if (ring write buffer is empty) DO
+8                     send "in service" to status map
+9                 else
+10                    break
+11            END IF
+12            process incoming message, set up pointers to optional parameters
+13            break
+14      END SWITCH
+15   do optional parameter work
+```
 
 See also
 
