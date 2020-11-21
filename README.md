@@ -23,6 +23,7 @@ A curated list of problems and bugs that developers may find useful to know.
   - [Metric System Mess Of NASA’s Mars Climate Orbiter](#metric-system-mess-of-nasas-mars-climate-orbiter)
   - [The Morris Worm](#the-morris-worm)
   - [Death by IT](#death-by-it)
+  - [The 1990 AT&T Network Collapse](#the-1990-att-network-collapse)
 - [Contributing](#contributing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -167,6 +168,23 @@ In 2002, St. Mary's Mercy Medical Center in Grand Rapids erroneously reported th
 See also:
 
 - [Hospital Revives Its "Dead" Patients](https://www.baselinemag.com/c/a/Projects-Networks-and-Storage/Hospital-Revives-Its-QTEDeadQTE-Patients)
+
+### The 1990 AT&T Network Collapse
+
+> An error in just one line of code brought down AT&T's network for several hours.
+> 
+> [MakeUseOf](https://www.makeuseof.com/tag/worst-programming-mistakes-in-history/)
+
+Before this collapse, AT&T's long-distance network was accepted as reliable and strong. It was carrying over 70% of the nation's long-distance traffic and routing over 115 million telephone calls. This collapse resulted in a $60 million lost as of 75 million missed phone by AT&T customers calls and 200 000 airline and hotel reservations and other businesses that relied on the telephone network.
+
+The bug occured because of a break statement in an if clause nested in a switch clause in the upgraded recovery software of all switches. All the switches became unreliable at the same time while each switch tries to determine if the neighbor switches were reliable or not.
+
+![Pseudocode of the bug](./assets/images/att_network_collapse.png)
+
+See also
+
+- [The 1990 AT&T Long Distance Network Collapse](https://jonhtaylor.com/the-1990-att-long-distance-network-collapse/)
+- [All Circuits are Busy Now: The 1990 AT&T Long Distance Network Collapse](https://users.csc.calpoly.edu/~jdalbey/SWE/Papers/att_collapse.html)
 
 ## Contributing
 
