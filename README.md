@@ -172,14 +172,14 @@ See also:
 ### The 1990 AT&T Network Collapse
 
 > An error in just one line of code brought down AT&T's network for several hours.
-> 
+>
 > [MakeUseOf](https://www.makeuseof.com/tag/worst-programming-mistakes-in-history/)
 
 Before this collapse, AT&T's long-distance network was accepted as reliable and strong. It was carrying over 70% of the nation's long-distance traffic and routing over 115 million telephone calls. This collapse resulted in a $60 million lost as of 75 million missed phone by AT&T customers calls and 200 000 airline and hotel reservations and other businesses that relied on the telephone network.
 
 The bug occured because of a break statement in an if clause nested in a switch clause in the upgraded recovery software of all switches. All the switches became unreliable at the same time while each switch tries to determine if the neighbor switches were reliable or not.
 
-```
+```bash
 1  while (ring receive buffer not empty  and side buffer not empty) DO
 2    Initialize pointer to first message in side buffer or ring receive buffer
 3    get copy of buffer
