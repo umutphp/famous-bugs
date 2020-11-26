@@ -211,7 +211,7 @@ See also:
 
 ILOVEYOU worm was created by Onel de Guzman (a college student in Manila Philippines) and infected over ten million Windows personal computers after 4 May 2000. His purpose was to steal passwords that he could use other users' internet accounts without paying for the service. He stated that the worm was very easy to create, because there was a bug in Windows 95 that would run code in email attachments.
 
-Originally, he designed the worm to only work in Manila. Out of curiosity, he removed this geographic restriction and allowed the worm to spread worldwide. Of course, he did not expect this worldwide spread. The worm moved first to Hong Kong, then to Europe, and finally the United States. Within ten days, over fifty million infections (10% of internet-connected computers in the world) had been reported. To protect themselves, The Pentagon, CIA, the British Parliament and most large corporations decided to completely shut down their mail systems. 
+Originally, he designed the worm to only work in Manila. Out of curiosity, he removed this geographic restriction and allowed the worm to spread worldwide. Of course, he did not expect this worldwide spread. The worm moved first to Hong Kong, then to Europe, and finally the United States. Within ten days, over fifty million infections (10% of internet-connected computers in the world) had been reported. To protect themselves, The Pentagon, CIA, the British Parliament and most large corporations decided to completely shut down their mail systems.
 
 The worm provided users a way to modify it and this allowed more than twenty five variations of ILOVEYOU to spread across the internet, each one doing different kinds of damage.
 
