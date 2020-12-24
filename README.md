@@ -16,6 +16,7 @@ A curated list of problems and bugs that developers may find useful to know.
   - [Year 2000 Problem](#year-2000-problem)
   - [NPM Leftpad Breakage](#npm-leftpad-breakage)
   - [Heathrow Terminal 5 Opening](#heathrow-terminal-5-opening)
+  - [Stack Overflow Outage On July 20, 2016](#stack-overflow-outage-on-july-20-2016)
 - [Bugs](#bugs)
   - [The First Bug](#the-first-bug)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
@@ -95,6 +96,19 @@ See also;
 
 - [Technical glitches hit T5 opening](http://news.bbc.co.uk/2/hi/uk_news/7314816.stm)
 - [Heathrow Terminal 5](https://en.wikipedia.org/wiki/Heathrow_Terminal_5#Opening) at Wikipedia
+
+### Stack Overflow Outage On July 20, 2016
+
+> The regular expression was: ^[\s\u200c]+|[\s\u200c]+$ ...
+>
+> [Outage Postmortem - July 20, 2016](https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016)
+
+On July 20, 2016 StackOverflow experienced a 34 minute outage because of a malformed post that caused one of the regular expressions to consume high CPU on Stack Overlfow web servers. It was a very typical regular expression denial of service (ReDoS) attack but It was occured because the malformed post was displayed on the homepage for a while. So, the regular expression checks (match or mismatch) consumed computational resources. As the homepage is used for healtcheck by the load balancers, the entire site became unavailable.
+
+See also;
+
+- [The Regular Expression Denial of Service (ReDoS) cheat-sheet](https://levelup.gitconnected.com/the-regular-expression-denial-of-service-redos-cheat-sheet-a78d0ed7d865)
+- [Outage Postmortem - July 20, 2016](https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016)
 
 ## Bugs
 
