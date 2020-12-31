@@ -128,6 +128,7 @@ Further readings:
 The N+1 problem occurs when the code tries to load the children of a parent in a relationship (e.g. one-to-many relations). Nearly all of the ORMs enable lazy-loading by default. Assume that you are willing to create a list of records with the data coming from the realtions. One query for fetching the parents and N queries for N parent records (one record per each to fetch the data from relation) are issued. As you can expect, doing N+1 queries instead of a single query will flood your database with queries, which is something we should avoid. Hopefully, ORMs have known the problem for quite long time and they have already build-in solutions. The solution is simple: while developing you should should tell in advance to the ORM that you will need additional data (eager loading).
 
 Further readings:
+
 - [N+1 Queries and How to Avoid Them!](https://medium.com/@bretdoucette/n-1-queries-and-how-to-avoid-them-a12f02345be5)
 
 ## Bugs
