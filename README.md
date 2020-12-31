@@ -13,13 +13,14 @@ A curated list of problems and bugs that developers may find useful to know.
 - [Introduction](#introduction)
 - [Problems](#problems)
   - [Justin Bieber Problem of Instagram](#justin-bieber-problem-of-instagram)
+  - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [Year 2000 Problem](#year-2000-problem)
   - [NPM Leftpad Breakage](#npm-leftpad-breakage)
   - [Heathrow Terminal 5 Opening](#heathrow-terminal-5-opening)
   - [Stack Overflow Outage On July 20, 2016](#stack-overflow-outage-on-july-20-2016)
+  - [N+1 Query Problem](#n1-query-problem)
 - [Bugs](#bugs)
   - [The First Bug](#the-first-bug)
-  - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
   - [Metric System Mess Of NASA’s Mars Climate Orbiter](#metric-system-mess-of-nasas-mars-climate-orbiter)
   - [The Morris Worm](#the-morris-worm)
@@ -46,10 +47,18 @@ As software developers, we can simply define our work as fixing bugs and develop
 
 When Justin Bieber posts a photo, so many Beliebers would "Like" it that causes tremendous amount of notifications, queries and processes. This problem faced by the Instagram team is actually a very good example of [the thundering herd problem](https://en.wikipedia.org/wiki/Thundering_herd_problem). They did many improvements to avoid this problem happen again and explained in this [article](https://instagram-engineering.com/instagration-pt-2-scaling-our-infrastructure-to-multiple-data-centers-5745cbad7834).  
 
-See also:
+Further readings:
 
 - [Thundering herd problem](https://www.wikiwand.com/en/Thundering_herd_problem)
 - [How Instagram Solved Its Justin Bieber Problem](https://www.wired.com/2015/11/how-instagram-solved-its-justin-bieber-problem/)
+
+### Gangnam Style Broke YouTube
+
+> We never thought a video would be watched in numbers greater than a 32-bit integer.
+>
+> YouTube
+
+YouTube's counter was previously using  a 32-bit integer which means the maximum possible views it could count was 2,147,483,647. And "[Gangnam Style](https://www.youtube.com/watch?v=9bZkp7q19f0)" surpassed the 2-billion-view marker. YouTube has upgraded to a 64-bit integer so that the maximum views a video can receive is now 9,223,372,036,854,775,808.
 
 ### Year 2000 Problem
 
@@ -63,7 +72,7 @@ The Year 2000 problem (also known as the Y2K problem, the Millennium bug, Y2K bu
 - On 1 March 2000, In the United States, the Coast Guard's message processing system was affected.
 - Norway and Finland had to change their national identification number, to indicate correctly the century in which a person was born.
 
-See also:
+Further readings:
 
 - [Year 2000 Problem at Wikipedia](https://en.wikipedia.org/wiki/Year_2000_problem)
 
@@ -75,7 +84,7 @@ See also:
 
 [Azer Koçulu](https://kodfabrik.com/) had been publishing a simple code he wrote to npm and It became very popular. Many projects has used his package as a dependency. On March 11, he received an email from a patent and trademark agent who works for Kik which was a messaging app. KiK was also the name of another package of him. They wanted him to rename the Kik package but he did not accept. Then the agency forced NPM to do so. After NPM's decision, Azer Koçulu had taken down all of his packages including left-pad. Then, many JavaScript programmers around the world started getting an error message "npm ERR! 404 'left-pad' is not in the npm registry".
 
-See also:
+Further readings:
 
 - [I've Just Liberated My Modules
 ](https://kodfabrik.com/journal/i-ve-just-liberated-my-modules)
@@ -92,7 +101,7 @@ The newest luggage transporting system software couldn’t handle some simple re
 
 During the following ten days, around 42,000 items weren’t delivered to owners, and over 500 flights were canceled. Check-in to other flights became temporarily unavailable.
 
-See also;
+Further readings:
 
 - [Technical glitches hit T5 opening](http://news.bbc.co.uk/2/hi/uk_news/7314816.stm)
 - [Heathrow Terminal 5](https://en.wikipedia.org/wiki/Heathrow_Terminal_5#Opening) at Wikipedia
@@ -105,10 +114,21 @@ See also;
 
 On July 20, 2016 StackOverflow experienced a 34 minute outage because of a malformed post that caused one of the regular expressions to consume high CPU on Stack Overlfow web servers. It was a very typical regular expression denial of service (ReDoS) attack but It was occured because the malformed post was displayed on the homepage for a while. So, the regular expression checks (match or mismatch) consumed computational resources. As the homepage is used for healtcheck by the load balancers, the entire site became unavailable.
 
-See also;
+Further readings:
 
 - [The Regular Expression Denial of Service (ReDoS) cheat-sheet](https://levelup.gitconnected.com/the-regular-expression-denial-of-service-redos-cheat-sheet-a78d0ed7d865)
 - [Outage Postmortem - July 20, 2016](https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016)
+
+### N+1 Query Problem
+
+> ... turns into n+1 requests since the item has n associated items.
+>
+> [InfoQ](https://www.infoq.com/articles/N-Plus-1/)
+
+The N+1 problem occurs when the code tries to load the children of a parent in a relationship (e.g. one-to-many relations). Nearly all of the ORMs enable lazy-loading by default. Assume that you are willing to create a list of records with the data coming from the realtions. One query for fetching the parents and N queries for N parent records (one record per each to fetch the data from relation) are issued. As you can expect, doing N+1 queries instead of a single query will flood your database with queries, which is something we should avoid. Hopefully, ORMs have known the problem for quite long time and they have already build-in solutions. The solution is simple: while developing you should should tell in advance to the ORM that you will need additional data (eager loading).
+
+Further readings:
+- [N+1 Queries and How to Avoid Them!](https://medium.com/@bretdoucette/n-1-queries-and-how-to-avoid-them-a12f02345be5)
 
 ## Bugs
 
@@ -124,18 +144,10 @@ On September 9, 1947, the [Mark II](https://en.wikipedia.org/wiki/Harvard_Mark_I
 
 The sheet is kept at the [National Museum of American History of the Smithsonian Institution](https://americanhistory.si.edu/collections/search/object/nmah_334663) in Washington.
 
-See also:
+Further readings:
 
 - [Harvard Mark II](https://en.wikipedia.org/wiki/Harvard_Mark_II)
 - [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper)
-
-### Gangnam Style Broke YouTube
-
-> We never thought a video would be watched in numbers greater than a 32-bit integer.
->
-> YouTube
-
-YouTube's counter was previously using  a 32-bit integer which means the maximum possible views it could count was 2,147,483,647. And "[Gangnam Style](https://www.youtube.com/watch?v=9bZkp7q19f0)" surpassed the 2-billion-view marker. YouTube has upgraded to a 64-bit integer so that the maximum views a video can receive is now 9,223,372,036,854,775,808.
 
 ### The Explosion of the Ariane 5
 
@@ -146,7 +158,7 @@ On June 4, 1996 the Ariane 5 rocket launched by the European Space Agency explod
 
 The horizontal velocity of the rocket with respect to the platform was larger than 32,767, the largest integer storeable in a 16 bit signed integer, and thus the conversion failed.
 
-See also:
+Further readings:
 
 - [Report: Software Design Errors Caused Ariane 5 Explosion](https://apnews.com/article/1d85f290e31cad8532636fcb576f4788)
 
@@ -154,7 +166,7 @@ See also:
 
 The Mars Climate Orbiter was a robotic space probe launched by NASA on December 11, 1998 to study the Martian climate. The navigation team used the metric system in its calculations, while the team designing and building the spacecraft, provided crucial acceleration data in the English metric system. The acceleration readings measured in units of pound-seconds^2 for a force called newton-seconds^2. In a sense, the spacecraft was lost in translation.
 
-See also:
+Further readings:
 
 - [Mars_Climate_Orbiter#Cause_of_failure](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure)
 
@@ -167,7 +179,7 @@ According to its creator, [Robert Tappan Morris](https://en.wikipedia.org/wiki/R
 
 The Morris Worm is accepted as one of the first computer worms distributed via the Internet and It was the first to gain significant mainstream media attention. A floppy disk containing the source code for the Morris Worm is held at the [Computer History Museum](https://computerhistory.org/).
 
-See also:
+Further readings:
 
 - [Morris Worm](https://en.wikipedia.org/wiki/Morris_worm)
 - [Robert Tappan Morris](https://en.wikipedia.org/wiki/Robert_Tappan_Morris)
@@ -180,7 +192,7 @@ See also:
 
 In 2002, St. Mary's Mercy Medical Center in Grand Rapids erroneously reported that 8500 patients dead because of a glitch in their patient management software. False death reports weren't only sent to patients but also to the insurance companies and social security offices. There is clear announcement about how the problem was fixed but the management software was changed.
 
-See also:
+Further readings:
 
 - [Hospital Revives Its "Dead" Patients](https://www.baselinemag.com/c/a/Projects-Networks-and-Storage/Hospital-Revives-Its-QTEDeadQTE-Patients)
 
@@ -212,7 +224,7 @@ The bug occured because of a break statement in an if clause nested in a switch 
 15   do optional parameter work
 ```
 
-See also:
+Further readings:
 
 - [The 1990 AT&T Long Distance Network Collapse](https://jonhtaylor.com/the-1990-att-long-distance-network-collapse/)
 - [All Circuits are Busy Now: The 1990 AT&T Long Distance Network Collapse](https://users.csc.calpoly.edu/~jdalbey/SWE/Papers/att_collapse.html)
@@ -231,7 +243,7 @@ The worm provided users a way to modify it and this allowed more than twenty fiv
 
 This worm created a public awareness of the real threat of malwares and antivirus software providers entered a golden era of distribution. Aditionally, It helped many people to be more skeptical of emails which were the classic virus delivery systems.
 
-See also:
+Further readings:
 
 - [ILOVEYOU at Wikipedia](https://en.wikipedia.org/wiki/ILOVEYOU)
 - [A decade on from the ILOVEYOU bug](https://www.bbc.com/news/10095957)
