@@ -27,6 +27,7 @@ A curated list of problems and bugs that developers may find useful to know.
   - [Death by IT](#death-by-it)
   - [The 1990 AT&T Network Collapse](#the-1990-att-network-collapse)
   - [ILOVEYOU Worm](#iloveyou-worm)
+  - [The Zune Bug](#the-zune-bug)
 - [Contributing](#contributing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -248,6 +249,40 @@ Further readings:
 
 - [ILOVEYOU at Wikipedia](https://en.wikipedia.org/wiki/ILOVEYOU)
 - [A decade on from the ILOVEYOU bug](https://www.bbc.com/news/10095957)
+
+### The Zune Bug
+
+> Judgment day has arrived for owners of 30GB Zunes...
+>
+> [ArsTechnica](https://arstechnica.com/information-technology/2008/12/30gb-zunes-prepare-for-new-year-by-locking-up/)
+
+On December 31, 2008 the thousands owners of Zune Player started reporting the player freezed. The response from Microsoft was to wait until the next day and the freeze will be solved by itself. The reason was a simple loop causing infinite execution on leap years.
+
+Here is the problematic lopp;
+
+```
+year = ORIGINYEAR;
+while (days > 365)
+{
+    if (IsLeapYear(year))
+    {
+        if (days > 366)
+        {
+            days -= 366;
+            year += 1;
+        }
+    }
+    else
+    {
+        days -= 365;
+        year += 1;
+    }
+}
+```
+
+Further readings;
+
+- [The Zune Bug](http://bit-player.org/2009/the-zune-bug) At 
 
 ## Contributing
 
