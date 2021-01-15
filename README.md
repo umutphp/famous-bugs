@@ -282,7 +282,7 @@ while (days > 365)
 
 Further readings;
 
-- [The Zune Bug](http://bit-player.org/2009/the-zune-bug) At 
+- [The Zune Bug](http://bit-player.org/2009/the-zune-bug) At Bit-Player
 
 ## Contributing
 
