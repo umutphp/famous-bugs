@@ -9,32 +9,30 @@ Geliştiricilerin faydalı bulabileceği, derlenmiş problemler ve hatalar liste
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
-
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-## İçindekiler
-
-- [Giriş](#introduction)
-- [Problemler](#problems)
-    - [Instagram'ın Justin Bieber Sorunu](#justin-bieber-problem-of-instagram)
-    - [Gangnam Style YouTube'u Bozdu](#gangnam-style-broke-youtube)
-    - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#mysterious-traffic-of-a-flower-image-on-wikimedia)
-    - [2000 Yılı Problemi](#year-2000-problem)
-    - [NPM Leftpad Olayı](#npm-leftpad-breakage)
-    - [Heathrow Terminal 5 Açılışı](#heathrow-terminal-5-opening)
-    - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#stack-overflow-outage-on-july-20-2016)
-    - [N+1 Sorgu Problemi](#n1-query-problem)
-- [Hatalar](#bugs)
-    - [İlk Hata](#the-first-bug)
-    - [Ariane 5'in Patlaması](#the-explosion-of-the-ariane-5)
-    - [NASA'nın Mars İklim Uydusunda Metrik Sistem Karmaşası](#metric-system-mess-of-nasas-mars-climate-orbiter)
-    - [Morris Solucanı](#the-morris-worm)
-    - [BT Yüzünden Ölmek](#death-by-it)
-    - [1990 AT&amp;T Ağının Çöküşü](#the-1990-att-network-collapse)
-    - [ILOVEYOU Solucanı](#iloveyou-worm)
-    - [Zune Bug](#the-zune-bug)
-- [Çeviriler](#translations)
-- [Katkıda Bulunmak İçin](#contributing)
+- [Giriş](#giri%C5%9F)
+- [Problemler](#problemler)
+  - [Instagram'dan Justin Bieber Sorunu](#instagramdan-justin-bieber-sorunu)
+  - [Gangnam Style YouTube'u Bozdu](#gangnam-style-youtubeu-bozdu)
+  - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#wikimediada-bir-%C3%A7i%C3%A7ek-resmine-gelen-gizemli-trafik)
+  - [2000 Yılı Problemi](#2000-y%C4%B1l%C4%B1-problemi)
+  - [NPM Leftpad Olayı](#npm-leftpad-olay%C4%B1)
+  - [Heathrow Terminal 5 Açılışı](#heathrow-terminal-5-a%C3%A7%C4%B1l%C4%B1%C5%9F%C4%B1)
+  - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#20-temmuz-2016-stack-overflowun-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
+  - [N + 1 Sorgu Problemi](#n--1-sorgu-problemi)
+- [Hatalar](#hatalar)
+  - [İlk Hata (Bug)](#i%CC%87lk-hata-bug)
+  - [Ariane 5'in Patlaması](#ariane-5in-patlamas%C4%B1)
+  - [NASA'nın Mars İklim Uydusunda Metrik Sistem Karmaşası](#nasan%C4%B1n-mars-i%CC%87klim-uydusunda-metrik-sistem-karma%C5%9Fas%C4%B1)
+  - [Morris Solucanı](#morris-solucan%C4%B1)
+  - [BT Yüzünden Ölmek](#bt-y%C3%BCz%C3%BCnden-%C3%B6lmek)
+  - [1990 AT&amp;T Ağının Çöküşü](#1990-atampt-a%C4%9F%C4%B1n%C4%B1n-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
+  - [ILOVEYOU Solucanı](#iloveyou-solucan%C4%B1)
+  - [Zune Bug](#zune-bug)
+- [Çeviriler](#%C3%A7eviriler)
+- [Katkıda Bulunmak İçin](#katk%C4%B1da-bulunmak-i%CC%87%C3%A7in)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -219,7 +217,7 @@ Ek kaynaklar:
 >
 > [MakeUseOf](https://www.makeuseof.com/tag/worst-programming-mistakes-in-history/)
 
-Bu çöküşten önce, AT&amp;T'nin uzun mesafe ağı güvenilir ve güçlü olarak kabul edilirdi. Ülkenin uzun mesafe trafiğinin %70'inden fazlasını taşıyor ve 115 milyondan fazla telefon görüşmesi yapıyordu. Bu çöküş, AT&amp;T müşterilerinin 75 milyon cevapsız <br>aramaları ve 200.000 havayolu ve otel rezervasyonları iptali nedeniyle telefon ağına güvenen işletmelerin 60 milyon dolarlık kaybıyla sonuçlandı.
+Bu çöküşten önce, AT&T'nin uzun mesafe ağı güvenilir ve güçlü olarak kabul edilirdi. Ülkenin uzun mesafe trafiğinin %70'inden fazlasını taşıyor ve 115 milyondan fazla telefon görüşmesi yapıyordu. Bu çöküş, AT&T müşterilerinin yaptığı 75 milyon cevapsız arama ve 200.000 havayolu ve otel rezervasyon iptali nedeniyle telefon ağına güvenen işletmelerin 60 milyon dolarlık kaybıyla sonuçlandı.
 
 Hata, güncellenmiş kurtarma yazılımındaki bir switch ifadesindeki olan if ifadesindeki bir break komutu nedeniyle oluştu. Bütün switch'ler, komşu switch'lerin güvenilir olup olmadığını belirlemeye çalışırken aynı anda hepsi erişilemez hale geldi.
 
