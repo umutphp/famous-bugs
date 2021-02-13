@@ -68,7 +68,7 @@ YouTube's counter was previously using  a 32-bit integer which means the maximum
 >
 > [Chris Albon](https://twitter.com/chrisalbon/status/1358890731981611009)
 
-On Feb 3, 2021, Wikimedia tech team has noticed that they get about 90M requests per day from various ISPs in India, all with the same characteristics. They hypothesised that there might be some mobile app that hotlinked the image for e.g. a splash screen. Wikimedia did not reveale the app, but people thought that It may be an alternative app for TikTok. Because, around the time, India took the decision to totally ban TikTok. The butterfly effect starting with this decision turned this into a memory to remember for Wikimedia and the mysterious application tech teams.
+On Feb 3, 2021, Wikimedia tech team has noticed that they get about 90M requests per day from various ISPs in India. The requests are all for an image file (see below). They hypothesised that there might be some mobile app that hotlinked the image for e.g. a splash screen. Wikimedia did not reveale the app, but people thought that It may be an alternative app for TikTok. Because, around the time, India took the decision to totally ban TikTok which direct people to use alternative apps. The butterfly effect starting with this decision turned this into a memory to remember for Wikimedia and the mysterious application tech teams.
 
 [![Symphyotrichum novi-belgii](./assets/images/220px-AsterNovi-belgii-flower-1mb.jpg)](https://en.wikipedia.org/wiki/Symphyotrichum_novi-belgii#/media/File:AsterNovi-belgii-flower-1mb.jpg)
 
