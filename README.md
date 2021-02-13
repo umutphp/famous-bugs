@@ -31,6 +31,7 @@ A curated list of problems and bugs that developers may find useful to know.
   - [The 1990 AT&T Network Collapse](#the-1990-att-network-collapse)
   - [ILOVEYOU Worm](#iloveyou-worm)
   - [The Zune Bug](#the-zune-bug)
+- [Translations](#translations)
 - [Contributing](#contributing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
