@@ -4,6 +4,8 @@
 
 A curated list of problems and bugs that developers may find useful to know.
 
+[Translations](#translations): [🇹🇷](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md)
+
 ---
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -298,6 +300,16 @@ while (days > 365)
 Further readings;
 
 - [The Zune Bug](http://bit-player.org/2009/the-zune-bug) At Bit-Player
+
+## Translations
+
+This is available in a number of languages.
+
+| Language | Maintainer |
+|----------|-----------|--------|
+| [🇹🇷 Türkçe / Turkish](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md) | [Umut Işık](https://github.com/umutphp) |
+
+If you would like to update a translation or add a new language, just [open a pull request](https://github.com/umutphp/famous-bugs/pulls).
 
 ## Contributing
 
