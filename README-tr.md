@@ -21,32 +21,32 @@ Geliştiricilerin faydalı bulabileceği, derlenmiş problemler ve hatalar liste
     - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#mysterious-traffic-of-a-flower-image-on-wikimedia)
     - [2000 Yılı Problemi](#year-2000-problem)
     - [NPM Leftpad Olayı](#npm-leftpad-breakage)
-    - [Heathrow Terminal 5 Opening](#heathrow-terminal-5-opening)
+    - [Heathrow Terminal 5 Açılışı](#heathrow-terminal-5-opening)
     - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#stack-overflow-outage-on-july-20-2016)
     - [N+1 Sorgu Problemi](#n1-query-problem)
-- [Bugs](#bugs)
-    - [The First Bug](#the-first-bug)
-    - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
+- [Hatalar](#bugs)
+    - [İlk Hata](#the-first-bug)
+    - [Ariane 5'in Patlaması](#the-explosion-of-the-ariane-5)
     - [NASA'nın Mars İklim Uydusunda Metrik Sistem Karmaşası](#metric-system-mess-of-nasas-mars-climate-orbiter)
-    - [The Morris Worm](#the-morris-worm)
+    - [Morris Solucanı](#the-morris-worm)
     - [BT Yüzünden Ölmek](#death-by-it)
-    - [The 1990 AT&amp;T Network Collapse](#the-1990-att-network-collapse)
-    - [ILOVEYOU Worm](#iloveyou-worm)
-    - [The Zune Bug](#the-zune-bug)
-- [Translations](#translations)
+    - [1990 AT&amp;T Ağının Çöküşü](#the-1990-att-network-collapse)
+    - [ILOVEYOU Solucanı](#iloveyou-worm)
+    - [Zune Bug](#the-zune-bug)
+- [Çeviriler](#translations)
 - [Katkıda Bulunmak İçin](#contributing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ---
 
-## Introduction
+## Giriş
 
 Yazılım geliştiricileri olarak işimizi basitçe hataları düzeltmek ve sorunlara çözüm geliştirmek olarak tanımlayabiliriz. Bu liste, geliştiricilerin yararlı bulabileceği, derlenmiş problemler ve hatalar listesidir. Umarım daha büyük bir değer yaratmak için topluluk odaklı bir liste olur.
 
-## Problems
+## Problemler
 
-### Justin Bieber Problem of Instagram
+### Instagram'dan Justin Bieber Sorunu
 
 > Bieber bir fotoğraf paylaşırdı ve pek çok takipçisi, Instagram'ın sunucularının yetişemeyeceği şekilde "Like" düğmesine basarlardı.
 >
@@ -57,19 +57,19 @@ Justin Bieber bir fotoğraf yayınladığında, pek çok "Belieber" fotoğrafı 
 Ek kaynaklar:
 
 - [Saldıran sürü sorunu](https://www.wikiwand.com/en/Thundering_herd_problem)
-- [How Instagram Solved Its Justin Bieber Problem](https://www.wired.com/2015/11/how-instagram-solved-its-justin-bieber-problem/)
+- [Instagram Justin Bieber Sorununu Nasıl Çözdü?](https://www.wired.com/2015/11/how-instagram-solved-its-justin-bieber-problem/)
 
 ### Gangnam Style YouTube'u Bozdu
 
 > Bir videonun 32 bitlik bir tam sayıdan büyük sayılarda izleneceğini asla düşünmemiştik.
 >
-> YouTube
+> Youtube
 
 YouTube'un izlenme sayacı daha önce 32 bitlik bir tamsayı kullanıyordu, bu da sayabileceği maksimum olası görüntülemenin 2.147.483.647 olduğu anlamına geliyordu. Ve " [Gangnam Style](https://www.youtube.com/watch?v=9bZkp7q19f0) " 2 milyarlık görüntüleme sayısını aştı. YouTube'da, bir videonun alabileceği maksimum görüntüleme sayısı artık 9,223,372,036,854,775,808 olacak şekilde 64 bit tam sayıya yükseltildi.
 
 ### Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik
 
-> 20% of all requests to one of our data centers for media are for this image of a flower. Nobody knows why.
+> Veri merkezlerimizden birine gelen tüm taleplerin% 20'si bu çiçek görüntüsü içindir. Kimse nedenini bilmiyor.
 >
 > [Chris Albon](https://twitter.com/chrisalbon/status/1358890731981611009)
 
@@ -81,7 +81,7 @@ Ek kaynaklar:
 
 - [Phabricator Post](https://phabricator.wikimedia.org/T273741)
 
-### Year 2000 Problem
+### 2000 Yılı Problemi
 
 > ... 2000 yılını 1900 yılından ayırt edilemez hale getiriyor.
 
@@ -89,12 +89,12 @@ Ek kaynaklar:
 
 - 1 Ocak 1999'da Singapur'da taksi sayaçları çalışamaz hale geldi.
 - 1 Ocak 2000'de Japonya, Onagawa'da, gece yarısından iki dakika sonra bir nükleer santralde alarm çaldı.
-- On 1 March 2000, In the United States, the Coast Guard's message processing system was affected.
-- Norway and Finland had to change their national identification number, to indicate correctly the century in which a person was born.
+- 1 Mart 2000'de Amerika Birleşik Devletleri'nde Sahil Güvenlik'in mesaj işleme sistemi etkilendi.
+- Norveç ve Finlandiya, bir kişinin doğduğu yüzyılı doğru bir şekilde belirtmek için ulusal kimlik numaralarını değiştirmek zorunda kaldı.
 
 Ek kaynaklar:
 
-- [Year 2000 Problem at Wikipedia](https://en.wikipedia.org/wiki/Year_2000_problem)
+- [Wikipedia'da 2000 Yılı Sorunu](https://en.wikipedia.org/wiki/Year_2000_problem)
 
 ### NPM Leftpad Olayı
 
@@ -109,7 +109,7 @@ Ek kaynaklar:
 - [Modüllerimi Az Önce Özgürleştirdim](https://kodfabrik.com/journal/i-ve-just-liberated-my-modules)
 - [kik, left-pad ve npm](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm)
 
-### Heathrow Terminal 5 Opening
+### Heathrow Terminal 5 Açılışı
 
 > ... herhangi bir nedenle test edilmeyen basit ve gerçek senaryolar.
 
@@ -117,12 +117,12 @@ Heathrow Terminal 5 resmi olarak 14 Mart 2008'de açıldı. Açılış gününde
 
 Yeni bagaj taşıma sistemi yazılımı, bazı nedenlerden dolayı test edilmeyen gerçek senaryoları kaldıramadı. Örneğin, mal sahibi bir şeyi unuttuğu için bir bagaj manuel olarak geri taşındı. Bu durumda, program çöktü ve eşya kaydedilmedi. Bagaj işleme her zaman bu tür küçük ayrıntılarla kesintiye uğrardı.
 
-During the following ten days, around 42,000 items weren’t delivered to owners, and over 500 flights were canceled. Check-in to other flights became temporarily unavailable.
+Sonraki on gün boyunca, yaklaşık 42.000 ürün mal sahiplerine teslim edilmedi ve 500'den fazla uçuş iptal edildi. Diğer uçuşlara check-in geçici olarak yapılamaz hale geldi.
 
 Ek kaynaklar:
 
-- [Technical glitches hit T5 opening](http://news.bbc.co.uk/2/hi/uk_news/7314816.stm)
-- [Heathrow Terminal 5](https://en.wikipedia.org/wiki/Heathrow_Terminal_5#Opening) at Wikipedia
+- [Teknik aksaklıklar T5 açılışını vurdu](http://news.bbc.co.uk/2/hi/uk_news/7314816.stm)
+- Wikipedia'da [Heathrow Terminal 5](https://en.wikipedia.org/wiki/Heathrow_Terminal_5#Opening)
 
 ### 20 Temmuz 2016 Stack Overflow'un Çöküşü
 
@@ -137,7 +137,7 @@ Ek kaynaklar:
 - [Normal İfade Hizmet Reddi (ReDoS) cheat-sheet sayfası](https://levelup.gitconnected.com/the-regular-expression-denial-of-service-redos-cheat-sheet-a78d0ed7d865)
 - [Çöküş Raporu - 20 Temmuz 2016](https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016)
 
-### N+1 Query Problem
+### N + 1 Sorgu Problemi
 
 > ... öğe n tane ilişkili öğe içerdiğinde n+1 isteğe dönüşür.
 >
@@ -147,19 +147,19 @@ N + 1 problemi, kod bir ana öğenin çocuklarını bir ilişkide yüklemeye ça
 
 Ek kaynaklar:
 
-- [N+1 Queries and How to Avoid Them!](https://medium.com/@bretdoucette/n-1-queries-and-how-to-avoid-them-a12f02345be5)
+- [N + 1 Sorgu ve Bunlardan Nasıl Kaçınılır!](https://medium.com/@bretdoucette/n-1-queries-and-how-to-avoid-them-a12f02345be5)
 
-## Bugs
+## Hatalar
 
 ### İlk Hata (Bug)
 
-> First actual case of bug being found.
+> Bulunan ilk gerçek hata vakası.
 >
 > [Grace Murray Hopper](https://en.wikipedia.org/wiki/Grace_Hopper)
 
 9 Eylül 1947'de [Mark II](https://en.wikipedia.org/wiki/Harvard_Mark_II) (Harvard Üniversitesi'nde) bozuldu. Mühendisler nedeni araştırdılar ve teşhis ettiler. Makineye bir güve girmiş ve Panel F'nin 70 numaralı rölesini kısa devre yapmıştı. Hatayı sayfaya "İlk gerçek hata (bug) bulundu" notuyla eklediler. Bug terimi bu şekilde doğdu.
 
-![First Bug](./assets/images/first_bug.jpg)
+![İlk Hata](./assets/images/first_bug.jpg)
 
 Bu sayfa hala Washington'daki [Smithsonian Enstitüsü Ulusal Amerikan Tarihi Müzesi'nde](https://americanhistory.si.edu/collections/search/object/nmah_334663) tutuluyor.
 
@@ -168,17 +168,17 @@ Ek kaynaklar:
 - [Harvard Mark II](https://en.wikipedia.org/wiki/Harvard_Mark_II)
 - [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper)
 
-### The Explosion of the Ariane 5
+### Ariane 5'in Patlaması
 
 > ... 64 bitlik bir real sayı ... 16 bitlik işaretli bir tam sayıya dönüştürüldü.
 
 4 Haziran 1996'da, Avrupa Uzay Ajansı tarafından fırlatılan Ariane 5 roketi, havalanmasından sadece kırk saniye sonra patladı. Roket, 7 milyar dolara mal olan on yıllık bir geliştirme sürecinin ardından ilk yolculuğuna çıkmıştı. İmha edilen roket ve kargosunun değeri 500 milyon dolardı. Kaza, Avrupa'nın uzay programı için önemli bir engeldi.
 
-The horizontal velocity of the rocket with respect to the platform was larger than 32,767, the largest integer storeable in a 16 bit signed integer, and thus the conversion failed.
+Roketin platforma göre yatay hızı, 16 bitlik işaretli bir tamsayı içinde saklanabilen en büyük tam sayı olan 32.767'den daha büyüktü ve bu nedenle dönüştürme başarısız oldu.
 
 Ek kaynaklar:
 
-- [Report: Software Design Errors Caused Ariane 5 Explosion](https://apnews.com/article/1d85f290e31cad8532636fcb576f4788)
+- [Rapor: Yazılım Tasarım Hataları Ariane 5 Patlamasına Neden Oldu](https://apnews.com/article/1d85f290e31cad8532636fcb576f4788)
 
 ### NASA'nın Mars İklim Uydusunda Metrik Sistem Karmaşası
 
@@ -186,11 +186,11 @@ Mars İklim Uydusu, 11 Aralık 1998'de Mars iklimini incelemek için NASA taraf�
 
 Ek kaynaklar:
 
-- [Mars_Climate_Orbiter#Cause_of_failure](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure)
+- [Mars_Climate_Orbiter # Cause_of_failure](https://en.wikipedia.org/wiki/Mars_Climate_Orbiter#Cause_of_failure)
 
-### The Morris Worm
+### Morris Solucanı
 
-> This was a design flaw ...
+> Bu bir tasarım kusuruydu ...
 
 Yaratıcısı [Robert Tappan Morris'e göre](https://en.wikipedia.org/wiki/Robert_Tappan_Morris) , zarar vermek için değil, güvenlik açıklarını vurgulamak için yazılmıştı. [Sendmail](https://en.wikipedia.org/wiki/Sendmail) , [finger](https://en.wikipedia.org/wiki/Finger_protocol) , [rsh/rexec](https://en.wikipedia.org/wiki/Berkeley_r-commands) ve zayıf şifrelerde oluşan güvenlik açıklarından yararlanmak için programlanmıştır. Solucanı yaratırken Robert sistem yöneticilerinin solucanı yenmeye çalışmasını önlemek için kendini %14 oranında kopyalayacak ve bilgisayara yanlış pozitif geri bildirim yapacak şekilde programladı. Bu bir tasarım kusuruydu ve etkilenen bilgisayarda kopyalanma bombardımanı ve çökmeler yarattı.
 
@@ -198,7 +198,7 @@ Morris Worm, İnternet üzerinden dağıtılan ilk bilgisayar solucanlarından b
 
 Ek kaynaklar:
 
-- [Morris Worm](https://en.wikipedia.org/wiki/Morris_worm)
+- [Morris Solucanı](https://en.wikipedia.org/wiki/Morris_worm)
 - [Robert Tappan Morris](https://en.wikipedia.org/wiki/Robert_Tappan_Morris)
 
 ### BT Yüzünden Ölmek
@@ -211,9 +211,9 @@ Ek kaynaklar:
 
 Ek kaynaklar:
 
-- [Hospital Revives Its "Dead" Patients](https://www.baselinemag.com/c/a/Projects-Networks-and-Storage/Hospital-Revives-Its-QTEDeadQTE-Patients)
+- [Hastane "Ölü" Hastalarını Canlandırıyor](https://www.baselinemag.com/c/a/Projects-Networks-and-Storage/Hospital-Revives-Its-QTEDeadQTE-Patients)
 
-### The 1990 AT&amp;T Network Collapse
+### 1990 AT&amp;T Ağının Çöküşü
 
 > Sadece bir satır koddaki hata, AT&amp;T'nin ağını birkaç saatliğine kapattı.
 >
@@ -243,12 +243,12 @@ Hata, güncellenmiş kurtarma yazılımındaki bir switch ifadesindeki olan if i
 
 Ek kaynaklar:
 
-- [The 1990 AT&amp;T Long Distance Network Collapse](https://jonhtaylor.com/the-1990-att-long-distance-network-collapse/)
-- [All Circuits are Busy Now: The 1990 AT&amp;T Long Distance Network Collapse](https://users.csc.calpoly.edu/~jdalbey/SWE/Papers/att_collapse.html)
+- [1990 AT&amp;T Uzun Mesafe Ağı Çöküşü](https://jonhtaylor.com/the-1990-att-long-distance-network-collapse/)
+- [Tüm Devreler Şu Anda Meşgul: 1990 AT&amp;T Uzun Mesafe Ağının Çöküşü](https://users.csc.calpoly.edu/~jdalbey/SWE/Papers/att_collapse.html)
 
-### ILOVEYOU Worm
+### ILOVEYOU Solucanı
 
-> The events inspired the song "E-mail" on the Pet Shop Boys' UK top-ten album of 2002, Release, the lyrics of which play thematically on the human desires which enabled the mass destruction of this computer infection.
+> Olaylar, Pet Shop Boys'un İngiltere'nin 2002'deki ilk on albümü Release'deki "E-mail" şarkısına ilham verdi.
 >
 > [Wikipedia](https://en.wikipedia.org/wiki/ILOVEYOU#Impact)
 
@@ -258,22 +258,22 @@ Başlangıçta, solucanı yalnızca Manila'da çalışacak şekilde tasarladı. 
 
 Solucan, kullanıcılara kodu değiştirmenin bir yolunu sağladı ve bu, her biri farklı türde zararlar veren yirmi beşten fazla ILOVEYOU varyasyonunun internete yayılmasına izin verdi.
 
-This worm created a public awareness of the real threat of malwares and antivirus software providers entered a golden era of distribution. Aditionally, It helped many people to be more skeptical of emails which were the classic virus delivery systems.
+Bu solucan, kötü amaçlı yazılımların gerçek tehdidi konusunda bir kamu bilinci yarattı ve antivirüs yazılımı sağlayıcıları altın bir dağıtım çağına girdi. Buna ek olarak, birçok kişinin klasik virüs dağıtım sistemleri olan e-postalara karşı daha şüpheci olmasına yardımcı oldu.
 
 Ek kaynaklar:
 
-- [ILOVEYOU at Wikipedia](https://en.wikipedia.org/wiki/ILOVEYOU)
-- [A decade on from the ILOVEYOU bug](https://www.bbc.com/news/10095957)
+- [Wikipedia'da ILOVEYOU](https://en.wikipedia.org/wiki/ILOVEYOU)
+- [ILOVEYOU hatasından on yıl sonra](https://www.bbc.com/news/10095957)
 
-### The Zune Bug
+### Zune Bug
 
-> Judgment day has arrived for owners of 30GB Zunes...
+> 30GB Zunes sahipleri için kıyamet günü geldi ...
 >
 > [ArsTechnica](https://arstechnica.com/information-technology/2008/12/30gb-zunes-prepare-for-new-year-by-locking-up/)
 
 31 Aralık 2008'de birçok Zune Player sahibi, oyuncunun donmaya başladığını bildirmeye başladı. Microsoft'un yanıtı, ertesi güne kadar beklemekti ve donma kendi kendine çözülecek. Nedeni, artık yıllarda sonsuz döngüye neden olan basit bir döngüdü. Artık yıllara bakılmaksızın kodlanmış basit bir döngü kontrol ifadesi bu karışıklığa neden oluyordu.
 
-Here is the problematic loop;
+İşte sorunlu döngü;
 
 ```bash
 year = ORIGINYEAR;
@@ -297,13 +297,13 @@ while (days > 365)
 
 Ek kaynaklar:
 
-- [The Zune Bug](http://bit-player.org/2009/the-zune-bug) At Bit-Player
+- Bit-Player'daki [Zune Hatası](http://bit-player.org/2009/the-zune-bug)
 
-## Translations
+## Çeviriler
 
 Bu belge birkaç dilde mevcuttur.
 
-| Language | Maintainer | |----------|-----------|--------| | [🇹🇷 Türkçe / Turkish](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md) | [Umut Işık](https://github.com/umutphp) |
+| Dil | Bakımcı | | ---------- | ----------- | -------- | | [🇹🇷 Türkçe / Türkçe](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md) | [Umut Işık](https://github.com/umutphp) |
 
 Bir çeviriyi güncellemek veya yeni bir dil eklemek isterseniz, [bir PR açmanız yeterlidir](https://github.com/umutphp/famous-bugs/pulls) .
 
@@ -313,4 +313,4 @@ Lütfen katkıda bulunun! :pray:
 
 Bir hata bildirmek için ya da ekleme yapılması için [Issue](https://github.com/umutphp/famous-bugs/issues/new) açın. Kendiniz yapmak isterseniz [pull request](https://github.com/umutphp/famous-bugs/pulls) açabilirsiniz.
 
-Please read the [Contributing Guidelines](./.github/contributing.md) and the [Code of Conduct](./.github/CODE_OF_CONDUCT.md) documents.
+Lütfen [Katkıda Bulunma Kuralları](./.github/contributing.md) ve [Davranış Kuralları](./.github/CODE_OF_CONDUCT.md) belgelerini okuyun.
