@@ -14,6 +14,7 @@ A curated list of problems and bugs that developers may find useful to know.
 - [Problems](#problems)
   - [Justin Bieber Problem of Instagram](#justin-bieber-problem-of-instagram)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
+  - [Mysterious Traffic Of A Flower Image On Wikimedia](#mysterious-traffic-of-a-flower-image-on-wikimedia)
   - [Year 2000 Problem](#year-2000-problem)
   - [NPM Leftpad Breakage](#npm-leftpad-breakage)
   - [Heathrow Terminal 5 Opening](#heathrow-terminal-5-opening)
@@ -60,6 +61,20 @@ Further readings:
 > YouTube
 
 YouTube's counter was previously using  a 32-bit integer which means the maximum possible views it could count was 2,147,483,647. And "[Gangnam Style](https://www.youtube.com/watch?v=9bZkp7q19f0)" surpassed the 2-billion-view marker. YouTube has upgraded to a 64-bit integer so that the maximum views a video can receive is now 9,223,372,036,854,775,808.
+
+### Mysterious Traffic Of A Flower Image On Wikimedia
+
+> 20% of all requests to one of our data centers for media are for this image of a flower. Nobody knows why.
+>
+> [Chris Albon](https://twitter.com/chrisalbon/status/1358890731981611009) 
+
+On Feb 3, 2021, Wikimedia tech team has noticed that they get about 90M requests per day from various ISPs in India, all with the same characteristics. They hypothesised that there might be some mobile app that hotlinked the image for e.g. a splash screen. Wikimedia did not reveale the app, but people thought that It may be an alternative app for TikTok. Because, around the time, India took the decision to totally ban TikTok. The butterfly effect starting with this decision turned this into a memory to remember for Wikimedia and the mysterious application tech teams.
+
+![First Bug](https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/AsterNovi-belgii-flower-1mb.jpg/1280px-AsterNovi-belgii-flower-1mb.jpg =250x)
+
+See also:
+
+- [Phabricator Post](https://phabricator.wikimedia.org/T273741)
 
 ### Year 2000 Problem
 
@@ -256,9 +271,9 @@ Further readings:
 >
 > [ArsTechnica](https://arstechnica.com/information-technology/2008/12/30gb-zunes-prepare-for-new-year-by-locking-up/)
 
-On December 31, 2008 the thousands owners of Zune Player started reporting the player freezed. The response from Microsoft was to wait until the next day and the freeze will be solved by itself. The reason was a simple loop causing infinite execution on leap years.
+On December 31, 2008 many owners of Zune Player started reporting the player started freezing. The response from Microsoft was to wait until the next day and the freeze will be solved by itself. The reason was a simple loop causing infinite execution on leap years. A simple loop control statement which was coded without considiring the leap years caused this mess.
 
-Here is the problematic lopp;
+Here is the problematic loop;
 
 ```
 year = ORIGINYEAR;
