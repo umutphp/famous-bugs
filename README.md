@@ -307,7 +307,7 @@ Further readings;
 This is available in a number of languages.
 
 | Language | Maintainer |
-|----------|-----------|--------|
+|----------|-----------|
 | [🇹🇷 Türkçe / Turkish](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md) | [Umut Işık](https://github.com/umutphp) |
 
 If you would like to update a translation or add a new language, just [open a pull request](https://github.com/umutphp/famous-bugs/pulls).
