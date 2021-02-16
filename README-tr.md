@@ -4,7 +4,7 @@
 
 Geliştiricilerin faydalı bulabileceği, derlenmiş problemler ve hatalar listesi.
 
-[Çeviriler](#translations) : [🇹🇷](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md)
+[Çeviriler](#%C3%A7eviriler): [🇹🇷](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md)
 
 ---
 
