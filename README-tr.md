@@ -1,6 +1,6 @@
 # famous-bugs :bug: :honeybee: :ant: :beetle:
 
-![Markdown Linter](https://github.com/umutphp/famous-bugs/workflows/.github/workflows/markdown-linter-action.yml/badge.svg?branch=master) [](./.github/CODE_OF_CONDUCT.md)![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)
+![Markdown Linter](https://github.com/umutphp/famous-bugs/workflows/.github/workflows/markdown-linter-action.yml/badge.svg?branch=master) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./.github/CODE_OF_CONDUCT.md)
 
 Geliştiricilerin faydalı bulabileceği, derlenmiş problemler ve hatalar listesi.
 
@@ -10,7 +10,7 @@ Geliştiricilerin faydalı bulabileceği, derlenmiş problemler ve hatalar liste
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## İçindekiler
 
 - [Giriş](#giri%C5%9F)
 - [Problemler](#problemler)
@@ -22,7 +22,8 @@ Geliştiricilerin faydalı bulabileceği, derlenmiş problemler ve hatalar liste
   - [Heathrow Terminal 5 Açılışı](#heathrow-terminal-5-a%C3%A7%C4%B1l%C4%B1%C5%9F%C4%B1)
   - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#20-temmuz-2016-stack-overflowun-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [N+1 Sorgu Problemi](#n1-sorgu-problemi)
-- [Hatalar](#hatalar)
+  - [Gitlab Veritabanın Silinmesi](#gitlab-veritaban%C4%B1n-silinmesi)
+- [Hatalar (Bugs)](#hatalar-bugs)
   - [İlk Hata (Bug)](#i%CC%87lk-hata-bug)
   - [Ariane 5'in Patlaması](#ariane-5in-patlamas%C4%B1)
   - [NASA'nın Mars İklim Uydusunda Metrik Sistem Karmaşası](#nasan%C4%B1n-mars-i%CC%87klim-uydusunda-metrik-sistem-karma%C5%9Fas%C4%B1)
@@ -147,7 +148,15 @@ Ek kaynaklar:
 
 - [N+1 Sorgu ve Bunlardan Nasıl Kaçınılır!](https://medium.com/@bretdoucette/n-1-queries-and-how-to-avoid-them-a12f02345be5)
 
-## Hatalar
+### Gitlab Veritabanın Silinmesi
+
+> ...yanlışlıkla canlıdaki veritabanını sildi. Veritabanı yedeklerinin olduğu klasörün boş olması durumu daha da kötüleştirdi. Bir süredir bir ayar hatasından dolayı uzun bir süredir yedekleme çalışmıyormuş...
+>
+> [Dzone](https://dzone.com/articles/the-biggest-software-failures-in-recent-years)
+
+31 Ocak 2017'de [Gitlab](https://about.gitlab.com/) yedeklemenin ne kadar önemli olduğunu gösterecek bir sorun ile karşılaştı. Veritabanı sunucuları mimarisinde çok temel bir değişikliğe gitme kararı aldılar. Bunu uygularken yanlışlıkla canlıdaki veriatabanı silindi. Bir süredir yedekleme işleminin bir ayar hatası yüzünden çalışmadığı ve ellerinde güncel bir yedeğin olmadığını farkedince durum iyice kötüleşti. Büyük ihtimalle panik için ellerinden geleni yapmaya çalıştırlar ama sonuç yaklaşık 300 GB'lık müşteri verisinin kaybı ve 18 saatlik bir kesinti oldu. [Gitlab](https://about.gitlab.com/) konuyla ilgili oldukça dürüst ve detaylı bir [rapor](https://about.gitlab.com/blog/2017/02/10/postmortem-of-database-outage-of-january-31/) yayınladı.
+
+## Hatalar (Bugs)
 
 ### İlk Hata (Bug)
 

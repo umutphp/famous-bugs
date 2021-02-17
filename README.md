@@ -22,6 +22,7 @@ A curated list of problems and bugs that developers may find useful to know.
   - [Heathrow Terminal 5 Opening](#heathrow-terminal-5-opening)
   - [Stack Overflow Outage On July 20, 2016](#stack-overflow-outage-on-july-20-2016)
   - [N+1 Query Problem](#n1-query-problem)
+  - [Gitlab Database Outage](#gitlab-database-outage)
 - [Bugs](#bugs)
   - [The First Bug](#the-first-bug)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
@@ -149,6 +150,14 @@ The N+1 problem occurs when the code tries to load the children of a parent in a
 Further readings:
 
 - [N+1 Queries and How to Avoid Them!](https://medium.com/@bretdoucette/n-1-queries-and-how-to-avoid-them-a12f02345be5)
+
+### Gitlab Database Outage
+
+> ...accidentally deleted the production base. What made things even worse is that the directory holding the copies was empty too — the backups had not been made for a long time due to a configuration error...
+>
+> [Dzone](https://dzone.com/articles/the-biggest-software-failures-in-recent-years)
+
+On January 31, 2017, [Gitlab](https://about.gitlab.com/) faced an issue that may be a good incident about the importance of backups. They planned to make a major change their database server setup. During the process, the production database was deleted accidentally. The things got worse when they realized that the backups were not taken for a while becuase of a configuration issue. Most probably, they tried to their best with a big panic but it was resulted in an 18-hour outage with the lost of 300 GB of customer data. [Gitlab](https://about.gitlab.com/) published an honest and detailed [postmortem](https://about.gitlab.com/blog/2017/02/10/postmortem-of-database-outage-of-january-31/) about the outage.
 
 ## Bugs
 
