@@ -154,7 +154,7 @@ Ek kaynaklar:
 >
 > [Dzone](https://dzone.com/articles/the-biggest-software-failures-in-recent-years)
 
-31 Ocak 2017'de [Gitlab](https://about.gitlab.com/) yedeklemenin ne kadar önemli olduğunu gösterecek bir sorun ile karşılaştı. Veritabanı sunucuları mimarisinde çok temel bir değişikliğe gitme kararı aldılar. Bunu uygularken yanlışlıkla canlıdaki veriatabanı silindi. Bir süredir yedekleme işleminin bir ayar hatası yüzünden çalışmadığı ve ellerinde güncel bir yedeğin olmadığını farkedince durum iyice kötüleşti. Büyük ihtimalle panik için ellerinden geleni yapmaya çalıştırlar ama sonuç yaklaşık 300 GB'lık müşteri verisinin kaybı ve 18 saatlik bir kesinti oldu. [Gitlab](https://about.gitlab.com/) konuyla ilgili oldukça dürüst ve detaylı bir [rapor](https://about.gitlab.com/blog/2017/02/10/postmortem-of-database-outage-of-january-31/) yayınladı.
+31 Ocak 2017'de Gitlab yedeklemenin ne kadar önemli olduğunu gösterecek bir sorun ile karşılaştı. Veritabanı sunucuları mimarisinde çok temel bir değişikliğe gitme kararı aldılar. Bunu uygularken yanlışlıkla canlıdaki veriatabanı silindi. Bir süredir yedekleme işleminin bir ayar hatası yüzünden çalışmadığı ve ellerinde güncel bir yedeğin olmadığını farkedince durum iyice kötüleşti. Büyük ihtimalle panik için ellerinden geleni yapmaya çalıştırlar ama sonuç yaklaşık 300 GB'lık müşteri verisinin kaybı ve 18 saatlik bir kesinti oldu. Gitlab konuyla ilgili oldukça dürüst ve detaylı bir [rapor](https://about.gitlab.com/blog/2017/02/10/postmortem-of-database-outage-of-january-31/) yayınladı.
 
 ## Hatalar (Bugs)
 
