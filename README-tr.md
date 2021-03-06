@@ -150,7 +150,7 @@ Ek kaynaklar:
 
 ### Gitlab Veritabanın Silinmesi
 
-> ...yanlışlıkla canlıdaki veritabanını sildi. Veritabanı yedeklerinin olduğu klasörün boş olması durumu daha da kötüleştirdi. Bir süredir bir ayar hatasından dolayı uzun bir süredir yedekleme çalışmıyormuş...
+> ...yanlışlıkla canlıdaki veritabanını sildi. Veritabanı yedeklerinin olduğu klasörün boş olması durumu daha da kötüleştirdi. Bir ayar hatasından dolayı bir süredir yedekleme de çalışmıyormuş...
 >
 > [Dzone](https://dzone.com/articles/the-biggest-software-failures-in-recent-years)
 
