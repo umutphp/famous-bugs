@@ -2,7 +2,7 @@
 
 ![Markdown Linter](https://github.com/umutphp/famous-bugs/workflows/.github/workflows/markdown-linter-action.yml/badge.svg?branch=master) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./.github/CODE_OF_CONDUCT.md)
 
-Geliştiricilerin faydalı bulabileceği, derlenmiş problemler, hatalar ve sistem çöküşlerinin listesi.
+Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve sistem çöküşlerinin listesi.
 
 [Çeviriler](#%C3%A7eviriler): [🇹🇷](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md)
 
