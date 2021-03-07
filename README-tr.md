@@ -32,6 +32,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [1990 AT&T Ağının Çöküşü](#1990-att-a%C4%9F%C4%B1n%C4%B1n-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [ILOVEYOU Solucanı](#iloveyou-solucan%C4%B1)
   - [Zune Bug](#zune-bug)
+  - [Unutulmuş Boşluk Karakteri](#unutulmu%C5%9F-bo%C5%9Fluk-karakteri)
 - [Çeviriler](#%C3%A7eviriler)
 - [Katkıda Bulunmak İçin](#katk%C4%B1da-bulunmak-i%CC%87%C3%A7in)
 
@@ -305,6 +306,20 @@ while (days > 365)
 Ek kaynaklar:
 
 - [Zune Hatası](http://bit-player.org/2009/the-zune-bug)
+
+### Unutulmuş Boşluk Karakteri
+
+> Büyük hata... /usr klasörü siliniyor... kusura bakmayın....
+>
+> [MrMEEE](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123#issuecomment-1226289)
+
+[Bumblebee](https://github.com/Bumblebee-Project/Bumblebee), Nvidia Optimus özellikli dizüstü bilgisayarların GNU/Linux sistemleriyle çalışmasını sağlayacak bir projedir. 24 Mayıs 2011'de kurulum betiğinin */usr/* klasörünü sildiğine bildiren bir [hata kaydı](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) açıldı. Hatanın sebebi yanlış yazılmış ve unutulmuş bir boşluk karakteriydi. Hatanın etkisi çok can yakıcıydı çünkü kurbanın işletim sistemini yeniden kurması gerekiyordu. [Hata kaydı](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) hala ilgi çekiyor. Baktığınızda güncel yorumları görürsünüz (7 Mart 2021).
+
+```bash
+....
+rm -rf /usr /lib/nvidia-current/xorg/xorg
+....
+```
 
 ## Çeviriler
 
