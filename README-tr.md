@@ -33,6 +33,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [ILOVEYOU Solucanı](#iloveyou-solucan%C4%B1)
   - [Zune Bug](#zune-bug)
   - [Unutulmuş Boşluk Karakteri](#unutulmu%C5%9F-bo%C5%9Fluk-karakteri)
+  - [Rachel True's Problem On iCloud](#rachel-trues-problem-on-icloud)
 - [Çeviriler](#%C3%A7eviriler)
 - [Katkıda Bulunmak İçin](#katk%C4%B1da-bulunmak-i%CC%87%C3%A7in)
 
@@ -320,6 +321,19 @@ Ek kaynaklar:
 rm -rf /usr /lib/nvidia-current/xorg/xorg
 ....
 ```
+
+### Rachel True's Problem On iCloud
+
+> Aplle iCloud'da bu hatayla karşılaşan başka birileri var mı? Eskiden karşılaşan ya da şimdi karşılaşan? ...
+>
+> [Rachel True](https://twitter.com/RachelTrue/status/1365461618977476610)
+
+Rachel True iCloud'a giriş yaparken bir hata ile karşılaştığını Twitter'da paylaştı. Bu hata büyük ihtmalle iCloud'ın "True" olan soyadını boolean bir değer olarak işlediği için ortaya çıkıyor olabilir. Paylaşımında 6 aydır giriş yapamadığını ve problemin 27 Şubat 2021'de hala geçerli olduğunu belirtti. Tweet çok popüler olduğu için muhtemelen iCloud ekibinin dikkatini çekmiştir ve sorun kısa sürede çözülecektir.
+
+Bu aslında çok sık görülen ve basit bir hata, çünkü yazılımcılar kodlama yaparken kullanılan değerlerinin tiplerinin kontrol edilmesinin ne kadar önemli olduğunu unutmaya meyillidirler. Bu duruma verebileceğimiz diğer örnekler;
+
+- [Jesse Self](https://twitter.com/JesseSelf720/status/1368247643827281926)
+- [Hello, I'm Mr. Null. My Name Makes Me Invisible to Computers](https://www.wired.com/2015/11/null/)
 
 ## Çeviriler
 

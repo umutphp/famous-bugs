@@ -333,13 +333,12 @@ rm -rf /usr /lib/nvidia-current/xorg/xorg
 >
 > [Rachel True](https://twitter.com/RachelTrue/status/1365461618977476610)
 
-Rachel True shared on Twitter thats she’s getting a error when attempting to log into iCloud. It may be appearing because the iCloud is interpreting her last name "True" as a boolean value. In her tweet, she noted that she’d been locked out for over 6 months and the problem is still valid at 13 March, 2021. Most probably, The iCloud team will come up with a solution soon after this tweet.
+Rachel True shared on Twitter thats she’s getting a error when attempting to log into iCloud. It may be appearing because the iCloud is interpreting her last name "True" as a boolean value. In her tweet, she noted that she’d been locked out for over 6 months and the problem is still valid at 27 February, 2021. As this tweet is very popular now, most probably the iCloud team will notice it and come up with a solution soon.
 
 It is a very common and simple bug because developers tends to forget the importance of the types values. Here are some other similar cases;
 
 - [Jesse Self](https://twitter.com/JesseSelf720/status/1368247643827281926)
 - [Hello, I'm Mr. Null. My Name Makes Me Invisible to Computers](https://www.wired.com/2015/11/null/)
-
 
 ## Translations
 
