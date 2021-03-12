@@ -33,7 +33,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [ILOVEYOU Solucanı](#iloveyou-solucan%C4%B1)
   - [Zune Bug](#zune-bug)
   - [Unutulmuş Boşluk Karakteri](#unutulmu%C5%9F-bo%C5%9Fluk-karakteri)
-  - [Rachel True's Problem On iCloud](#rachel-trues-problem-on-icloud)
+  - [Rachel True'nun iCloud'da Yaşadığı Problem](#rachel-truenun-icloudda-ya%C5%9Fad%C4%B1%C4%9F%C4%B1-problem)
 - [Çeviriler](#%C3%A7eviriler)
 - [Katkıda Bulunmak İçin](#katk%C4%B1da-bulunmak-i%CC%87%C3%A7in)
 
@@ -322,7 +322,7 @@ rm -rf /usr /lib/nvidia-current/xorg/xorg
 ....
 ```
 
-### Rachel True's Problem On iCloud
+### Rachel True'nun iCloud'da Yaşadığı Problem
 
 > Aplle iCloud'da bu hatayla karşılaşan başka birileri var mı? Eskiden karşılaşan ya da şimdi karşılaşan? ...
 >
