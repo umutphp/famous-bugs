@@ -34,6 +34,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [Zune Bug](#zune-bug)
   - [Unutulmuş Boşluk Karakteri](#unutulmu%C5%9F-bo%C5%9Fluk-karakteri)
   - [Rachel True'nun iCloud'da Yaşadığı Problem](#rachel-truenun-icloudda-ya%C5%9Fad%C4%B1%C4%9F%C4%B1-problem)
+  - [MySpace Solucan (Samy Solucanı)](#myspace-solucan-samy-solucan%C4%B1)
 - [Çeviriler](#%C3%A7eviriler)
 - [Katkıda Bulunmak İçin](#katk%C4%B1da-bulunmak-i%CC%87%C3%A7in)
 
@@ -334,6 +335,18 @@ Bu aslında çok sık görülen ve basit bir hata, çünkü yazılımcılar kodl
 
 - [Jesse Self](https://twitter.com/JesseSelf720/status/1368247643827281926)
 - [Hello, I'm Mr. Null. My Name Makes Me Invisible to Computers](https://www.wired.com/2015/11/null/)
+
+### MySpace Solucan (Samy Solucanı)
+
+> Myspace birçok etiketin kullanılmasını engelliyor. Aslında bazılarına da izin veriyor ... vermemesi gerekenlere nazılarına da izin vermiş olabilir ...
+>
+> [Technical explanation of The MySpace Worm](https://samy.pl/myspace/tech.html)
+
+MySpace Solucanı [Samy Kamkar](https://en.wikipedia.org/wiki/Samy_Kamkar) tarafından yazılmış XSS temelli ve bir sosyal ağ olan MySpace üzerinde yayılması için tasarlanmış bir solucandır. Solucan görece zararsız olmasına rağmen Kamkar internet erişimi olmayan tek bir bilgisayar kullanabileceği üç yıllık bir denetimli serbestlik ve birkaç farklı cezaya çarptırıldı. Bu solucan ve hikayesi XSS açıklarının nelere sebep olabileceğini gösteren güzel bir öernek olabilir.
+
+Ek kaynaklar;
+
+- [The MySpace Worm](https://samy.pl/myspace/)
 
 ## Çeviriler
 

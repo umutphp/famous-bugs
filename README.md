@@ -34,6 +34,7 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [The Zune Bug](#the-zune-bug)
   - [The Forgotten Space Character](#the-forgotten-space-character)
   - [Rachel True's Problem On iCloud](#rachel-trues-problem-on-icloud)
+  - [The MySpace Worm (Samy Worm)](#the-myspace-worm-samy-worm)
 - [Translations](#translations)
 - [Contributing](#contributing)
 
@@ -339,6 +340,18 @@ It is a very common and simple bug because developers tends to forget the import
 
 - [Jesse Self](https://twitter.com/JesseSelf720/status/1368247643827281926)
 - [Hello, I'm Mr. Null. My Name Makes Me Invisible to Computers](https://www.wired.com/2015/11/null/)
+
+### The MySpace Worm (Samy Worm)
+
+> Myspace blocks a lot of tags. In fact, they only seem to allow ... maybe a few others ...
+>
+> [Technical explanation of The MySpace Worm](https://samy.pl/myspace/tech.html)
+
+The MySpace Worm is an XSS worm that was designed to propagate across the social networking site MySpace by [Samy Kamkar](https://en.wikipedia.org/wiki/Samy_Kamkar). Even the worm itself was relatively harmless, It resulted in Kamkar being sentenced to three years' probation with only one computer with no access to the Internet and more penalties. This worm can be a good case story to show the possible results of an XSS exploit.
+
+Further readings;
+
+- [The MySpace Worm](https://samy.pl/myspace/)
 
 ## Translations
 
