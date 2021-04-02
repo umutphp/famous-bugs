@@ -13,7 +13,7 @@ A curated list of bugs, problems and failures that developers may find useful to
 ## Table Of Contents
 
 - [Introduction](#introduction)
-- [Problems](#problems)
+- [Problems and Outages](#problems-and-outages)
   - [Justin Bieber Problem of Instagram](#justin-bieber-problem-of-instagram)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [Mysterious Traffic Of A Flower Image On Wikimedia](#mysterious-traffic-of-a-flower-image-on-wikimedia)
@@ -23,7 +23,7 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [Stack Overflow Outage On July 20, 2016](#stack-overflow-outage-on-july-20-2016)
   - [N+1 Query Problem](#n1-query-problem)
   - [Gitlab Database Outage](#gitlab-database-outage)
-- [Bugs](#bugs)
+- [Bugs, Worms and Hacks](#bugs-worms-and-hacks)
   - [The First Bug](#the-first-bug)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
   - [Metric System Mess Of NASA’s Mars Climate Orbiter](#metric-system-mess-of-nasas-mars-climate-orbiter)
@@ -46,7 +46,7 @@ A curated list of bugs, problems and failures that developers may find useful to
 
 As software developers, we can simply define our work as fixing bugs and developing solutions to problems. This is a curated list of problems and bugs that developers may find useful to know. I hope it will become a community driven list to create a value.
 
-## Problems
+## Problems and Outages
 
 ### Justin Bieber Problem of Instagram
 
@@ -162,7 +162,7 @@ Further readings:
 
 On January 31, 2017, Gitlab faced an issue that may be a good incident about the importance of backups. They planned to make a major change their database server setup. During the process, the production database was deleted accidentally. The things got worse when they realized that the backups were not taken for a while becuase of a configuration issue. Most probably, they tried to their best with a big panic but it was resulted in an 18-hour outage with the lost of 300 GB of customer data. Gitlab published an honest and detailed [postmortem](https://about.gitlab.com/blog/2017/02/10/postmortem-of-database-outage-of-january-31/) about the outage.
 
-## Bugs
+## Bugs, Worms and Hacks
 
 ### The First Bug
 
