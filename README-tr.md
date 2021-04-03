@@ -13,7 +13,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
 ## İçindekiler
 
 - [Giriş](#giri%C5%9F)
-- [Problemler ve Çöküşler](#problemler-ve-%C3%A7%C3%B6k%C3%BC%C5%9Fler)
+- [Problemler, Çöküşler ve Saldırılar (Hack)](#problemler-%C3%A7%C3%B6k%C3%BC%C5%9Fler-ve-sald%C4%B1r%C4%B1lar-hack)
   - [Instagram'da Justin Bieber Problemi](#instagramda-justin-bieber-problemi)
   - [Gangnam Style YouTube'u Bozdu](#gangnam-style-youtubeu-bozdu)
   - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#wikimediada-bir-%C3%A7i%C3%A7ek-resmine-gelen-gizemli-trafik)
@@ -23,7 +23,8 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#20-temmuz-2016-stack-overflowun-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [N+1 Sorgu Problemi](#n1-sorgu-problemi)
   - [Gitlab Veritabanın Silinmesi](#gitlab-veritaban%C4%B1n-silinmesi)
-- [Hatalar (Bug), Solucanlar ve Saldırılar (Hack)](#hatalar-bug-solucanlar-ve-sald%C4%B1r%C4%B1lar-hack)
+  - [PHP Git Commit Olayı](#php-git-commit-olay%C4%B1)
+- [Hatalar (Bug) ve Solucanlar](#hatalar-bug-ve-solucanlar)
   - [İlk Hata (Bug)](#i%CC%87lk-hata-bug)
   - [Ariane 5'in Patlaması](#ariane-5in-patlamas%C4%B1)
   - [NASA'nın Mars İklim Uydusunda Metrik Sistem Karmaşası](#nasan%C4%B1n-mars-i%CC%87klim-uydusunda-metrik-sistem-karma%C5%9Fas%C4%B1)
@@ -46,7 +47,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
 
 Yazılım geliştiricileri olarak işimizi basitçe hataları düzeltmek ve problemlere çözüm geliştirmek olarak tanımlayabiliriz. Bu liste, geliştiricilerin yararlı bulabileceği, derlenmiş problemler ve hatalar listesidir. Umarım daha büyük bir değer yaratmak için topluluk odaklı bir liste olur.
 
-## Problemler ve Çöküşler
+## Problemler, Çöküşler ve Saldırılar (Hack)
 
 ### Instagram'da Justin Bieber Problemi
 
@@ -86,6 +87,7 @@ Ek kaynaklar:
 ### 2000 Yılı Problemi
 
 > ... 2000 yılını 1900 yılından ayırt edilemez hale getiriyor.
+>
 
 2000 Yılı Problemi (Y2K sorunu, Millennium hatası, Y2K hatası, Y2K hatası veya Y2K olarak da bilinir), 2000 yılından başlayan tarihler için takvim verilerinin biçimlendirilmesi ve depolanması nedeniyle oluşan sorunları ifade eder. Bu problem tüm dünyada yaşandı ve belgelendi. İşte bazı örnekler:
 
@@ -114,6 +116,7 @@ Ek kaynaklar:
 ### Heathrow Terminal 5 Açılışı
 
 > ... herhangi bir nedenle test edilmeyen basit ve gerçek senaryolar.
+>
 
 Heathrow Terminal 5 resmi olarak 14 Mart 2008'de açıldı. Açılış gününde planlandığı gibi çalışmadı, bu nedenle British Airways 34 uçuşu iptal etmek ve bagaj kontrolünü askıya almak zorunda kaldı.
 
@@ -159,7 +162,23 @@ Ek kaynaklar:
 
 31 Ocak 2017'de Gitlab yedeklemenin ne kadar önemli olduğunu gösterecek bir sorun ile karşılaştı. Veritabanı sunucuları mimarisinde çok temel bir değişikliğe gitme kararı aldılar. Bunu uygularken yanlışlıkla canlıdaki veriatabanı silindi. Bir süredir yedekleme işleminin bir ayar hatası yüzünden çalışmadığı ve ellerinde güncel bir yedeğin olmadığını farkedince durum iyice kötüleşti. Büyük ihtimalle panik için ellerinden geleni yapmaya çalıştırlar ama sonuç yaklaşık 300 GB'lık müşteri verisinin kaybı ve 18 saatlik bir kesinti oldu. Gitlab konuyla ilgili oldukça dürüst ve detaylı bir [rapor](https://about.gitlab.com/blog/2017/02/10/postmortem-of-database-outage-of-january-31/) yayınladı.
 
-## Hatalar (Bug), Solucanlar ve Saldırılar (Hack)
+### PHP Git Commit Olayı
+
+> Selamlar,
+>
+> Dün (2021-03-28) php-src reposuna biri benim tarafımdan biri de Rasmus Lerdof tarafından yapılmış gibi zararlı iki adet commit atıldı.
+> Bunun nasıl olduğunu tam olarak bilmiyoruz...
+>
+> [Nikita Popov](https://news-web.php.net/php.internals/113838)
+
+28 Mart 2021'de Nikita Popoz (proje yürütücülerinden biri) php-src reposuna kendi adına ve Rasmus Lerdof (PHP'nin yaratıcısı) adına yapılmış gibi iki zararlı commit atıldığını duyurdu. Buna sebep olan şeyin ne olduğu açıkça duyurulmadı ama Nikita bütün şüphelerin kendilerini hesaplarla ilgili bir sızıntının değilde kendilerinin yönettiği git sunucusunda oluşan bir açığa yönlendirdiğini belirtti. Bu olay saldırganların üretim bandında kullanılan araçlar, açık kaynak proje, kütüphane ya da komponent üzerinden yaptıkları "supply-chain attack" saldırına güzel bir örnektir.
+
+Ek kaynaklar:
+
+- [Git commit işleyişinde değişiklikler](https://news-web.php.net/php.internals/113838)
+- [PHP hadisesi kullanılan araçların doğrulanması gerekliğini gösterdi](https://www.csoonline.com/article/3613593/php-backdoor-attempt-shows-need-for-better-code-authenticity-verification.html)
+
+## Hatalar (Bug) ve Solucanlar
 
 ### İlk Hata (Bug)
 
@@ -181,6 +200,7 @@ Ek kaynaklar:
 ### Ariane 5'in Patlaması
 
 > ... 64 bitlik bir real sayı ... 16 bitlik işaretli bir tam sayıya dönüştürüldü.
+>
 
 4 Haziran 1996'da, Avrupa Uzay Ajansı tarafından fırlatılan Ariane 5 roketi, havalanmasından sadece kırk saniye sonra patladı. Roket, 7 milyar dolara mal olan on yıllık bir geliştirme sürecinin ardından ilk yolculuğuna çıkmıştı. İmha edilen roket ve kargosunun değeri 500 milyon dolardı. Kaza, Avrupa'nın uzay programı için önemli bir engeldi.
 
@@ -201,6 +221,7 @@ Ek kaynaklar:
 ### Morris Solucanı
 
 > Bu bir tasarım kusuruydu ...
+>
 
 Yaratıcısı [Robert Tappan Morris'e göre](https://en.wikipedia.org/wiki/Robert_Tappan_Morris) , zarar vermek için değil, güvenlik açıklarını vurgulamak için yazılmıştı. [Sendmail](https://en.wikipedia.org/wiki/Sendmail), [finger](https://en.wikipedia.org/wiki/Finger_protocol), [rsh/rexec](https://en.wikipedia.org/wiki/Berkeley_r-commands) ve zayıf şifreler yüzünden oluşan güvenlik açıklarından yararlanmak için programlanmıştır. Solucanı yaratırken Robert sistem yöneticilerinin solucanı yenmeye çalışmasını önlemek için kendini %14 oranında kopyalayacak ve bilgisayara yanlış pozitif geri bildirim yapacak şekilde programladı. Bu bir tasarım kusuruydu ve etkilenen bilgisayarda kopyalanma bombardımanı ve çökmeler yarattı.
 

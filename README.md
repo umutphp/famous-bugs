@@ -13,7 +13,7 @@ A curated list of bugs, problems and failures that developers may find useful to
 ## Table Of Contents
 
 - [Introduction](#introduction)
-- [Problems and Outages](#problems-and-outages)
+- [Problems, Outages and Hacks](#problems-outages-and-hacks)
   - [Justin Bieber Problem of Instagram](#justin-bieber-problem-of-instagram)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [Mysterious Traffic Of A Flower Image On Wikimedia](#mysterious-traffic-of-a-flower-image-on-wikimedia)
@@ -23,7 +23,8 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [Stack Overflow Outage On July 20, 2016](#stack-overflow-outage-on-july-20-2016)
   - [N+1 Query Problem](#n1-query-problem)
   - [Gitlab Database Outage](#gitlab-database-outage)
-- [Bugs, Worms and Hacks](#bugs-worms-and-hacks)
+  - [PHP Git Commit Incident](#php-git-commit-incident)
+- [Bugs and Worms](#bugs-and-worms)
   - [The First Bug](#the-first-bug)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
   - [Metric System Mess Of NASA’s Mars Climate Orbiter](#metric-system-mess-of-nasas-mars-climate-orbiter)
@@ -46,7 +47,7 @@ A curated list of bugs, problems and failures that developers may find useful to
 
 As software developers, we can simply define our work as fixing bugs and developing solutions to problems. This is a curated list of problems and bugs that developers may find useful to know. I hope it will become a community driven list to create a value.
 
-## Problems and Outages
+## Problems, Outages and Hacks
 
 ### Justin Bieber Problem of Instagram
 
@@ -109,8 +110,7 @@ Further readings:
 
 Further readings:
 
-- [I've Just Liberated My Modules
-](https://kodfabrik.com/journal/i-ve-just-liberated-my-modules)
+- [I've Just Liberated My Modules](https://kodfabrik.com/journal/i-ve-just-liberated-my-modules)
 - [kik, left-pad, and npm](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm)
 
 ### Heathrow Terminal 5 Opening
@@ -162,7 +162,23 @@ Further readings:
 
 On January 31, 2017, Gitlab faced an issue that may be a good incident about the importance of backups. They planned to make a major change their database server setup. During the process, the production database was deleted accidentally. The things got worse when they realized that the backups were not taken for a while becuase of a configuration issue. Most probably, they tried to their best with a big panic but it was resulted in an 18-hour outage with the lost of 300 GB of customer data. Gitlab published an honest and detailed [postmortem](https://about.gitlab.com/blog/2017/02/10/postmortem-of-database-outage-of-january-31/) about the outage.
 
-## Bugs, Worms and Hacks
+### PHP Git Commit Incident
+
+> Hi everyone,
+>
+> Yesterday (2021-03-28) two malicious commits were pushed to the php-src repo [1] from the names of Rasmus Lerdorf and myself. 
+> We don't yet know how exactly this happened ...
+>
+> [Nikita Popov](https://news-web.php.net/php.internals/113838)
+
+On March 28, 2021, Nikita Popov (one of the maintainers) said that two malicious commits were added to the php-src repository in both his and Rasmus Lerdorf's (the PHP creator) names. The exact reason was not published publicly yet but Nikita said that everything points towards a compromise of the self hosted server (git.php.net) rather than the compromise of the git accounts). This is a good example of the supply-chain attack, in which threat actors will target elements in the supply chain of the projects such as an open source project, library, or another component that is relied upon. 
+
+Further readings:
+
+- [Changes to Git commit workflow](https://news-web.php.net/php.internals/113838)
+- [PHP backdoor attempt shows need for better code authenticity verification](https://www.csoonline.com/article/3613593/php-backdoor-attempt-shows-need-for-better-code-authenticity-verification.html)
+
+## Bugs and Worms
 
 ### The First Bug
 
