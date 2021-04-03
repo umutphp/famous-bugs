@@ -166,12 +166,12 @@ On January 31, 2017, Gitlab faced an issue that may be a good incident about the
 
 > Hi everyone,
 >
-> Yesterday (2021-03-28) two malicious commits were pushed to the php-src repo [1] from the names of Rasmus Lerdorf and myself. 
+> Yesterday (2021-03-28) two malicious commits were pushed to the php-src repo [1] from the names of Rasmus Lerdorf and myself.
 > We don't yet know how exactly this happened ...
 >
 > [Nikita Popov](https://news-web.php.net/php.internals/113838)
 
-On March 28, 2021, Nikita Popov (one of the maintainers) said that two malicious commits were added to the php-src repository in both his and Rasmus Lerdorf's (the PHP creator) names. The exact reason was not published publicly yet but Nikita said that everything points towards a compromise of the self hosted server (git.php.net) rather than the compromise of the git accounts). This is a good example of the supply-chain attack, in which threat actors will target elements in the supply chain of the projects such as an open source project, library, or another component that is relied upon. 
+On March 28, 2021, Nikita Popov (one of the maintainers) said that two malicious commits were added to the php-src repository in both his and Rasmus Lerdorf's (the PHP creator) names. The exact reason was not published publicly yet but Nikita said that everything points towards a compromise of the self hosted server (git.php.net) rather than the compromise of the git accounts). This is a good example of the supply-chain attack, in which threat actors will target elements in the supply chain of the projects such as an open source project, library, or another component that is relied upon.
 
 Further readings:
 
