@@ -336,7 +336,7 @@ Further readings;
 >
 > [MrMEEE](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123#issuecomment-1226289)
 
-[Bumblebee](https://github.com/Bumblebee-Project/Bumblebee) is a project to make Nvidia Optimus enabled laptops work in GNU/Linux systems. On May 24, 2011 an [issue](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) was created because the installation script deletes the */usr/* folder. The reason was a forgotten mistyped space in the script. The effect of the bug is so hursh becuase the victim should reinstall the OS after. The [issue](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) still attracts attention and you can see the recent comments (On Mar 7, 2021).
+[Bumblebee](https://github.com/Bumblebee-Project/Bumblebee) is a project to make Nvidia Optimus enabled laptops work in GNU/Linux systems. On May 24, 2011 an [issue](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) was created because the installation script deletes the */usr/* folder. The reason was a forgotten mistyped space in the script. The effect of the bug is so harsh becuase the victim should reinstall the OS after. The [issue](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) still attracts attention and you can see the recent comments (On Mar 7, 2021).
 
 ```bash
 ....
