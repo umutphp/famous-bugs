@@ -1,6 +1,8 @@
+name: Markdown Linter
+
 on:
-  push:
-name: "Markdown Linter Action"
+  [push, pull_request]
+
 jobs:
   hacker_laws_action:
     runs-on: ubuntu-latest
