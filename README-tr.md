@@ -13,15 +13,16 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
 ## İçindekiler
 
 - [Giriş](#giri%C5%9F)
-- [Problemler, Çöküşler ve Saldırılar (Hack)](#problemler-%C3%A7%C3%B6k%C3%BC%C5%9Fler-ve-sald%C4%B1r%C4%B1lar-hack)
-  - [Instagram'da Justin Bieber Problemi](#instagramda-justin-bieber-problemi)
+- [Problemler](#problemler)
+  - [Saldıran Sürü Problemi](#sald%C4%B1ran-s%C3%BCr%C3%BC-problemi)
+  - [N+1 Sorgu Problemi](#n1-sorgu-problemi)
+- [Çöküşler ve Saldırılar (Hack)](#%C3%A7%C3%B6k%C3%BC%C5%9Fler-ve-sald%C4%B1r%C4%B1lar-hack)
   - [Gangnam Style YouTube'u Bozdu](#gangnam-style-youtubeu-bozdu)
   - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#wikimediada-bir-%C3%A7i%C3%A7ek-resmine-gelen-gizemli-trafik)
   - [2000 Yılı Problemi](#2000-y%C4%B1l%C4%B1-problemi)
   - [NPM Leftpad Olayı](#npm-leftpad-olay%C4%B1)
   - [Heathrow Terminal 5 Açılışı](#heathrow-terminal-5-a%C3%A7%C4%B1l%C4%B1%C5%9F%C4%B1)
   - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#20-temmuz-2016-stack-overflowun-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
-  - [N+1 Sorgu Problemi](#n1-sorgu-problemi)
   - [Gitlab Veritabanın Silinmesi](#gitlab-veritaban%C4%B1n-silinmesi)
   - [PHP Git Commit Olayı](#php-git-commit-olay%C4%B1)
 - [Hatalar (Bug) ve Solucanlar](#hatalar-bug-ve-solucanlar)
@@ -47,9 +48,9 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
 
 Yazılım geliştiricileri olarak işimizi basitçe hataları düzeltmek ve problemlere çözüm geliştirmek olarak tanımlayabiliriz. Bu liste, geliştiricilerin yararlı bulabileceği, derlenmiş problemler ve hatalar listesidir. Umarım daha büyük bir değer yaratmak için topluluk odaklı bir liste olur.
 
-## Problemler, Çöküşler ve Saldırılar (Hack)
+## Problemler
 
-### Instagram'da Justin Bieber Problemi
+### Saldıran Sürü Problemi
 
 > Bieber bir fotoğraf paylaşırdı ve pek çok takipçisi, Instagram'ın sunucularının yetişemeyeceği şekilde "Like" düğmesine basarlardı.
 >
@@ -61,6 +62,20 @@ Ek kaynaklar:
 
 - [Saldıran sürü problemi](https://www.wikiwand.com/en/Thundering_herd_problem)
 - [Instagram Justin Bieber Problemini Nasıl Çözdü?](https://www.wired.com/2015/11/how-instagram-solved-its-justin-bieber-problem/)
+
+### N+1 Sorgu Problemi
+
+> ... öğe n tane ilişkili alt öğe içerdiğinde n+1 isteğe dönüşür.
+>
+> [InfoQ](https://www.infoq.com/articles/N-Plus-1/)
+
+N+1 problemi, kod bir ana öğenin çocuklarını bir ilişkide yüklemeye çalıştığında ortaya çıkar (örneğin, none-to-many ilişkiler). Hemen hemen tüm ORM'ler, varsayılan olarak tembel yüklemeyi etkinleştirir. İlişkilerle beraber gelen verilerle bir kayıt listesi oluşturmak istediğinizi varsayın. Ana öğeleri getirmek için bir sorgu ve N tane ana öğenin alt kayıtları için N sorgu (ilişkiden verileri almak için her biri için bir sorgu) yapılır. Tahmin edebileceğiniz gibi, tek bir sorgu yerine N+1 sorguları yapmak, veritabanınızı sorgularla doldurur, bu da kaçınmamız gereken bir şeydir. Çok şükür ki, ORM'ler sorunu oldukça uzun süredir biliyorlar ve buna yerleşik çözümleri vardır. Çözüm aslında basit: geliştirme sırasında, ORM'ye önceden ek verilere ihtiyacınız olduğunu söylemelisiniz (önyükleme).
+
+Ek kaynaklar:
+
+- [N+1 Sorgu ve Bunlardan Nasıl Kaçınılır!](https://medium.com/@bretdoucette/n-1-queries-and-how-to-avoid-them-a12f02345be5)
+
+## Çöküşler ve Saldırılar (Hack)
 
 ### Gangnam Style YouTube'u Bozdu
 
@@ -141,18 +156,6 @@ Ek kaynaklar:
 
 - [Regular Expression Hizmet Reddi (ReDoS) cheat-sheet sayfası](https://levelup.gitconnected.com/the-regular-expression-denial-of-service-redos-cheat-sheet-a78d0ed7d865)
 - [Çöküş Raporu - 20 Temmuz 2016](https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016)
-
-### N+1 Sorgu Problemi
-
-> ... öğe n tane ilişkili alt öğe içerdiğinde n+1 isteğe dönüşür.
->
-> [InfoQ](https://www.infoq.com/articles/N-Plus-1/)
-
-N+1 problemi, kod bir ana öğenin çocuklarını bir ilişkide yüklemeye çalıştığında ortaya çıkar (örneğin, none-to-many ilişkiler). Hemen hemen tüm ORM'ler, varsayılan olarak tembel yüklemeyi etkinleştirir. İlişkilerle beraber gelen verilerle bir kayıt listesi oluşturmak istediğinizi varsayın. Ana öğeleri getirmek için bir sorgu ve N tane ana öğenin alt kayıtları için N sorgu (ilişkiden verileri almak için her biri için bir sorgu) yapılır. Tahmin edebileceğiniz gibi, tek bir sorgu yerine N+1 sorguları yapmak, veritabanınızı sorgularla doldurur, bu da kaçınmamız gereken bir şeydir. Çok şükür ki, ORM'ler sorunu oldukça uzun süredir biliyorlar ve buna yerleşik çözümleri vardır. Çözüm aslında basit: geliştirme sırasında, ORM'ye önceden ek verilere ihtiyacınız olduğunu söylemelisiniz (önyükleme).
-
-Ek kaynaklar:
-
-- [N+1 Sorgu ve Bunlardan Nasıl Kaçınılır!](https://medium.com/@bretdoucette/n-1-queries-and-how-to-avoid-them-a12f02345be5)
 
 ### Gitlab Veritabanın Silinmesi
 

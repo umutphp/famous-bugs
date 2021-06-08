@@ -13,15 +13,16 @@ A curated list of bugs, problems and failures that developers may find useful to
 ## Table Of Contents
 
 - [Introduction](#introduction)
-- [Problems, Outages and Hacks](#problems-outages-and-hacks)
-  - [Justin Bieber Problem of Instagram](#justin-bieber-problem-of-instagram)
+- [Problems](#problems)
+  - [Thundering Herd Problem](#thundering-herd-problem)
+  - [N+1 Query Problem](#n1-query-problem)
+- [Outages and Hacks](#outages-and-hacks)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [Mysterious Traffic Of A Flower Image On Wikimedia](#mysterious-traffic-of-a-flower-image-on-wikimedia)
   - [Year 2000 Problem](#year-2000-problem)
   - [NPM Leftpad Breakage](#npm-leftpad-breakage)
   - [Heathrow Terminal 5 Opening](#heathrow-terminal-5-opening)
   - [Stack Overflow Outage On July 20, 2016](#stack-overflow-outage-on-july-20-2016)
-  - [N+1 Query Problem](#n1-query-problem)
   - [Gitlab Database Outage](#gitlab-database-outage)
   - [PHP Git Commit Incident](#php-git-commit-incident)
 - [Bugs and Worms](#bugs-and-worms)
@@ -47,9 +48,9 @@ A curated list of bugs, problems and failures that developers may find useful to
 
 As software developers, we can simply define our work as fixing bugs and developing solutions to problems. This is a curated list of problems and bugs that developers may find useful to know. I hope it will become a community driven list to create a value.
 
-## Problems, Outages and Hacks
+## Problems
 
-### Justin Bieber Problem of Instagram
+### Thundering Herd Problem
 
 > Bieber would post a photo, and so many Beliebers would "Like" it that Instagram's computers couldn't keep up.
 >
@@ -61,6 +62,20 @@ Further readings:
 
 - [Thundering herd problem](https://www.wikiwand.com/en/Thundering_herd_problem)
 - [How Instagram Solved Its Justin Bieber Problem](https://www.wired.com/2015/11/how-instagram-solved-its-justin-bieber-problem/)
+
+### N+1 Query Problem
+
+> ... turns into n+1 requests since the item has n associated items.
+>
+> [InfoQ](https://www.infoq.com/articles/N-Plus-1/)
+
+The N+1 problem occurs when the code tries to load the children of a parent in a relationship (e.g. one-to-many relations). Nearly all of the ORMs enable lazy-loading by default. Assume that you are willing to create a list of records with the data coming from the relations. One query for fetching the parents and N queries for N parent records (one record per each to fetch the data from relation) are issued. As you can expect, doing N+1 queries instead of a single query will flood your database with queries, which is something we should avoid. Hopefully, ORMs have known the problem for quite long time and they have already build-in solutions. The solution is simple: while developing you should should tell in advance to the ORM that you will need additional data (eager loading).
+
+Further readings:
+
+- [N+1 Queries and How to Avoid Them!](https://medium.com/@bretdoucette/n-1-queries-and-how-to-avoid-them-a12f02345be5)
+
+## Outages and Hacks
 
 ### Gangnam Style Broke YouTube
 
@@ -141,18 +156,6 @@ Further readings:
 
 - [The Regular Expression Denial of Service (ReDoS) cheat-sheet](https://levelup.gitconnected.com/the-regular-expression-denial-of-service-redos-cheat-sheet-a78d0ed7d865)
 - [Outage Postmortem - July 20, 2016](https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016)
-
-### N+1 Query Problem
-
-> ... turns into n+1 requests since the item has n associated items.
->
-> [InfoQ](https://www.infoq.com/articles/N-Plus-1/)
-
-The N+1 problem occurs when the code tries to load the children of a parent in a relationship (e.g. one-to-many relations). Nearly all of the ORMs enable lazy-loading by default. Assume that you are willing to create a list of records with the data coming from the relations. One query for fetching the parents and N queries for N parent records (one record per each to fetch the data from relation) are issued. As you can expect, doing N+1 queries instead of a single query will flood your database with queries, which is something we should avoid. Hopefully, ORMs have known the problem for quite long time and they have already build-in solutions. The solution is simple: while developing you should should tell in advance to the ORM that you will need additional data (eager loading).
-
-Further readings:
-
-- [N+1 Queries and How to Avoid Them!](https://medium.com/@bretdoucette/n-1-queries-and-how-to-avoid-them-a12f02345be5)
 
 ### Gitlab Database Outage
 
