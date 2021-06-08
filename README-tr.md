@@ -1,6 +1,6 @@
 # famous-bugs :bug: :honeybee: :ant: :beetle:
 
-![Markdown Linter](https://github.com/umutphp/famous-bugs/workflows/.github/workflows/markdown-linter-action.yml/badge.svg?branch=master) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./.github/CODE_OF_CONDUCT.md)
+[![Markdown Linter](https://github.com/umutphp/famous-bugs/actions/workflows/markdown-linter-action.yml/badge.svg)](https://github.com/umutphp/famous-bugs/actions/workflows/markdown-linter-action.yml) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./.github/CODE_OF_CONDUCT.md)
 
 Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve sistem çöküşlerinin listesi.
 
@@ -16,6 +16,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
 - [Problemler](#problemler)
   - [Saldıran Sürü Problemi](#sald%C4%B1ran-s%C3%BCr%C3%BC-problemi)
   - [N+1 Sorgu Problemi](#n1-sorgu-problemi)
+  - [Kırılma Noktası Problemi](#k%C4%B1r%C4%B1lma-noktas%C4%B1-problemi)
 - [Çöküşler ve Saldırılar (Hack)](#%C3%A7%C3%B6k%C3%BC%C5%9Fler-ve-sald%C4%B1r%C4%B1lar-hack)
   - [Gangnam Style YouTube'u Bozdu](#gangnam-style-youtubeu-bozdu)
   - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#wikimediada-bir-%C3%A7i%C3%A7ek-resmine-gelen-gizemli-trafik)
@@ -74,6 +75,18 @@ N+1 problemi, kod bir ana öğenin çocuklarını bir ilişkide yüklemeye çal�
 Ek kaynaklar:
 
 - [N+1 Sorgu ve Bunlardan Nasıl Kaçınılır!](https://medium.com/@bretdoucette/n-1-queries-and-how-to-avoid-them-a12f02345be5)
+
+### Kırılma Noktası Problemi
+
+> Amazon, Reddit, Twitter and Twitch gibi büyük internet sitelerinin de dahil olduğu büyük bir çökme yaşandı ... Sorunun kaynağı bir CDN sağlayıcı olan Fastly'de yaşanan ve kendisinin de onayladığı global çöküş.
+>
+> [Engadged](https://www.engadget.com/a-huge-outage-is-affecting-large-swaths-of-the-internet-102354305.html)
+
+Kırılma noktası (SPOF), arızalandığında tüm sistemin çalışmasını durduracak bir sistem parçasıdır. SPOF, yüksek erişilebilirlik veya güvenilirlik hedefi olan herhangi bir sistemde istenmeyen bir durumdur.Sistemin yazılım ve donanım bileşenlerinin yanı sıra bulut satıcısı da bir sistemin SPOF'u olabilir. 8 Haziran 2021'de yaşanan büyük internet çöküşü (CDN sağlayıcısı Fastly'nin çökmesi birçok büyük siteyi etkiledi) bu durum için mükemmel bir örnektir.
+
+Ek kaynaklar:
+
+- [SPOF: What Is a Single Point of Failure in IT?](https://techwithtech.com/single-point-of-failure/)
 
 ## Çöküşler ve Saldırılar (Hack)
 

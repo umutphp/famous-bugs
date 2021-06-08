@@ -1,6 +1,6 @@
 # famous-bugs :bug: :honeybee: :ant: :beetle:
 
-![Markdown Linter](https://github.com/umutphp/famous-bugs/workflows/.github/workflows/markdown-linter-action.yml/badge.svg?branch=master) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./.github/CODE_OF_CONDUCT.md)
+[![Markdown Linter](https://github.com/umutphp/famous-bugs/actions/workflows/markdown-linter-action.yml/badge.svg)](https://github.com/umutphp/famous-bugs/actions/workflows/markdown-linter-action.yml) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./.github/CODE_OF_CONDUCT.md)
 
 A curated list of bugs, problems and failures that developers may find useful to know.
 
@@ -16,6 +16,7 @@ A curated list of bugs, problems and failures that developers may find useful to
 - [Problems](#problems)
   - [Thundering Herd Problem](#thundering-herd-problem)
   - [N+1 Query Problem](#n1-query-problem)
+  - [Single Point of Failure Problem](#single-point-of-failure-problem)
 - [Outages and Hacks](#outages-and-hacks)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [Mysterious Traffic Of A Flower Image On Wikimedia](#mysterious-traffic-of-a-flower-image-on-wikimedia)
@@ -74,6 +75,18 @@ The N+1 problem occurs when the code tries to load the children of a parent in a
 Further readings:
 
 - [N+1 Queries and How to Avoid Them!](https://medium.com/@bretdoucette/n-1-queries-and-how-to-avoid-them-a12f02345be5)
+
+### Single Point of Failure Problem
+
+> A huge internet outage has affected large swaths of the internet, including major sites like Amazon, Reddit, Twitter and Twitch ... The source of the problem is the Fastly content delivery network (CDN), which has confirmed a global disruption.
+>
+> [Engadged](https://www.engadget.com/a-huge-outage-is-affecting-large-swaths-of-the-internet-102354305.html)
+
+A single point of failure (SPOF) is a part of a system that will stop the entire system from working when it fails. SPOFs are undesirable in any system with a goal of high availability or reliability. As well as the software and hardware components of the system, the cloud vendor can also be the the SPOF of a system. The big internet failure (The failure of Fastly, CDN vendor, affected the many major sites) at Jun 8, 2021 is a perfect incident for this case.
+
+Further readings:
+
+- [SPOF: What Is a Single Point of Failure in IT?](https://techwithtech.com/single-point-of-failure/)
 
 ## Outages and Hacks
 
