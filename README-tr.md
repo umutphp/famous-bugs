@@ -201,7 +201,7 @@ Ek kaynaklar:
 >
 > [Facebook](https://engineering.fb.com/2021/10/04/networking-traffic/outage/)
 
-4 Ekim 2021'de saat 15:39 UTC'de Facebook, Messenger, Instagram, WhatsApp, Mapillary ve Oculus yedi saatten fazla bir süre dünya genelinde kullanılamayacak hale geldi. Ayrıca, üçüncü taraf sitelere erişim için kullanılan "Facebook ile Giriş Yap" özelliği de kullanılamadı. Facebook ekibi temel nedenin veri merkezleri arasındaki ağ trafiğini koordine eden ağ yönlendiricilerindeki yapılan bir yapılandırma değişikliğinin olduğunu açıkladı.
+4 Ekim 2021'de saat 15:39 UTC'te başlayarak Facebook, Messenger, Instagram, WhatsApp, Mapillary ve Oculus yedi saatten fazla bir süre dünya genelinde kullanılamayacak hale geldi. Ayrıca, web sitelere erişim için kullanılan "Facebook ile Giriş Yap" özelliği de kullanılamaz hale geldi. Facebook ekibi temel nedenin veri merkezleri arasındaki ağ trafiğini koordine eden ağ yönlendiricilerindeki yapılan bir yapılandırma değişikliğinin olduğunu açıkladı.
 
 - [Facebook Potmortem](https://engineering.fb.com/2021/10/04/networking-traffic/outage/)
 - [2021 Facebook Outage](https://en.wikipedia.org/wiki/2021_Facebook_outage)
