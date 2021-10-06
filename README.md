@@ -17,10 +17,10 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [Thundering Herd Problem](#thundering-herd-problem)
   - [N+1 Query Problem](#n1-query-problem)
   - [Single Point of Failure Problem](#single-point-of-failure-problem)
+  - [Year 2000 Problem](#year-2000-problem)
 - [Outages and Hacks](#outages-and-hacks)
   - [Gangnam Style Broke YouTube](#gangnam-style-broke-youtube)
   - [Mysterious Traffic Of A Flower Image On Wikimedia](#mysterious-traffic-of-a-flower-image-on-wikimedia)
-  - [Year 2000 Problem](#year-2000-problem)
   - [NPM Leftpad Breakage](#npm-leftpad-breakage)
   - [Heathrow Terminal 5 Opening](#heathrow-terminal-5-opening)
   - [Stack Overflow Outage On July 20, 2016](#stack-overflow-outage-on-july-20-2016)
@@ -88,6 +88,22 @@ Further readings:
 
 - [SPOF: What Is a Single Point of Failure in IT?](https://techwithtech.com/single-point-of-failure/)
 
+### Year 2000 Problem
+
+> ... making the year 2000 indistinguishable from 1900.
+>
+
+The Year 2000 problem (also known as the Y2K problem, the Millennium bug, Y2K bug, the Y2K glitch, or Y2K) refers to fails occured becuase of the formatting and storage of calendar data for dates beginning in the year 2000. Many failures were already documented all over the world. Here are some examples:
+
+- On 1 January 1999, taxi meters in Singapore stopped working.
+- On 1 January 2000, in Onagawa, Japan, an alarm sounded at a nuclear power plant at two minutes after midnight.
+- On 1 March 2000, In the United States, the Coast Guard's message processing system was affected.
+- Norway and Finland had to change their national identification number, to indicate correctly the century in which a person was born.
+
+Further readings:
+
+- [Year 2000 Problem at Wikipedia](https://en.wikipedia.org/wiki/Year_2000_problem)
+
 ## Outages and Hacks
 
 ### Gangnam Style Broke YouTube
@@ -111,22 +127,6 @@ On Feb 3, 2021, Wikimedia tech team has noticed that they get about 90M requests
 See also:
 
 - [Phabricator Post](https://phabricator.wikimedia.org/T273741)
-
-### Year 2000 Problem
-
-> ... making the year 2000 indistinguishable from 1900.
->
-
-The Year 2000 problem (also known as the Y2K problem, the Millennium bug, Y2K bug, the Y2K glitch, or Y2K) refers to fails occured becuase of the formatting and storage of calendar data for dates beginning in the year 2000. Many failures were already documented all over the world. Here are some examples:
-
-- On 1 January 1999, taxi meters in Singapore stopped working.
-- On 1 January 2000, in Onagawa, Japan, an alarm sounded at a nuclear power plant at two minutes after midnight.
-- On 1 March 2000, In the United States, the Coast Guard's message processing system was affected.
-- Norway and Finland had to change their national identification number, to indicate correctly the century in which a person was born.
-
-Further readings:
-
-- [Year 2000 Problem at Wikipedia](https://en.wikipedia.org/wiki/Year_2000_problem)
 
 ### NPM Leftpad Breakage
 

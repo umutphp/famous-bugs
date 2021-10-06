@@ -17,10 +17,10 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [Saldıran Sürü Problemi](#sald%C4%B1ran-s%C3%BCr%C3%BC-problemi)
   - [N+1 Sorgu Problemi](#n1-sorgu-problemi)
   - [Kırılma Noktası Problemi](#k%C4%B1r%C4%B1lma-noktas%C4%B1-problemi)
+  - [2000 Yılı Problemi](#2000-y%C4%B1l%C4%B1-problemi)
 - [Çöküşler ve Saldırılar (Hack)](#%C3%A7%C3%B6k%C3%BC%C5%9Fler-ve-sald%C4%B1r%C4%B1lar-hack)
   - [Gangnam Style YouTube'u Bozdu](#gangnam-style-youtubeu-bozdu)
   - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#wikimediada-bir-%C3%A7i%C3%A7ek-resmine-gelen-gizemli-trafik)
-  - [2000 Yılı Problemi](#2000-y%C4%B1l%C4%B1-problemi)
   - [NPM Leftpad Olayı](#npm-leftpad-olay%C4%B1)
   - [Heathrow Terminal 5 Açılışı](#heathrow-terminal-5-a%C3%A7%C4%B1l%C4%B1%C5%9F%C4%B1)
   - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#20-temmuz-2016-stack-overflowun-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
@@ -88,6 +88,22 @@ Ek kaynaklar:
 
 - [SPOF: What Is a Single Point of Failure in IT?](https://techwithtech.com/single-point-of-failure/)
 
+### 2000 Yılı Problemi
+
+> ... 2000 yılını 1900 yılından ayırt edilemez hale getiriyor.
+>
+
+2000 Yılı Problemi (Y2K sorunu, Millennium hatası, Y2K hatası, Y2K hatası veya Y2K olarak da bilinir), 2000 yılından başlayan tarihler için takvim verilerinin biçimlendirilmesi ve depolanması nedeniyle oluşan sorunları ifade eder. Bu problem tüm dünyada yaşandı ve belgelendi. İşte bazı örnekler:
+
+- 1 Ocak 1999'da Singapur'da taksi sayaçları çalışamaz hale geldi.
+- 1 Ocak 2000'de Japonya, Onagawa'da, gece yarısından iki dakika sonra bir nükleer santralde alarm çaldı.
+- 1 Mart 2000'de Amerika Birleşik Devletleri'nde Sahil Güvenlik'in mesaj işleme sistemi etkilendi.
+- Norveç ve Finlandiya, bir kişinin doğduğu yüzyılı doğru bir şekilde belirtmek için ulusal kimlik numaralarını değiştirmek zorunda kaldı.
+
+Ek kaynaklar:
+
+- [Wikipedia'da 2000 Yılı Sorunu](https://en.wikipedia.org/wiki/Year_2000_problem)
+
 ## Çöküşler ve Saldırılar (Hack)
 
 ### Gangnam Style YouTube'u Bozdu
@@ -111,22 +127,6 @@ YouTube'un izlenme sayacı daha önce 32 bitlik bir tamsayı kullanıyordu, bu d
 Ek kaynaklar:
 
 - [Phabricator Post](https://phabricator.wikimedia.org/T273741)
-
-### 2000 Yılı Problemi
-
-> ... 2000 yılını 1900 yılından ayırt edilemez hale getiriyor.
->
-
-2000 Yılı Problemi (Y2K sorunu, Millennium hatası, Y2K hatası, Y2K hatası veya Y2K olarak da bilinir), 2000 yılından başlayan tarihler için takvim verilerinin biçimlendirilmesi ve depolanması nedeniyle oluşan sorunları ifade eder. Bu problem tüm dünyada yaşandı ve belgelendi. İşte bazı örnekler:
-
-- 1 Ocak 1999'da Singapur'da taksi sayaçları çalışamaz hale geldi.
-- 1 Ocak 2000'de Japonya, Onagawa'da, gece yarısından iki dakika sonra bir nükleer santralde alarm çaldı.
-- 1 Mart 2000'de Amerika Birleşik Devletleri'nde Sahil Güvenlik'in mesaj işleme sistemi etkilendi.
-- Norveç ve Finlandiya, bir kişinin doğduğu yüzyılı doğru bir şekilde belirtmek için ulusal kimlik numaralarını değiştirmek zorunda kaldı.
-
-Ek kaynaklar:
-
-- [Wikipedia'da 2000 Yılı Sorunu](https://en.wikipedia.org/wiki/Year_2000_problem)
 
 ### NPM Leftpad Olayı
 
