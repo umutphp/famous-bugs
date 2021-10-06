@@ -26,6 +26,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#20-temmuz-2016-stack-overflowun-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [Gitlab Veritabanın Silinmesi](#gitlab-veritaban%C4%B1n-silinmesi)
   - [PHP Git Commit Olayı](#php-git-commit-olay%C4%B1)
+  - [4 Ekim Facebook Çöküşü](#4-ekim-facebook-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
 - [Hatalar (Bug) ve Solucanlar](#hatalar-bug-ve-solucanlar)
   - [İlk Hata (Bug)](#i%CC%87lk-hata-bug)
   - [Ariane 5'in Patlaması](#ariane-5in-patlamas%C4%B1)
@@ -193,6 +194,17 @@ Ek kaynaklar:
 
 - [Git commit işleyişinde değişiklikler](https://news-web.php.net/php.internals/113838)
 - [PHP hadisesi kullanılan araçların doğrulanması gerekliğini gösterdi](https://www.csoonline.com/article/3613593/php-backdoor-attempt-shows-need-for-better-code-authenticity-verification.html)
+
+### 4 Ekim Facebook Çöküşü
+
+> ... temel nedeni yaptığımız hatalı bir yapılandırma değişikliğiydi.
+>
+> [Facebook](https://engineering.fb.com/2021/10/04/networking-traffic/outage/)
+
+4 Ekim 2021'de saat 15:39 UTC'de Facebook, Messenger, Instagram, WhatsApp, Mapillary ve Oculus yedi saatten fazla bir süre dünya genelinde kullanılamayacak hale geldi. Ayrıca, üçüncü taraf sitelere erişim için kullanılan "Facebook ile Giriş Yap" özelliği de kullanılamadı. Facebook ekibi temel nedenin veri merkezleri arasındaki ağ trafiğini koordine eden ağ yönlendiricilerindeki yapılan bir yapılandırma değişikliğinin olduğunu açıkladı.
+
+- [Facebook Potmortem](https://engineering.fb.com/2021/10/04/networking-traffic/outage/)
+- [2021 Facebook Outage](https://en.wikipedia.org/wiki/2021_Facebook_outage)
 
 ## Hatalar (Bug) ve Solucanlar
 

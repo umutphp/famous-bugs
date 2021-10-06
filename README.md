@@ -26,6 +26,7 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [Stack Overflow Outage On July 20, 2016](#stack-overflow-outage-on-july-20-2016)
   - [Gitlab Database Outage](#gitlab-database-outage)
   - [PHP Git Commit Incident](#php-git-commit-incident)
+  - [October 4th Facebook Outage](#october-4th-facebook-outage)
 - [Bugs and Worms](#bugs-and-worms)
   - [The First Bug](#the-first-bug)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
@@ -193,6 +194,17 @@ Further readings:
 
 - [Changes to Git commit workflow](https://news-web.php.net/php.internals/113838)
 - [PHP backdoor attempt shows need for better code authenticity verification](https://www.csoonline.com/article/3613593/php-backdoor-attempt-shows-need-for-better-code-authenticity-verification.html)
+
+### October 4th Facebook Outage
+
+> ... its root cause was a faulty configuration change on our end.
+>
+> [Facebook](https://engineering.fb.com/2021/10/04/networking-traffic/outage/)
+
+On October 4, 2021, at 15:39 UTC, Facebook, Messenger, Instagram, WhatsApp, Mapillary, and Oculus became globally unavailable for more than seven hours. It also blocked the "Log in with Facebook" used for accessing third-party sites. Facebook team declared that the root cause was a configuration changes on the backbone routers that coordinate network traffic between their data centers.
+
+- [Facebook Potmortem](https://engineering.fb.com/2021/10/04/networking-traffic/outage/)
+- [2021 Facebook Outage](https://en.wikipedia.org/wiki/2021_Facebook_outage)
 
 ## Bugs and Worms
 
