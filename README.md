@@ -1,4 +1,4 @@
-# famous-bugs :bug: :honeybee: :ant: :beetle:
+# famous-bugs :bug: :honeybee: :ant:
 
 [![Markdown Linter](https://github.com/umutphp/famous-bugs/actions/workflows/markdown-linter-action.yml/badge.svg)](https://github.com/umutphp/famous-bugs/actions/workflows/markdown-linter-action.yml) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](./.github/CODE_OF_CONDUCT.md)
 
