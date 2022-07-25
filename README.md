@@ -94,7 +94,7 @@ Further readings:
 > ... making the year 2000 indistinguishable from 1900.
 >
 
-The Year 2000 problem (also known as the Y2K problem, the Millennium bug, Y2K bug, the Y2K glitch, or Y2K) refers to fails occured becuase of the formatting and storage of calendar data for dates beginning in the year 2000. Many failures were already documented all over the world. Here are some examples:
+The Year 2000 problem (also known as the Y2K problem, the Millennium bug, Y2K bug, the Y2K glitch, or Y2K) refers to fails occurred becuase of the formatting and storage of calendar data for dates beginning in the year 2000. Many failures were already documented all over the world. Here are some examples:
 
 - On 1 January 1999, taxi meters in Singapore stopped working.
 - On 1 January 2000, in Onagawa, Japan, an alarm sounded at a nuclear power plant at two minutes after midnight.
@@ -164,7 +164,7 @@ Further readings:
 >
 > [Outage Postmortem - July 20, 2016](https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016)
 
-On July 20, 2016 StackOverflow experienced a 34 minute outage because of a malformed post that caused one of the regular expressions to consume high CPU on Stack Overlfow web servers. It was a very typical regular expression denial of service (ReDoS) attack but It was occured because the malformed post was displayed on the homepage for a while. So, the regular expression checks (match or mismatch) consumed computational resources. As the homepage is used for healtcheck by the load balancers, the entire site became unavailable.
+On July 20, 2016 StackOverflow experienced a 34 minute outage because of a malformed post that caused one of the regular expressions to consume high CPU on Stack Overflow web servers. It was a very typical regular expression denial of service (ReDoS) attack but It was occurred because the malformed post was displayed on the homepage for a while. So, the regular expression checks (match or mismatch) consumed computational resources. As the homepage is used for healtcheck by the load balancers, the entire site became unavailable.
 
 Further readings:
 
@@ -232,7 +232,7 @@ Further readings:
 
 On June 4, 1996 the Ariane 5 rocket launched by the European Space Agency exploded just forty seconds after its lift-off. The rocket was on its first voyage, after a decade of development costing $7 billion. The destroyed rocket and its cargo were valued at $500 million. The accident was a significant setback for Europe’s space program.
 
-The horizontal velocity of the rocket with respect to the platform was larger than 32,767, the largest integer storeable in a 16 bit signed integer, and thus the conversion failed.
+The horizontal velocity of the rocket with respect to the platform was larger than 32,767, the largest integer storable in a 16 bit signed integer, and thus the conversion failed.
 
 Further readings:
 
@@ -280,7 +280,7 @@ Further readings:
 
 Before this collapse, AT&T's long-distance network was accepted as reliable and strong. It was carrying over 70% of the nation's long-distance traffic and routing over 115 million telephone calls. This collapse resulted in a $60 million lost as of 75 million missed phone by AT&T customers calls and 200 000 airline and hotel reservations and other businesses that relied on the telephone network.
 
-The bug occured because of a break statement in an if clause nested in a switch clause in the upgraded recovery software of all switches. All the switches became unreliable at the same time while each switch tries to determine if the neighbor switches were reliable or not.
+The bug occurred because of a break statement in an if clause nested in a switch clause in the upgraded recovery software of all switches. All the switches became unreliable at the same time while each switch tries to determine if the neighbor switches were reliable or not.
 
 ```bash
 1  while (ring receive buffer not empty  and side buffer not empty) DO
@@ -317,7 +317,7 @@ Originally, he designed the worm to only work in Manila. Out of curiosity, he re
 
 The worm provided users a way to modify it and this allowed more than twenty five variations of ILOVEYOU to spread across the internet, each one doing different kinds of damage.
 
-This worm created a public awareness of the real threat of malwares and antivirus software providers entered a golden era of distribution. Aditionally, It helped many people to be more skeptical of emails which were the classic virus delivery systems.
+This worm created a public awareness of the real threat of malwares and antivirus software providers entered a golden era of distribution. Additionally, It helped many people to be more skeptical of emails which were the classic virus delivery systems.
 
 Further readings:
 
