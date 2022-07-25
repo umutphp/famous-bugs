@@ -139,7 +139,7 @@ Ek kaynaklar:
 
 Ek kaynaklar:
 
-- [Modüllerimi Az Önce Özgürleştirdim](https://kodfabrik.com/journal/i-ve-just-liberated-my-modules)
+- [Modüllerimi Az Önce Özgürleştirdim](https://web.archive.org/web/20210327093144/https://kodfabrik.com/journal/i-ve-just-liberated-my-modules)
 - [kik, left-pad ve npm](https://blog.npmjs.org/post/141577284765/kik-left-pad-and-npm)
 
 ### Heathrow Terminal 5 Açılışı
@@ -188,7 +188,7 @@ Ek kaynaklar:
 >
 > [Nikita Popov](https://news-web.php.net/php.internals/113838)
 
-28 Mart 2021'de Nikita Popoz (proje yürütücülerinden biri) php-src reposuna kendi adına ve Rasmus Lerdof (PHP'nin yaratıcısı) adına yapılmış gibi iki zararlı commit atıldığını duyurdu. Buna sebep olan şeyin ne olduğu açıkça duyurulmadı ama Nikita bütün şüphelerin kendilerini hesaplarla ilgili bir sızıntının değilde kendilerinin yönettiği git sunucusunda oluşan bir açığa yönlendirdiğini belirtti. Bu olay saldırganların üretim bandında kullanılan araçlar, açık kaynak proje, kütüphane ya da komponent üzerinden yaptıkları "supply-chain attack" saldırına güzel bir örnektir.
+28 Mart 2021'de Nikita Popoz (proje yürütücülerinden biri) php-src reposuna kendi adına ve Rasmus Lerdof (PHP'nin yaratıcısı) adına yapılmış gibi iki zararlı commit atıldığını duyurdu. Buna sebep olan şeyin ne olduğu açıkça duyurulmadı ama Nikita bütün şüphelerin kendilerini hesaplarla ilgili bir sızıntının değil de kendilerinin yönettiği git sunucusunda oluşan bir açığa yönlendirdiğini belirtti. Bu olay saldırganların üretim bandında kullanılan araçlar, açık kaynak proje, kütüphane ya da komponent üzerinden yaptıkları "supply-chain attack" saldırına güzel bir örnektir.
 
 Ek kaynaklar:
 
@@ -251,7 +251,7 @@ Ek kaynaklar:
 > Bu bir tasarım kusuruydu ...
 >
 
-Yaratıcısı [Robert Tappan Morris'e göre](https://en.wikipedia.org/wiki/Robert_Tappan_Morris) , zarar vermek için değil, güvenlik açıklarını vurgulamak için yazılmıştı. [Sendmail](https://en.wikipedia.org/wiki/Sendmail), [finger](https://en.wikipedia.org/wiki/Finger_protocol), [rsh/rexec](https://en.wikipedia.org/wiki/Berkeley_r-commands) ve zayıf şifreler yüzünden oluşan güvenlik açıklarından yararlanmak için programlanmıştır. Solucanı yaratırken Robert sistem yöneticilerinin solucanı yenmeye çalışmasını önlemek için kendini %14 oranında kopyalayacak ve bilgisayara yanlış pozitif geri bildirim yapacak şekilde programladı. Bu bir tasarım kusuruydu ve etkilenen bilgisayarda kopyalanma bombardımanı ve çökmeler yarattı.
+Yaratıcısı [Robert Tappan Morris'e göre](https://en.wikipedia.org/wiki/Robert_Tappan_Morris), zarar vermek için değil, güvenlik açıklarını vurgulamak için yazılmıştı. [Sendmail](https://en.wikipedia.org/wiki/Sendmail), [finger](https://en.wikipedia.org/wiki/Finger_protocol), [rsh/rexec](https://en.wikipedia.org/wiki/Berkeley_r-commands) ve zayıf şifreler yüzünden oluşan güvenlik açıklarından yararlanmak için programlanmıştır. Solucanı yaratırken Robert sistem yöneticilerinin solucanı yenmeye çalışmasını önlemek için kendini %14 oranında kopyalayacak ve bilgisayara yanlış pozitif geri bildirim yapacak şekilde programladı. Bu bir tasarım kusuruydu ve etkilenen bilgisayarda kopyalanma bombardımanı ve çökmeler yarattı.
 
 Morris Worm, İnternet üzerinden dağıtılan ilk bilgisayar solucanlarından biri olarak kabul edildi ve ana akım medyanın dikkatini çeken ilk bilgisayar solucanı oldu. Morris Solucanının kaynak kodunu içeren bir disket [Bilgisayar Tarihi Müzesi'nde](https://computerhistory.org/) tutulmaktadır.
 
