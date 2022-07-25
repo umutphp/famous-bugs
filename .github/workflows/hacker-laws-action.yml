@@ -15,6 +15,6 @@ jobs:
           PR_URL: ${{ github.event.pull_request.comments_url }}
           PR_SENDER: ${{ github.actor }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        uses: ./
+        uses: umutphp/hacker-laws-action@v1
         id: hacker_laws_action
 
