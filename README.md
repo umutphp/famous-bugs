@@ -29,6 +29,7 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [PHP Git Commit Incident](#php-git-commit-incident)
   - [October 4th Facebook Outage](#october-4th-facebook-outage)
   - [Cloudflare Outage 2019](#cloudflare-outage-2019)
+  - [Equifax Data Breach 2017](#equifax-data-breach-2017)
 - [Bugs and Worms](#bugs-and-worms)
   - [The First Bug](#the-first-bug)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
@@ -216,6 +217,17 @@ The Cloudflare outage on July 2, 2019, was triggered by a configuration error du
 
 - [Cloudflare Postmortem](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/)
 - [Major outage was a lot more than “a regular expression went bad”](https://hub.packtpub.com/cloudflare-rca-major-outage-was-a-lot-more-than-a-regular-expression-went-bad/)
+
+### Equifax Data Breach 2017
+
+> In September of 2017, Equifax announced it experienced a data breach, which impacted the personal information of approximately 147 million people.
+>
+> [EQUIFAX DATA BREACH SETTLEMENT](https://www.equifaxbreachsettlement.com/)
+
+In 2017, Equifax, one of the largest consumer credit reporting agencies, experienced a devastating data breach that compromised the personal information of millions of individuals. The breach was a result of a vulnerability in Equifax's website software, which allowed hackers to gain unauthorized access to the company's systems and exfiltrate vast amounts of sensitive data.
+
+- [EQUIFAX DATA BREACH SETTLEMENT](https://www.equifaxbreachsettlement.com/)
+- [2017 Equifax data breach](https://en.wikipedia.org/wiki/2017_Equifax_data_breach)
 
 ## Bugs and Worms
 
