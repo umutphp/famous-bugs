@@ -10,6 +10,7 @@ A curated list of bugs, problems and failures that developers may find useful to
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 ## Table Of Contents
 
 - [Introduction](#introduction)
@@ -27,6 +28,7 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [Gitlab Database Outage](#gitlab-database-outage)
   - [PHP Git Commit Incident](#php-git-commit-incident)
   - [October 4th Facebook Outage](#october-4th-facebook-outage)
+  - [Cloudflare Outage 2019](#cloudflare-outage-2019)
 - [Bugs and Worms](#bugs-and-worms)
   - [The First Bug](#the-first-bug)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
@@ -58,7 +60,7 @@ As software developers, we can simply define our work as fixing bugs and develop
 >
 > [Wired.com](https://www.wired.com/2015/11/how-instagram-solved-its-justin-bieber-problem/)
 
-When Justin Bieber posts a photo, so many Beliebers would "Like" it that causes tremendous amount of notifications, queries and processes. This problem faced by the Instagram team is actually a very good example of [the thundering herd problem](https://en.wikipedia.org/wiki/Thundering_herd_problem). They did many improvements to avoid this problem happen again and explained in this [article](https://instagram-engineering.com/instagration-pt-2-scaling-our-infrastructure-to-multiple-data-centers-5745cbad7834).  
+When Justin Bieber posts a photo, so many Beliebers would "Like" it that causes tremendous amount of notifications, queries and processes. This problem faced by the Instagram team is actually a very good example of [the thundering herd problem](https://en.wikipedia.org/wiki/Thundering_herd_problem). They did many improvements to avoid this problem happen again and explained in this [article](https://instagram-engineering.com/instagration-pt-2-scaling-our-infrastructure-to-multiple-data-centers-5745cbad7834).
 
 Further readings:
 
@@ -92,7 +94,6 @@ Further readings:
 ### Year 2000 Problem
 
 > ... making the year 2000 indistinguishable from 1900.
->
 
 The Year 2000 problem (also known as the Y2K problem, the Millennium bug, Y2K bug, the Y2K glitch, or Y2K) refers to fails occurred becuase of the formatting and storage of calendar data for dates beginning in the year 2000. Many failures were already documented all over the world. Here are some examples:
 
@@ -113,7 +114,7 @@ Further readings:
 >
 > YouTube
 
-YouTube's counter was previously using  a 32-bit integer which means the maximum possible views it could count was 2,147,483,647. And "[Gangnam Style](https://www.youtube.com/watch?v=9bZkp7q19f0)" surpassed the 2-billion-view marker. YouTube has upgraded to a 64-bit integer so that the maximum views a video can receive is now 9,223,372,036,854,775,808.
+YouTube's counter was previously using a 32-bit integer which means the maximum possible views it could count was 2,147,483,647. And "[Gangnam Style](https://www.youtube.com/watch?v=9bZkp7q19f0)" surpassed the 2-billion-view marker. YouTube has upgraded to a 64-bit integer so that the maximum views a video can receive is now 9,223,372,036,854,775,808.
 
 ### Mysterious Traffic Of A Flower Image On Wikimedia
 
@@ -145,7 +146,6 @@ Further readings:
 ### Heathrow Terminal 5 Opening
 
 > ... simple real scenarios which for some reason weren’t tested.
->
 
 Heathrow Terminal 5 was officially opened on 14 March 2008. On the day of opening, it did not operate as planned, so It forced British Airways to cancel 34 flights and suspend baggage check-in.
 
@@ -206,6 +206,17 @@ On October 4, 2021, at 15:39 UTC, Facebook, Messenger, Instagram, WhatsApp, Mapi
 - [Facebook Potmortem](https://engineering.fb.com/2021/10/04/networking-traffic/outage/)
 - [2021 Facebook Outage](https://en.wikipedia.org/wiki/2021_Facebook_outage)
 
+### Cloudflare Outage 2019
+
+> ... we deployed a new rule in our WAF Managed Rules that caused CPUs to become exhausted on every CPU core that handles HTTP/HTTPS traffic ...
+>
+> [Postmortem](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/)
+
+The Cloudflare outage on July 2, 2019, was triggered by a configuration error during a routine deployment of a new rule in the company's Web Application Firewall (WAF) software. This error caused the entire Cloudflare network to crash, leading to widespread service disruptions for numerous websites and online services that relied on Cloudflare's infrastructure. The outage affected a wide range of online platforms, including popular websites, e-commerce platforms, social media networks, and even government services.
+
+- [Cloudflare Postmortem](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/)
+- [Major outage was a lot more than “a regular expression went bad”](https://hub.packtpub.com/cloudflare-rca-major-outage-was-a-lot-more-than-a-regular-expression-went-bad/)
+
 ## Bugs and Worms
 
 ### The First Bug
@@ -228,7 +239,6 @@ Further readings:
 ### The Explosion of the Ariane 5
 
 > ... a 64 bit floating point number ... was converted to a 16 bit signed integer.
->
 
 On June 4, 1996 the Ariane 5 rocket launched by the European Space Agency exploded just forty seconds after its lift-off. The rocket was on its first voyage, after a decade of development costing $7 billion. The destroyed rocket and its cargo were valued at $500 million. The accident was a significant setback for Europe’s space program.
 
@@ -249,7 +259,6 @@ Further readings:
 ### The Morris Worm
 
 > This was a design flaw ...
->
 
 According to its creator, [Robert Tappan Morris](https://en.wikipedia.org/wiki/Robert_Tappan_Morris), It was not written to cause damage, but to highlight security flaws. It was programmed to exploit the known vulnerabilities in [sendmail](https://en.wikipedia.org/wiki/Sendmail), [finger](https://en.wikipedia.org/wiki/Finger_protocol), [rsh/rexec](https://en.wikipedia.org/wiki/Berkeley_r-commands) and weak passwords. While creating the worm, Robert programmed the worm to copy itself 14% of the time to avoid system administrators trying to defeat the worm by instructing the computer to report a false positive. This was a design flaw and created fork bombs and crashes in the affected computer.
 
@@ -364,7 +373,7 @@ Further readings;
 >
 > [MrMEEE](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123#issuecomment-1226289)
 
-[Bumblebee](https://github.com/Bumblebee-Project/Bumblebee) is a project to make Nvidia Optimus enabled laptops work in GNU/Linux systems. On May 24, 2011 an [issue](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) was created because the installation script deletes the */usr/* folder. The reason was a forgotten mistyped space in the script. The effect of the bug is so harsh becuase the victim should reinstall the OS after. The [issue](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) still attracts attention and you can see the recent comments (On Mar 7, 2021).
+[Bumblebee](https://github.com/Bumblebee-Project/Bumblebee) is a project to make Nvidia Optimus enabled laptops work in GNU/Linux systems. On May 24, 2011 an [issue](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) was created because the installation script deletes the _/usr/_ folder. The reason was a forgotten mistyped space in the script. The effect of the bug is so harsh becuase the victim should reinstall the OS after. The [issue](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) still attracts attention and you can see the recent comments (On Mar 7, 2021).
 
 ```bash
 ....
@@ -401,8 +410,8 @@ Further readings;
 
 This is available in a number of languages.
 
-| Language | Maintainer |
-|----------|-----------|
+| Language                                                                               | Maintainer                              |
+| -------------------------------------------------------------------------------------- | --------------------------------------- |
 | [🇹🇷 Türkçe / Turkish](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md) | [Umut Işık](https://github.com/umutphp) |
 
 If you would like to update a translation or add a new language, just [open a pull request](https://github.com/umutphp/famous-bugs/pulls).
