@@ -10,6 +10,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 ## İçindekiler
 
 - [Giriş](#giri%C5%9F)
@@ -27,6 +28,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [Gitlab Veritabanın Silinmesi](#gitlab-veritaban%C4%B1n-silinmesi)
   - [PHP Git Commit Olayı](#php-git-commit-olay%C4%B1)
   - [4 Ekim Facebook Çöküşü](#4-ekim-facebook-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
+  - [Cloudflare 2019 Çöküşü](#cloudflare-2019-çöküşü)
 - [Hatalar (Bug) ve Solucanlar](#hatalar-bug-ve-solucanlar)
   - [İlk Hata (Bug)](#i%CC%87lk-hata-bug)
   - [Ariane 5'in Patlaması](#ariane-5in-patlamas%C4%B1)
@@ -92,7 +94,6 @@ Ek kaynaklar:
 ### 2000 Yılı Problemi
 
 > ... 2000 yılını 1900 yılından ayırt edilemez hale getiriyor.
->
 
 2000 Yılı Problemi (Y2K sorunu, Millennium hatası, Y2K hatası, Y2K hatası veya Y2K olarak da bilinir), 2000 yılından başlayan tarihler için takvim verilerinin biçimlendirilmesi ve depolanması nedeniyle oluşan sorunları ifade eder. Bu problem tüm dünyada yaşandı ve belgelendi. İşte bazı örnekler:
 
@@ -131,7 +132,7 @@ Ek kaynaklar:
 
 ### NPM Leftpad Olayı
 
-> Github'da yalnızca 10 yıldızlı left-pad adında 11 satırlık bir npm paketi yayından kaldırıldı...  npm'deki en önemli paketlerden bazıları hata vermeye başladı.
+> Github'da yalnızca 10 yıldızlı left-pad adında 11 satırlık bir npm paketi yayından kaldırıldı... npm'deki en önemli paketlerden bazıları hata vermeye başladı.
 >
 > [Reddit](https://www.reddit.com/r/programming/comments/4bjss2/an_11_line_npm_package_called_leftpad_with_only/)
 
@@ -145,7 +146,6 @@ Ek kaynaklar:
 ### Heathrow Terminal 5 Açılışı
 
 > ... herhangi bir nedenle test edilmeyen basit ve gerçek senaryolar.
->
 
 Heathrow Terminal 5 resmi olarak 14 Mart 2008'de açıldı. Açılış gününde planlandığı gibi çalışmadı, bu nedenle British Airways 34 uçuşu iptal etmek ve bagaj kontrolünü askıya almak zorunda kaldı.
 
@@ -206,6 +206,17 @@ Ek kaynaklar:
 - [Facebook Potmortem](https://engineering.fb.com/2021/10/04/networking-traffic/outage/)
 - [2021 Facebook Outage](https://en.wikipedia.org/wiki/2021_Facebook_outage)
 
+### Cloudflare 2019 Çöküşü
+
+> ... WAF Yönetilen Kurallarımızda yeni bir kural dağıteklediktık ve bu kural HTTP/HTTPS trafiğini yöneten işlemci kaynağının tükenmesine neden oldu ...
+>
+> [Postmortem](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/)
+
+Cloudflare'in 2 Temmuz 2019 tarihli çöküşü, şirketin Web Uygulama Güvenlik Duvarı (WAF) yazılımında rutin bir canlıya çıkış sırasında yapılan yapılandırma hatası nedeniyle tetiklendi. Bu hata, Cloudflare ağının çökmesine ve Cloudflare'in altyapısına bağımlı birçok web sitesi ve çevrimiçi hizmet için yaygın hizmet kesintilerine yol açtı. Arıza, popüler web siteleri, e-ticaret platformları, sosyal medya ağları ve hatta hükümet hizmetleri de dahil olmak üzere geniş bir çevrimiçi platform yelpazesini etkiledi.
+
+- [Cloudflare Postmortem](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/)
+- [Major outage was a lot more than “a regular expression went bad”](https://hub.packtpub.com/cloudflare-rca-major-outage-was-a-lot-more-than-a-regular-expression-went-bad/)
+
 ## Hatalar (Bug) ve Solucanlar
 
 ### İlk Hata (Bug)
@@ -228,7 +239,6 @@ Ek kaynaklar:
 ### Ariane 5'in Patlaması
 
 > ... 64 bitlik bir real sayı ... 16 bitlik işaretli bir tam sayıya dönüştürüldü.
->
 
 4 Haziran 1996'da, Avrupa Uzay Ajansı tarafından fırlatılan Ariane 5 roketi, havalanmasından sadece kırk saniye sonra patladı. Roket, 7 milyar dolara mal olan on yıllık bir geliştirme sürecinin ardından ilk yolculuğuna çıkmıştı. İmha edilen roket ve kargosunun değeri 500 milyon dolardı. Kaza, Avrupa'nın uzay programı için önemli bir engeldi.
 
@@ -249,7 +259,6 @@ Ek kaynaklar:
 ### Morris Solucanı
 
 > Bu bir tasarım kusuruydu ...
->
 
 Yaratıcısı [Robert Tappan Morris'e göre](https://en.wikipedia.org/wiki/Robert_Tappan_Morris), zarar vermek için değil, güvenlik açıklarını vurgulamak için yazılmıştı. [Sendmail](https://en.wikipedia.org/wiki/Sendmail), [finger](https://en.wikipedia.org/wiki/Finger_protocol), [rsh/rexec](https://en.wikipedia.org/wiki/Berkeley_r-commands) ve zayıf şifreler yüzünden oluşan güvenlik açıklarından yararlanmak için programlanmıştır. Solucanı yaratırken Robert sistem yöneticilerinin solucanı yenmeye çalışmasını önlemek için kendini %14 oranında kopyalayacak ve bilgisayara yanlış pozitif geri bildirim yapacak şekilde programladı. Bu bir tasarım kusuruydu ve etkilenen bilgisayarda kopyalanma bombardımanı ve çökmeler yarattı.
 
@@ -364,7 +373,7 @@ Ek kaynaklar:
 >
 > [MrMEEE](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123#issuecomment-1226289)
 
-[Bumblebee](https://github.com/Bumblebee-Project/Bumblebee), Nvidia Optimus özellikli dizüstü bilgisayarların GNU/Linux sistemleriyle çalışmasını sağlayacak bir projedir. 24 Mayıs 2011'de kurulum betiğinin */usr/* klasörünü sildiğine bildiren bir [hata kaydı](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) açıldı. Hatanın sebebi yanlış yazılmış ve unutulmuş bir boşluk karakteriydi. Hatanın etkisi çok can yakıcıydı çünkü kurbanın işletim sistemini yeniden kurması gerekiyordu. [Hata kaydı](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) hala ilgi çekiyor. Baktığınızda güncel yorumları görürsünüz (7 Mart 2021).
+[Bumblebee](https://github.com/Bumblebee-Project/Bumblebee), Nvidia Optimus özellikli dizüstü bilgisayarların GNU/Linux sistemleriyle çalışmasını sağlayacak bir projedir. 24 Mayıs 2011'de kurulum betiğinin _/usr/_ klasörünü sildiğine bildiren bir [hata kaydı](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) açıldı. Hatanın sebebi yanlış yazılmış ve unutulmuş bir boşluk karakteriydi. Hatanın etkisi çok can yakıcıydı çünkü kurbanın işletim sistemini yeniden kurması gerekiyordu. [Hata kaydı](https://github.com/MrMEEE/bumblebee-Old-and-abbandoned/issues/123) hala ilgi çekiyor. Baktığınızda güncel yorumları görürsünüz (7 Mart 2021).
 
 ```bash
 ....
@@ -401,8 +410,8 @@ Ek kaynaklar;
 
 Bu belge birkaç dilde mevcuttur.
 
-| Dil | Çeviren |
-| ---------- | ----------- |
+| Dil                                                                                   | Çeviren                                 |
+| ------------------------------------------------------------------------------------- | --------------------------------------- |
 | [🇹🇷 Türkçe / Türkçe](https://github.com/umutphp/famous-bugs/blob/master/README-tr.md) | [Umut Işık](https://github.com/umutphp) |
 
 Bir çeviriyi güncellemek veya yeni bir dil eklemek isterseniz, [bir PR açmanız yeterlidir](https://github.com/umutphp/famous-bugs/pulls) .
