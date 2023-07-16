@@ -29,6 +29,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [PHP Git Commit Olayı](#php-git-commit-olay%C4%B1)
   - [4 Ekim Facebook Çöküşü](#4-ekim-facebook-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [Cloudflare 2019 Çöküşü](#cloudflare-2019-çöküşü)
+  - [2017 Equifax Veri Sızıntısı](#2017-equifax-veri-sızıntısı)
 - [Hatalar (Bug) ve Solucanlar](#hatalar-bug-ve-solucanlar)
   - [İlk Hata (Bug)](#i%CC%87lk-hata-bug)
   - [Ariane 5'in Patlaması](#ariane-5in-patlamas%C4%B1)
