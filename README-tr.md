@@ -217,6 +217,17 @@ Cloudflare'in 2 Temmuz 2019 tarihli çöküşü, şirketin Web Uygulama Güvenli
 - [Cloudflare Postmortem](https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/)
 - [Major outage was a lot more than “a regular expression went bad”](https://hub.packtpub.com/cloudflare-rca-major-outage-was-a-lot-more-than-a-regular-expression-went-bad/)
 
+### 2017 Equifax Veri Sızıntısı
+
+> Eylül 2017'de Equifax, yaklaşık 147 milyon insanın kişisel bilgilerini etkileyen bir veri ihlali yaşadığını duyurdu.
+>
+> [EQUIFAX DATA BREACH SETTLEMENT](https://www.equifaxbreachsettlement.com/)
+
+2017 yılında, en büyük tüketici kredi raporlama kuruluşlarından biri olan Equifax, milyonlarca insanın kişisel bilgilerini etkileyen büyük bir veri sızıntısı yaşadı. Bu ihlal, Equifax'ın web sitesi yazılımında bir zafiyet sonucunda meydana geldi ve bu zafiyet, hacker'ların şirketin sistemlerine yetkisiz erişim sağlamasına ve hassas verileri ele geçirmesine sebep oldu.
+
+- [EQUIFAX DATA BREACH SETTLEMENT](https://www.equifaxbreachsettlement.com/)
+- [2017 Equifax data breach](https://en.wikipedia.org/wiki/2017_Equifax_data_breach)
+
 ## Hatalar (Bug) ve Solucanlar
 
 ### İlk Hata (Bug)
