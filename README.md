@@ -11,8 +11,6 @@ A curated list of bugs, problems and failures that developers may find useful to
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-## Table Of Contents
-
 - [Introduction](#introduction)
 - [Problems](#problems)
   - [Thundering Herd Problem](#thundering-herd-problem)
@@ -42,6 +40,7 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [The Forgotten Space Character](#the-forgotten-space-character)
   - [Rachel True's Problem On iCloud](#rachel-trues-problem-on-icloud)
   - [The MySpace Worm (Samy Worm)](#the-myspace-worm-samy-worm)
+  - [The PHP Hack that Broke Password Hashing](#the-php-hack-that-broke-password-hashing)
 - [Translations](#translations)
 - [Contributing](#contributing)
 
@@ -417,6 +416,25 @@ The MySpace Worm is an XSS worm that was designed to propagate across the social
 Further readings;
 
 - [The MySpace Worm](https://samy.pl/myspace/)
+
+### The PHP Hack that Broke Password Hashing
+
+> The issue was caused by a PHP-specific modification to the crypt_blowfish algorithm ...
+>
+> [Phpmagazine](https://phpmagazine.net/2023/03/the-phphack-that-broke-password-hashing.html)
+
+```C
+if (tmp == '$') break; /* PHP hack */ \
+```
+
+Malformatted BCrypt hashes that include a $ within their salt part was triggering a buffer overread and erroneously validated any password as valid. So, this could lead to security vulnerabilities in applications.
+
+The bug and its fix generated a lot of discussion about the merits of different programming languages and their respective strengths and weaknesses among the programming community.
+
+Further readings;
+
+- [https://bugs.php.net/bug.php?id=81744](https://bugs.php.net/bug.php?id=81744)
+- [https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4](https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4)
 
 ## Translations
 

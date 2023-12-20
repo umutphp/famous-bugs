@@ -11,39 +11,38 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-## İçindekiler
-
 - [Giriş](#giri%C5%9F)
 - [Problemler](#problemler)
   - [Saldıran Sürü Problemi](#sald%C4%B1ran-s%C3%BCr%C3%BC-problemi)
   - [N+1 Sorgu Problemi](#n1-sorgu-problemi)
   - [Kırılma Noktası Problemi](#k%C4%B1r%C4%B1lma-noktas%C4%B1-problemi)
   - [2000 Yılı Problemi](#2000-y%C4%B1l%C4%B1-problemi)
-- [Çöküşler ve Saldırılar (Hack)](#%C3%A7%C3%B6k%C3%BC%C5%9Fler-ve-sald%C4%B1r%C4%B1lar-hack)
+- [Çöküşler ve Saldırılar (Hack)](#%C3%87%C3%B6k%C3%BC%C5%9Fler-ve-sald%C4%B1r%C4%B1lar-hack)
   - [Gangnam Style YouTube'u Bozdu](#gangnam-style-youtubeu-bozdu)
-  - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#wikimediada-bir-%C3%A7i%C3%A7ek-resmine-gelen-gizemli-trafik)
+  - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#wikimediada-bir-%C3%87i%C3%A7ek-resmine-gelen-gizemli-trafik)
   - [NPM Leftpad Olayı](#npm-leftpad-olay%C4%B1)
   - [Heathrow Terminal 5 Açılışı](#heathrow-terminal-5-a%C3%A7%C4%B1l%C4%B1%C5%9F%C4%B1)
-  - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#20-temmuz-2016-stack-overflowun-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
+  - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#20-temmuz-2016-stack-overflowun-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [Gitlab Veritabanın Silinmesi](#gitlab-veritaban%C4%B1n-silinmesi)
   - [PHP Git Commit Olayı](#php-git-commit-olay%C4%B1)
-  - [4 Ekim Facebook Çöküşü](#4-ekim-facebook-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
-  - [Cloudflare 2019 Çöküşü](#cloudflare-2019-çöküşü)
-  - [2017 Equifax Veri Sızıntısı](#2017-equifax-veri-sızıntısı)
+  - [4 Ekim Facebook Çöküşü](#4-ekim-facebook-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
+  - [Cloudflare 2019 Çöküşü](#cloudflare-2019-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
+  - [2017 Equifax Veri Sızıntısı](#2017-equifax-veri-s%C4%B1z%C4%B1nt%C4%B1s%C4%B1)
 - [Hatalar (Bug) ve Solucanlar](#hatalar-bug-ve-solucanlar)
-  - [İlk Hata (Bug)](#i%CC%87lk-hata-bug)
+  - [İlk Hata (Bug)](#%C4%B0lk-hata-bug)
   - [Ariane 5'in Patlaması](#ariane-5in-patlamas%C4%B1)
-  - [NASA'nın Mars İklim Uydusunda Metrik Sistem Karmaşası](#nasan%C4%B1n-mars-i%CC%87klim-uydusunda-metrik-sistem-karma%C5%9Fas%C4%B1)
+  - [NASA'nın Mars İklim Uydusunda Metrik Sistem Karmaşası](#nasan%C4%B1n-mars-%C4%B0klim-uydusunda-metrik-sistem-karma%C5%9Fas%C4%B1)
   - [Morris Solucanı](#morris-solucan%C4%B1)
-  - [BT Yüzünden Ölmek](#bt-y%C3%BCz%C3%BCnden-%C3%B6lmek)
-  - [1990 AT&T Ağının Çöküşü](#1990-att-a%C4%9F%C4%B1n%C4%B1n-%C3%A7%C3%B6k%C3%BC%C5%9F%C3%BC)
+  - [BT Yüzünden Ölmek](#bt-y%C3%BCz%C3%BCnden-%C3%96lmek)
+  - [1990 AT&T Ağının Çöküşü](#1990-att-a%C4%9F%C4%B1n%C4%B1n-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [ILOVEYOU Solucanı](#iloveyou-solucan%C4%B1)
   - [Zune Bug](#zune-bug)
   - [Unutulmuş Boşluk Karakteri](#unutulmu%C5%9F-bo%C5%9Fluk-karakteri)
   - [Rachel True'nun iCloud'da Yaşadığı Problem](#rachel-truenun-icloudda-ya%C5%9Fad%C4%B1%C4%9F%C4%B1-problem)
   - [MySpace Solucan (Samy Solucanı)](#myspace-solucan-samy-solucan%C4%B1)
-- [Çeviriler](#%C3%A7eviriler)
-- [Katkıda Bulunmak İçin](#katk%C4%B1da-bulunmak-i%CC%87%C3%A7in)
+  - [Şifre Hash İşlemini Bozan "PHP Hack" Problemi](#%C5%9Eifre-hash-%C4%B0%C5%9Flemini-bozan-php-hack-problemi)
+- [Çeviriler](#%C3%87eviriler)
+- [Katkıda Bulunmak İçin](#katk%C4%B1da-bulunmak-%C4%B0%C3%A7in)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -417,6 +416,25 @@ MySpace Solucanı [Samy Kamkar](https://en.wikipedia.org/wiki/Samy_Kamkar) taraf
 Ek kaynaklar;
 
 - [The MySpace Worm](https://samy.pl/myspace/)
+
+### Şifre Hash İşlemini Bozan "PHP Hack" Problemi
+
+> crypt_blowfish algoritmasında PHP'ye özel yapılan bir değişiklikten kaynaklandı ...
+>
+> [Phpmagazine](https://phpmagazine.net/2023/03/the-phphack-that-broke-password-hashing.html)
+
+```C
+if (tmp == '$') break; /* PHP hack */ \
+```
+
+"salt" kısımlarında $ içeren hatalı biçimlendirilmiş BCrypt şifreleri, arabelleğin yanlış (buffer overread) okunmasını tetikleyerek herhangi bir şifreyinin yanlışlıkla geçerli olarak doğrulanabilmesini sağlıyordu. Dolayısıyla bu durum uygulamalarda güvenlik açıklarına neden oldu.
+
+Hata ve düzeltilmesi, programlama topluluğu arasında farklı programlama dillerinin yararları ve bunların güçlü ve zayıf yönleri hakkında birçok tartışmaya yol açtı.
+
+Ek kaynaklar;
+
+- [https://bugs.php.net/bug.php?id=81744](https://bugs.php.net/bug.php?id=81744)
+- [https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4](https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4)
 
 ## Çeviriler
 
