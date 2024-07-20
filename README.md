@@ -28,6 +28,7 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [October 4th Facebook Outage](#october-4th-facebook-outage)
   - [Cloudflare Outage 2019](#cloudflare-outage-2019)
   - [Equifax Data Breach 2017](#equifax-data-breach-2017)
+  - [Blue Screen of Death](#blue-screen-of-death)
 - [Bugs and Worms](#bugs-and-worms)
   - [The First Bug](#the-first-bug)
   - [The Explosion of the Ariane 5](#the-explosion-of-the-ariane-5)
@@ -227,6 +228,17 @@ In 2017, Equifax, one of the largest consumer credit reporting agencies, experie
 
 - [EQUIFAX DATA BREACH SETTLEMENT](https://www.equifaxbreachsettlement.com/)
 - [2017 Equifax data breach](https://en.wikipedia.org/wiki/2017_Equifax_data_breach)
+
+### Blue Screen of Death
+
+> ... has affected computers running Microsoft Windows at organizations across various sectors, including airlines, banks, retailers, brokerage houses, media companies and railway networks. The travel sector seems to be one of the hardest hit, based on online chatter...
+>
+> [CrowdStrike’s chief executive, George Kurtz](https://techcrunch.com/2024/07/19/faulty-crowdstrike-update-causes-major-global-it-outage-taking-out-banks-airlines-and-businesses-globally/)
+
+On July 19, 2024 businesses across the world reported IT outages which became one of the most widespread IT disruptions. It was linked to a software update from popular cybersecurity firm CrowdStrike. It affected computers running Microsoft Windows across various sectors, including airlines, banks, retailers, brokerage houses, media companies and railway networks. The travel sector got one of the hardest hit.
+
+- [Statement on Falcon Content Update for Windows Hosts](https://www.crowdstrike.com/blog/statement-on-falcon-content-update-for-windows-hosts/)
+- [Our Statement on Today’s Outage](https://www.crowdstrike.com/blog/our-statement-on-todays-outage/)
 
 ## Bugs and Worms
 
