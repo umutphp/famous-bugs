@@ -28,6 +28,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [4 Ekim Facebook Çöküşü](#4-ekim-facebook-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [Cloudflare 2019 Çöküşü](#cloudflare-2019-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [2017 Equifax Veri Sızıntısı](#2017-equifax-veri-s%C4%B1z%C4%B1nt%C4%B1s%C4%B1)
+  - [Büyük Mavi Ekran Günü](#b%C3%BCy%C3%BCk-mavi-ekran-g%C3%BCn%C3%BC)
 - [Hatalar (Bug) ve Solucanlar](#hatalar-bug-ve-solucanlar)
   - [İlk Hata (Bug)](#%C4%B0lk-hata-bug)
   - [Ariane 5'in Patlaması](#ariane-5in-patlamas%C4%B1)
