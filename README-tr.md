@@ -228,6 +228,17 @@ Cloudflare'in 2 Temmuz 2019 tarihli çöküşü, şirketin Web Uygulama Güvenli
 - [EQUIFAX DATA BREACH SETTLEMENT](https://www.equifaxbreachsettlement.com/)
 - [2017 Equifax data breach](https://en.wikipedia.org/wiki/2017_Equifax_data_breach)
 
+### Büyük Mavi Ekran Günü
+
+> ... bankacılık, havayolları, tedarikçiler, medya şirketleri ve tren yolları ağları gibi bir çok sektördeki Microsoft Windows kullanan bilgisayarlar etkilendi. Em büyük zararın turizm sektöründe olduğu düşünülüyor...
+>
+> [CrowdStrike’s chief executive, George Kurtz](https://techcrunch.com/2024/07/19/faulty-crowdstrike-update-causes-major-global-it-outage-taking-out-banks-airlines-and-businesses-globally/)
+
+19 Temmuz 2024'53 dünyanın dört bir tarafından şirketler IT problemi yaşadaıklarını belirtmeye başladılar ve bu tüm zamanların eş zamanlı en yaygın IT çöküşlerinden biriydi. Bu durumun  bir siber güvenlik şirketi olan CrowdStrike tarafından yapılan bir güncellemeden kaynaklandığı ortaya çıktı. Bu durum bankacılık, havayolları, tedarikçiler, medya şirketleri ve tren yolları ağları gibi bir çok sektördeki Microsoft Windows kullanan bilgisayarlar etkiledi. Em büyük zararın turizm sektöründe olduğu düşünülüyor.
+
+- [Statement on Falcon Content Update for Windows Hosts](https://www.crowdstrike.com/blog/statement-on-falcon-content-update-for-windows-hosts/)
+- [Our Statement on Today’s Outage](https://www.crowdstrike.com/blog/our-statement-on-todays-outage/)
+
 ## Hatalar (Bug) ve Solucanlar
 
 ### İlk Hata (Bug)
