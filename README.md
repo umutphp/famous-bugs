@@ -42,6 +42,8 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [Rachel True's Problem On iCloud](#rachel-trues-problem-on-icloud)
   - [The MySpace Worm (Samy Worm)](#the-myspace-worm-samy-worm)
   - [The PHP Hack that Broke Password Hashing](#the-php-hack-that-broke-password-hashing)
+- [AI](#ai)
+  - [Microsoft's Tay Chatbot (2016)](#microsofts-tay-chatbot-2016)
 - [Translations](#translations)
 - [Contributing](#contributing)
 
@@ -447,6 +449,16 @@ Further readings;
 
 - [https://bugs.php.net/bug.php?id=81744](https://bugs.php.net/bug.php?id=81744)
 - [https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4](https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4)
+
+## AI
+
+### Microsoft's Tay Chatbot (2016)
+
+> Tay: Microsoft issues apology over racist chatbot fiasco
+>
+> [BBC](https://www.bbc.com/news/technology-35902104)
+
+Microsoft released a chatbot called Tay on Twitter, designed to learn from interactions with users. However, within hours, Tay began posting inflammatory and offensive tweets influenced by interactions with malicious users. The incident highlighted challenges in designing AI systems that can handle online interactions responsibly.
 
 ## Translations
 
