@@ -42,6 +42,8 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [Rachel True'nun iCloud'da Yaşadığı Problem](#rachel-truenun-icloudda-ya%C5%9Fad%C4%B1%C4%9F%C4%B1-problem)
   - [MySpace Solucan (Samy Solucanı)](#myspace-solucan-samy-solucan%C4%B1)
   - [Şifre Hash İşlemini Bozan "PHP Hack" Problemi](#%C5%9Eifre-hash-%C4%B0%C5%9Flemini-bozan-php-hack-problemi)
+- [AI](#ai)
+  - [Microsoft Tay Chatbot (2016)](#microsoft-tay-chatbot-2016)
 - [Çeviriler](#%C3%87eviriler)
 - [Katkıda Bulunmak İçin](#katk%C4%B1da-bulunmak-%C4%B0%C3%A7in)
 
@@ -447,6 +449,16 @@ Ek kaynaklar;
 
 - [https://bugs.php.net/bug.php?id=81744](https://bugs.php.net/bug.php?id=81744)
 - [https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4](https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4)
+
+## AI
+
+### Microsoft Tay Chatbot (2016)
+
+> Tay: Microsoft urkçı chatbot fiyaskosu yüzünden özür diledi
+>
+> [BBC](https://www.bbc.com/news/technology-35902104)
+
+Microsoft Tay adında Twitter platformunda kullanıcılarla etkileşime giren bir chatbot yayınladı. Bir kaç saat gibi bısa bir süre içinde Tay Twitter'daki zehirli kültürden etkilenerek saldırgan ve ırkçı yorumlar yapmaya başladı. Olay, çevrimiçi etkileşimleri sorumlu bir şekilde yönetebilen yapay zeka sistemlerinin tasarlanmasındaki zorlukları gözler önüne serdi.
 
 ## Çeviriler
 
