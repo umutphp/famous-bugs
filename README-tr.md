@@ -44,6 +44,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [Rachel True'nun iCloud'da Yaşadığı Problem](#rachel-truenun-icloudda-ya%C5%9Fad%C4%B1%C4%9F%C4%B1-problem)
   - [MySpace Solucan (Samy Solucanı)](#myspace-solucan-samy-solucan%C4%B1)
   - [Şifre Hash İşlemini Bozan "PHP Hack" Problemi](#%C5%9Eifre-hash-%C4%B0%C5%9Flemini-bozan-php-hack-problemi)
+  - [php2shell.com Güvenlik Açığı](#php2shellcom-g%C3%BCvenlik-a%C3%A7%C4%B1%C4%9F%C4%B1)
   - [Log4Shell - İnterneti Çökertebilecek Güvenlik Açığı](#log4shell---%C4%B0nterneti-%C3%87%C3%B6kertebilecek-g%C3%BCvenlik-a%C3%A7%C4%B1%C4%9F%C4%B1)
 - [AI](#ai)
   - [Microsoft Tay Chatbot (2016)](#microsoft-tay-chatbot-2016)
@@ -479,6 +480,24 @@ Ek kaynaklar;
 
 - [https://bugs.php.net/bug.php?id=81744](https://bugs.php.net/bug.php?id=81744)
 - [https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4](https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4)
+
+### php2shell.com Güvenlik Açığı
+
+> Her iki güvenlik açığı da kritik seviyedeydi ve uygulama kodu çalışmadan önce istismar edilebiliyordu.
+>
+> [NCSC-NL](https://github.com/NCSC-NL/php2shell)
+
+2026'nın sonlarında, büyük bir sızıntı PHP'nin kendi çekirdeğinde bulunan iki kritik uzaktan kod çalıştırma güvenlik açığını ortaya çıkardı. Bu açıklar php2shell ve rawkey olarak adlandırıldı ve CVE-2026-109618 ile CVE-2026-109619 olarak takip edildi. Bu sorunların ciddi kabul edilmesinin nedeni, saldırganların güvenlik açığı taşıyan bir uygulamaya güvenmeden doğrudan saldırıyı tetikleyebilmesiydi. PHP-FPM, Apache mod_php, php-cgi ve LiteSpeed gibi yaygın web sunucusu kurulumları etkileniyordu; bazı konfigürasyonlarda saldırı herhangi bir uygulama kodu çalışmadan önce gerçekleşebiliyordu.
+
+Sorunun kökü tek bir framework veya uygulama kodu değil, PHP çalışma zamanının kendi çekirdeği ve istek işleme mekanizmalarıydı. Bir açık session.upload_progress mekanizmasını; diğeri ise dahili hash table işlemlerini istismar ediyordu. Pratikte bu, küçük bir HTTP isteğinin motorun içine doğru şekilde yönlendirilmesiyle arka kapı yaratılmasına ve çok sayıda üretim ortamını etkileyebilecek kod çalıştırılmasına yol açtı.
+
+Bu olay, temel altyapıda gizli kalan kritik güvenlik açıklarının riskini ve PHP güvenlik güncellemelerinin ne kadar acil yapılması gerektiğini hatırlattı. Ayrıca, istek modellerini izleme, gerekli durumlarda riskli davranışları kapatma ve üçüncü taraf bağımlılıkların bütünlüğünü doğrulama konularının önemini bir kez daha ortaya koydu.
+
+Ek kaynaklar:
+
+- [PHP2Shell - Wikipedia](https://en.wikipedia.org/wiki/PHP2Shell)
+- [Rapid Response: php2shell, Leaked Critical PHP Vulnerabilities](https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities)
+- [NCSC-NL / php2shell](https://github.com/NCSC-NL/php2shell)
 
 ### Log4Shell - İnterneti Çökertebilecek Güvenlik Açığı
 
