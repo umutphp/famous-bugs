@@ -28,6 +28,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [4 Ekim Facebook Çöküşü](#4-ekim-facebook-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [Cloudflare 2019 Çöküşü](#cloudflare-2019-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [2017 Equifax Veri Sızıntısı](#2017-equifax-veri-s%C4%B1z%C4%B1nt%C4%B1s%C4%B1)
+  - [Facebook-Cambridge Analytica Skandalı (2018)](#facebook-cambridge-analytica-skandal%C4%B1-2018)
   - [Büyük Mavi Ekran Günü](#b%C3%BCy%C3%BCk-mavi-ekran-g%C3%BCn%C3%BC)
 - [Hatalar (Bug) ve Solucanlar](#hatalar-bug-ve-solucanlar)
   - [İlk Hata (Bug)](#%C4%B0lk-hata-bug)
@@ -231,6 +232,19 @@ Cloudflare'in 2 Temmuz 2019 tarihli çöküşü, şirketin Web Uygulama Güvenli
 
 - [EQUIFAX DATA BREACH SETTLEMENT](https://www.equifaxbreachsettlement.com/)
 - [2017 Equifax data breach](https://en.wikipedia.org/wiki/2017_Equifax_data_breach)
+
+### Facebook-Cambridge Analytica Skandalı (2018)
+
+> Bu skandal, kişisel verilerin nasıl toplandığı, paylaşıldığı ve siyasi hedefleme için kullanıldığı konusunda küresel endişeleri yeniden gündeme getirdi.
+>
+> [Wikipedia](https://tr.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_veri_skandal%C4%B1)
+
+2018 yılında Facebook, Cambridge Analytica ile ilgili büyük bir gizlilik skandalının merkezinde yer aldı. Şirket, bir üçüncü taraf uygulama aracılığıyla milyonlarca Facebook kullanıcısının verisini topladı ve bu verileri seçmen profilleri oluşturmak için kullandı. Bu olay, rıza, veri minimizasyonu ve sosyal platformların sorumlulukları hakkında daha geniş bir tartışmaya yol açtı; soruşturmalar, düzenleyici incelemeler ve toplumsal tepkilerle sonuçlandı.
+
+Ek kaynaklar:
+
+- [Facebook–Cambridge Analytica veri skandalı](https://tr.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_veri_skandal%C4%B1)
+- [Facebook ile FTC arasında yapılan anlaşma](https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook)
 
 ### Büyük Mavi Ekran Günü
 
