@@ -11,12 +11,12 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Giriş](#giri%C5%9F)
+- [Giriş](#giriş)
 - [Problemler](#problemler)
-  - [Saldıran Sürü Problemi](#sald%C4%B1ran-s%C3%BCr%C3%BC-problemi)
+  - [Saldıran Sürü Problemi](#saldıran-sürü-problemi)
   - [N+1 Sorgu Problemi](#n1-sorgu-problemi)
-  - [Kırılma Noktası Problemi](#k%C4%B1r%C4%B1lma-noktas%C4%B1-problemi)
-  - [2000 Yılı Problemi](#2000-y%C4%B1l%C4%B1-problemi)
+  - [Kırılma Noktası Problemi](#kırılma-noktası-problemi)
+  - [2000 Yılı Problemi](#2000-yılı-problemi)
 - [Çöküşler ve Saldırılar (Hack)](#%C3%87%C3%B6k%C3%BC%C5%9Fler-ve-sald%C4%B1r%C4%B1lar-hack)
   - [Gangnam Style YouTube'u Bozdu](#gangnam-style-youtubeu-bozdu)
   - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#wikimediada-bir-%C3%87i%C3%A7ek-resmine-gelen-gizemli-trafik)
@@ -484,6 +484,19 @@ Ek kaynaklar:
 - [Log4Shell güvenlik açığı](https://en.wikipedia.org/wiki/Log4Shell)
 
 ## AI
+
+### Amazon'un Cinsiyet Yanlısı İşe Alım AI'sı (2018)
+
+> Amazon'un işe alım aracı, "women's" gibi kelimeleri içeren özgeçmişleri cezalandırarak ve kadınların eğitim gördüğü okullardan gelen adayları daha düşük puanlayarak kadınlara karşı önyargılı davranıyordu.
+>
+> [Reuters](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G/)
+
+Amazon, özgeçmişleri tarayıp adayları sıralamak için yapay zeka destekli bir işe alım sistemi geliştirdi. Model, şirketin tarihsel olarak cinsiyet dengesizliğini yansıtan geçmiş işe alım verileri üzerinde eğitildi; bu yüzden erkek adayları daha çok tercih etmeyi ve kadın adayları gösteren özgeçmişleri düşürmeyi öğrendi. Sistem sonunda rafa kaldırıldı, ancak önyargılı eğitim verilerinin otomatik işe alım kararlarına nasıl yaygın ayrımcılığı yerleştirdiğini gösteren çok bilinen bir örnek haline geldi.
+
+Ek kaynaklar:
+
+- [Amazon scraps secret AI recruiting tool that showed bias against women](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G/)
+- [Amazon's Gender-Biased Recruitment AI](https://en.wikipedia.org/wiki/Amazon_gender_bias_in_recruiting)
 
 ### Microsoft Tay Chatbot (2016)
 
