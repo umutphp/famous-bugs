@@ -29,6 +29,7 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [October 4th Facebook Outage](#october-4th-facebook-outage)
   - [Cloudflare Outage 2019](#cloudflare-outage-2019)
   - [Equifax Data Breach 2017](#equifax-data-breach-2017)
+  - [Facebook-Cambridge Analytica Scandal (2018)](#facebook-cambridge-analytica-scandal-2018)
   - [Blue Screen of Death](#blue-screen-of-death)
 - [Bugs and Worms](#bugs-and-worms)
   - [The First Bug](#the-first-bug)
@@ -247,6 +248,19 @@ In 2017, Equifax, one of the largest consumer credit reporting agencies, experie
 
 - [EQUIFAX DATA BREACH SETTLEMENT](https://www.equifaxbreachsettlement.com/)
 - [2017 Equifax data breach](https://en.wikipedia.org/wiki/2017_Equifax_data_breach)
+
+### Facebook-Cambridge Analytica Scandal (2018)
+
+> The scandal raised global concern about how personal data was being collected, shared, and used for political targeting.
+>
+> [Wikipedia](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal)
+
+In 2018, Facebook was at the center of a major privacy scandal involving Cambridge Analytica. The firm harvested data from millions of Facebook users through a third-party app and used it to build detailed voter profiles for targeted political advertising. The controversy led to investigations, regulatory scrutiny, and a broader public debate about consent, data minimization, and the responsibilities of social platforms.
+
+Further readings:
+
+- [Facebook–Cambridge Analytica data scandal](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal)
+- [FTC settlement with Facebook](https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-imposes-5-billion-penalty-sweeping-new-privacy-restrictions-facebook)
 
 ### Blue Screen of Death
 
