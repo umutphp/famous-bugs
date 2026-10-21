@@ -44,6 +44,7 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [Rachel True's Problem On iCloud](#rachel-trues-problem-on-icloud)
   - [The MySpace Worm (Samy Worm)](#the-myspace-worm-samy-worm)
   - [The PHP Hack that Broke Password Hashing](#the-php-hack-that-broke-password-hashing)
+  - [php2shell.com Vulnerability](#php2shellcom-vulnerability)
   - [Log4Shell - The Vulnerability That Broke the Internet](#log4shell---the-vulnerability-that-broke-the-internet)
 - [AI](#ai)
   - [Amazon's Gender-Biased Recruitment AI (2018)](#amazons-gender-biased-recruitment-ai-2018)
@@ -480,6 +481,24 @@ Further readings;
 
 - [https://bugs.php.net/bug.php?id=81744](https://bugs.php.net/bug.php?id=81744)
 - [https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4](https://github.com/php/php-src/security/advisories/GHSA-7fj2-8×79-rjf4)
+
+### php2shell.com Vulnerability
+
+> Both vulnerabilities were critical and exploitable before application code executed.
+>
+> [NCSC-NL](https://github.com/NCSC-NL/php2shell)
+
+In late 2026, a major leak revealed two critical remote code execution vulnerabilities in PHP itself, nicknamed php2shell and rawkey. The issues were tracked as CVE-2026-109618 and CVE-2026-109619, and they were considered severe because attackers could trigger them without relying on a vulnerable application. The exploit surface included normal PHP web server setups such as PHP-FPM, Apache mod_php, php-cgi, and LiteSpeed, and on some configurations the attack could occur before any application logic ran.
+
+The root problem was in PHP's core runtime and request processing, not in a single framework. One issue abused the session.upload_progress mechanism and another abused internal hash table handling. In practice, this meant a small crafted HTTP request could reach the engine in a way that enabled arbitrary code execution and affected large numbers of production sites, including popular CMS and e-commerce platforms.
+
+The incident became a cautionary tale about the risk of undisclosed critical flaws in foundational infrastructure, as well as the urgency of patching PHP as soon as security advisories are released. It also highlighted the importance of monitoring request patterns, disabling risky request behaviors when necessary, and validating the integrity of upstream dependencies.
+
+Further readings:
+
+- [PHP2Shell - Wikipedia](https://en.wikipedia.org/wiki/PHP2Shell)
+- [Rapid Response: php2shell, Leaked Critical PHP Vulnerabilities](https://www.huntress.com/blog/php2shell-leaked-critical-php-vulnerabilities)
+- [NCSC-NL / php2shell](https://github.com/NCSC-NL/php2shell)
 
 ### Log4Shell - The Vulnerability That Broke the Internet
 
