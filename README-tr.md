@@ -17,36 +17,37 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [N+1 Sorgu Problemi](#n1-sorgu-problemi)
   - [Kırılma Noktası Problemi](#kırılma-noktası-problemi)
   - [2000 Yılı Problemi](#2000-yılı-problemi)
-- [Çöküşler ve Saldırılar (Hack)](#çöküşler-ve-saldırılar-hack)
+- [Çöküşler ve Saldırılar (Hack)](#%C3%87%C3%B6k%C3%BC%C5%9Fler-ve-sald%C4%B1r%C4%B1lar-hack)
   - [Gangnam Style YouTube'u Bozdu](#gangnam-style-youtubeu-bozdu)
-  - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#wikimediada-bir-çiçek-resmine-gelen-gizemli-trafik)
-  - [NPM Leftpad Olayı](#npm-leftpad-olayı)
-  - [Heathrow Terminal 5 Açılışı](#heathrow-terminal-5-açılışı)
-  - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#20-temmuz-2016-stack-overflowun-çöküşü)
-  - [Gitlab Veritabanın Silinmesi](#gitlab-veritabanın-silinmesi)
-  - [PHP Git Commit Olayı](#php-git-commit-olayı)
-  - [4 Ekim Facebook Çöküşü](#4-ekim-facebook-çöküşü)
-  - [Cloudflare 2019 Çöküşü](#cloudflare-2019-çöküşü)
-  - [2017 Equifax Veri Sızıntısı](#2017-equifax-veri-sızıntısı)
-  - [Büyük Mavi Ekran Günü](#büyük-mavi-ekran-günü)
+  - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#wikimediada-bir-%C3%87i%C3%A7ek-resmine-gelen-gizemli-trafik)
+  - [NPM Leftpad Olayı](#npm-leftpad-olay%C4%B1)
+  - [Heathrow Terminal 5 Açılışı](#heathrow-terminal-5-a%C3%A7%C4%B1l%C4%B1%C5%9F%C4%B1)
+  - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#20-temmuz-2016-stack-overflowun-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
+  - [Gitlab Veritabanın Silinmesi](#gitlab-veritaban%C4%B1n-silinmesi)
+  - [PHP Git Commit Olayı](#php-git-commit-olay%C4%B1)
+  - [SolarWinds Tedarik Zinciri Saldırısı (2020)](#solarwinds-tedarik-zinciri-sald%C4%B1r%C4%B1s%C4%B1-2020)
+  - [4 Ekim Facebook Çöküşü](#4-ekim-facebook-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
+  - [Cloudflare 2019 Çöküşü](#cloudflare-2019-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
+  - [2017 Equifax Veri Sızıntısı](#2017-equifax-veri-s%C4%B1z%C4%B1nt%C4%B1s%C4%B1)
+  - [Büyük Mavi Ekran Günü](#b%C3%BCy%C3%BCk-mavi-ekran-g%C3%BCn%C3%BC)
 - [Hatalar (Bug) ve Solucanlar](#hatalar-bug-ve-solucanlar)
-  - [İlk Hata (Bug)](#i̇lk-hata-bug)
-  - [Ariane 5'in Patlaması](#ariane-5in-patlaması)
-  - [NASA'nın Mars İklim Uydusunda Metrik Sistem Karmaşası](#nasanın-mars-i̇klim-uydusunda-metrik-sistem-karmaşası)
-  - [Morris Solucanı](#morris-solucanı)
-  - [BT Yüzünden Ölmek](#bt-yüzünden-ölmek)
-  - [1990 AT&T Ağının Çöküşü](#1990-att-ağının-çöküşü)
-  - [ILOVEYOU Solucanı](#iloveyou-solucanı)
+  - [İlk Hata (Bug)](#%C4%B0lk-hata-bug)
+  - [Ariane 5'in Patlaması](#ariane-5in-patlamas%C4%B1)
+  - [NASA'nın Mars İklim Uydusunda Metrik Sistem Karmaşası](#nasan%C4%B1n-mars-%C4%B0klim-uydusunda-metrik-sistem-karma%C5%9Fas%C4%B1)
+  - [Morris Solucanı](#morris-solucan%C4%B1)
+  - [BT Yüzünden Ölmek](#bt-y%C3%BCz%C3%BCnden-%C3%96lmek)
+  - [1990 AT&T Ağının Çöküşü](#1990-att-a%C4%9F%C4%B1n%C4%B1n-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
+  - [ILOVEYOU Solucanı](#iloveyou-solucan%C4%B1)
   - [Zune Bug](#zune-bug)
-  - [Unutulmuş Boşluk Karakteri](#unutulmuş-boşluk-karakteri)
-  - [Rachel True'nun iCloud'da Yaşadığı Problem](#rachel-truenun-icloudda-yaşadığı-problem)
-  - [MySpace Solucan (Samy Solucanı)](#myspace-solucan-samy-solucanı)
-  - [Şifre Hash İşlemini Bozan "PHP Hack" Problemi](#şifre-hash-i̇şlemini-bozan-php-hack-problemi)
-  - [Log4Shell - İnterneti Çökertebilecek Güvenlik Açığı](#log4shell---i̇nterneti-çökertebilecek-güvenlik-açığı)
+  - [Unutulmuş Boşluk Karakteri](#unutulmu%C5%9F-bo%C5%9Fluk-karakteri)
+  - [Rachel True'nun iCloud'da Yaşadığı Problem](#rachel-truenun-icloudda-ya%C5%9Fad%C4%B1%C4%9F%C4%B1-problem)
+  - [MySpace Solucan (Samy Solucanı)](#myspace-solucan-samy-solucan%C4%B1)
+  - [Şifre Hash İşlemini Bozan "PHP Hack" Problemi](#%C5%9Eifre-hash-%C4%B0%C5%9Flemini-bozan-php-hack-problemi)
+  - [Log4Shell - İnterneti Çökertebilecek Güvenlik Açığı](#log4shell---%C4%B0nterneti-%C3%87%C3%B6kertebilecek-g%C3%BCvenlik-a%C3%A7%C4%B1%C4%9F%C4%B1)
 - [AI](#ai)
   - [Microsoft Tay Chatbot (2016)](#microsoft-tay-chatbot-2016)
-- [Çeviriler](#çeviriler)
-- [Katkıda Bulunmak İçin](#katkıda-bulunmak-i̇çin)
+- [Çeviriler](#%C3%87eviriler)
+- [Katkıda Bulunmak İçin](#katk%C4%B1da-bulunmak-%C4%B0%C3%A7in)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -198,6 +199,20 @@ Ek kaynaklar:
 
 - [Git commit işleyişinde değişiklikler](https://news-web.php.net/php.internals/113838)
 - [PHP hadisesi kullanılan araçların doğrulanması gerekliğini gösterdi](https://www.csoonline.com/article/3613593/php-backdoor-attempt-shows-need-for-better-code-authenticity-verification.html)
+
+### SolarWinds Tedarik Zinciri Saldırısı (2020)
+
+> Kampanyanın arkasındaki grup, FireEye tarafından "Dark Halo" olarak adlandırıldı; SolarWinds'in yazılım tedarik zincirini, Orion BT yönetim platformunun güncellemesine kötü amaçlı arka kapı yerleştirerek ihlal etti.
+>
+> [Wikipedia](https://en.wikipedia.org/wiki/SolarWinds_supply_chain_attack)
+
+2020'nin sonlarında, SolarWinds'in yazılım tedarik zincirine yönelik sofistike bir siber saldırı şirketin Orion BT yönetim platformunu ve bunun sonucunda dünya çapında binlerce kuruluşu etkiledi. Saldırganlar, yasal SolarWinds güncellemelerine zararlı bir arka kapı yerleştirerek downstream sistemlere fark edilmeden erişim sağladı. Kampanya, bir güvenlik firması şüpheli etkinliği tespit edip bunu ihlal edilmiş güncelleme sürecine kadar izlediğinde keşfedildi. Bu olay, modern tarihinin en önemli tedarik zinciri saldırılarından biri olarak görülüyor ve yazılım bütünlüğü doğrulaması, satıcı güvenliği ve tehdit izleme konularının önemini yeniden vurguluyor.
+
+Ek kaynaklar:
+
+- [SolarWinds tedarik zinciri saldırısı](https://en.wikipedia.org/wiki/SolarWinds_supply_chain_attack)
+- [The SolarWinds Cyberattack: What Happened, and Why It Matters](https://www.cisa.gov/news-events/news/solarwinds-cyberattack-what-happened-and-why-it-matters)
+- [FireEye: APT29 and the SolarWinds supply chain compromise](https://www.fireeye.com/blog/threat-research/2020/12/apt29-and-the-solarwinds-supply-chain-compromise.html)
 
 ### 4 Ekim Facebook Çöküşü
 
