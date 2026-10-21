@@ -44,6 +44,7 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [The PHP Hack that Broke Password Hashing](#the-php-hack-that-broke-password-hashing)
   - [Log4Shell - The Vulnerability That Broke the Internet](#log4shell---the-vulnerability-that-broke-the-internet)
 - [AI](#ai)
+  - [Amazon's Gender-Biased Recruitment AI (2018)](#amazons-gender-biased-recruitment-ai-2018)
   - [Microsoft's Tay Chatbot (2016)](#microsofts-tay-chatbot-2016)
 - [Translations](#translations)
 - [Contributing](#contributing)
@@ -469,6 +470,19 @@ Further readings:
 - [Log4Shell vulnerability](https://en.wikipedia.org/wiki/Log4Shell)
 
 ## AI
+
+### Amazon's Gender-Biased Recruitment AI (2018)
+
+> Amazon's recruiting tool showed bias against women, penalizing resumes with words like "women's" and downgrading candidates from women-only colleges.
+>
+> [Reuters](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G/)
+
+Amazon built an AI-powered recruiting system to help screen resumes and rank candidates. The model was trained on historical hiring data, which reflected the company's historical gender imbalance, so it learned to prefer male candidates and downgrade resumes that suggested female applicants. The system was eventually scrapped, but it became a prominent example of how biased training data can embed discrimination into automated hiring decisions.
+
+Further readings:
+
+- [Amazon scraps secret AI recruiting tool that showed bias against women](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G/)
+- [Amazon's Gender-Biased Recruitment AI](https://en.wikipedia.org/wiki/Amazon_gender_bias_in_recruiting)
 
 ### Microsoft's Tay Chatbot (2016)
 

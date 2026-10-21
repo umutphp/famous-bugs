@@ -11,42 +11,42 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Giriş](#giri%C5%9F)
+- [Giriş](#giriş)
 - [Problemler](#problemler)
-  - [Saldıran Sürü Problemi](#sald%C4%B1ran-s%C3%BCr%C3%BC-problemi)
+  - [Saldıran Sürü Problemi](#saldıran-sürü-problemi)
   - [N+1 Sorgu Problemi](#n1-sorgu-problemi)
-  - [Kırılma Noktası Problemi](#k%C4%B1r%C4%B1lma-noktas%C4%B1-problemi)
-  - [2000 Yılı Problemi](#2000-y%C4%B1l%C4%B1-problemi)
-- [Çöküşler ve Saldırılar (Hack)](#%C3%87%C3%B6k%C3%BC%C5%9Fler-ve-sald%C4%B1r%C4%B1lar-hack)
+  - [Kırılma Noktası Problemi](#kırılma-noktası-problemi)
+  - [2000 Yılı Problemi](#2000-yılı-problemi)
+- [Çöküşler ve Saldırılar (Hack)](#çöküşler-ve-saldırılar-hack)
   - [Gangnam Style YouTube'u Bozdu](#gangnam-style-youtubeu-bozdu)
-  - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#wikimediada-bir-%C3%87i%C3%A7ek-resmine-gelen-gizemli-trafik)
-  - [NPM Leftpad Olayı](#npm-leftpad-olay%C4%B1)
-  - [Heathrow Terminal 5 Açılışı](#heathrow-terminal-5-a%C3%A7%C4%B1l%C4%B1%C5%9F%C4%B1)
-  - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#20-temmuz-2016-stack-overflowun-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
-  - [Gitlab Veritabanın Silinmesi](#gitlab-veritaban%C4%B1n-silinmesi)
-  - [PHP Git Commit Olayı](#php-git-commit-olay%C4%B1)
-  - [4 Ekim Facebook Çöküşü](#4-ekim-facebook-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
-  - [Cloudflare 2019 Çöküşü](#cloudflare-2019-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
-  - [2017 Equifax Veri Sızıntısı](#2017-equifax-veri-s%C4%B1z%C4%B1nt%C4%B1s%C4%B1)
-  - [Büyük Mavi Ekran Günü](#b%C3%BCy%C3%BCk-mavi-ekran-g%C3%BCn%C3%BC)
+  - [Wikimedia'da Bir Çiçek Resmine Gelen Gizemli Trafik](#wikimediada-bir-çiçek-resmine-gelen-gizemli-trafik)
+  - [NPM Leftpad Olayı](#npm-leftpad-olayı)
+  - [Heathrow Terminal 5 Açılışı](#heathrow-terminal-5-açılışı)
+  - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#20-temmuz-2016-stack-overflowun-çöküşü)
+  - [Gitlab Veritabanın Silinmesi](#gitlab-veritabanın-silinmesi)
+  - [PHP Git Commit Olayı](#php-git-commit-olayı)
+  - [4 Ekim Facebook Çöküşü](#4-ekim-facebook-çöküşü)
+  - [Cloudflare 2019 Çöküşü](#cloudflare-2019-çöküşü)
+  - [2017 Equifax Veri Sızıntısı](#2017-equifax-veri-sızıntısı)
+  - [Büyük Mavi Ekran Günü](#büyük-mavi-ekran-günü)
 - [Hatalar (Bug) ve Solucanlar](#hatalar-bug-ve-solucanlar)
-  - [İlk Hata (Bug)](#%C4%B0lk-hata-bug)
-  - [Ariane 5'in Patlaması](#ariane-5in-patlamas%C4%B1)
-  - [NASA'nın Mars İklim Uydusunda Metrik Sistem Karmaşası](#nasan%C4%B1n-mars-%C4%B0klim-uydusunda-metrik-sistem-karma%C5%9Fas%C4%B1)
-  - [Morris Solucanı](#morris-solucan%C4%B1)
-  - [BT Yüzünden Ölmek](#bt-y%C3%BCz%C3%BCnden-%C3%96lmek)
-  - [1990 AT&T Ağının Çöküşü](#1990-att-a%C4%9F%C4%B1n%C4%B1n-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
-  - [ILOVEYOU Solucanı](#iloveyou-solucan%C4%B1)
+  - [İlk Hata (Bug)](#i̇lk-hata-bug)
+  - [Ariane 5'in Patlaması](#ariane-5in-patlaması)
+  - [NASA'nın Mars İklim Uydusunda Metrik Sistem Karmaşası](#nasanın-mars-i̇klim-uydusunda-metrik-sistem-karmaşası)
+  - [Morris Solucanı](#morris-solucanı)
+  - [BT Yüzünden Ölmek](#bt-yüzünden-ölmek)
+  - [1990 AT&T Ağının Çöküşü](#1990-att-ağının-çöküşü)
+  - [ILOVEYOU Solucanı](#iloveyou-solucanı)
   - [Zune Bug](#zune-bug)
-  - [Unutulmuş Boşluk Karakteri](#unutulmu%C5%9F-bo%C5%9Fluk-karakteri)
-  - [Rachel True'nun iCloud'da Yaşadığı Problem](#rachel-truenun-icloudda-ya%C5%9Fad%C4%B1%C4%9F%C4%B1-problem)
-  - [MySpace Solucan (Samy Solucanı)](#myspace-solucan-samy-solucan%C4%B1)
-  - [Şifre Hash İşlemini Bozan "PHP Hack" Problemi](#%C5%9Eifre-hash-%C4%B0%C5%9Flemini-bozan-php-hack-problemi)
-  - [Log4Shell - İnterneti Çökertebilecek Güvenlik Açığı](#log4shell---%C4%B0nterneti-%C3%87%C3%B6kertebilecek-g%C3%BCvenlik-a%C3%A7%C4%B1%C4%9F%C4%B1)
+  - [Unutulmuş Boşluk Karakteri](#unutulmuş-boşluk-karakteri)
+  - [Rachel True'nun iCloud'da Yaşadığı Problem](#rachel-truenun-icloudda-yaşadığı-problem)
+  - [MySpace Solucan (Samy Solucanı)](#myspace-solucan-samy-solucanı)
+  - [Şifre Hash İşlemini Bozan "PHP Hack" Problemi](#şifre-hash-i̇şlemini-bozan-php-hack-problemi)
+  - [Log4Shell - İnterneti Çökertebilecek Güvenlik Açığı](#log4shell---i̇nterneti-çökertebilecek-güvenlik-açığı)
 - [AI](#ai)
   - [Microsoft Tay Chatbot (2016)](#microsoft-tay-chatbot-2016)
-- [Çeviriler](#%C3%87eviriler)
-- [Katkıda Bulunmak İçin](#katk%C4%B1da-bulunmak-%C4%B0%C3%A7in)
+- [Çeviriler](#çeviriler)
+- [Katkıda Bulunmak İçin](#katkıda-bulunmak-i̇çin)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -469,6 +469,19 @@ Ek kaynaklar:
 - [Log4Shell güvenlik açığı](https://en.wikipedia.org/wiki/Log4Shell)
 
 ## AI
+
+### Amazon'un Cinsiyet Yanlısı İşe Alım AI'sı (2018)
+
+> Amazon'un işe alım aracı, "women's" gibi kelimeleri içeren özgeçmişleri cezalandırarak ve kadınların eğitim gördüğü okullardan gelen adayları daha düşük puanlayarak kadınlara karşı önyargılı davranıyordu.
+>
+> [Reuters](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G/)
+
+Amazon, özgeçmişleri tarayıp adayları sıralamak için yapay zeka destekli bir işe alım sistemi geliştirdi. Model, şirketin tarihsel olarak cinsiyet dengesizliğini yansıtan geçmiş işe alım verileri üzerinde eğitildi; bu yüzden erkek adayları daha çok tercih etmeyi ve kadın adayları gösteren özgeçmişleri düşürmeyi öğrendi. Sistem sonunda rafa kaldırıldı, ancak önyargılı eğitim verilerinin otomatik işe alım kararlarına nasıl yaygın ayrımcılığı yerleştirdiğini gösteren çok bilinen bir örnek haline geldi.
+
+Ek kaynaklar:
+
+- [Amazon scraps secret AI recruiting tool that showed bias against women](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G/)
+- [Amazon's Gender-Biased Recruitment AI](https://en.wikipedia.org/wiki/Amazon_gender_bias_in_recruiting)
 
 ### Microsoft Tay Chatbot (2016)
 
