@@ -25,6 +25,7 @@ Geliştiricilerin faydalı bulabileceği derlenmiş problemler, hatalar ve siste
   - [20 Temmuz 2016 Stack Overflow'un Çöküşü](#20-temmuz-2016-stack-overflowun-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [Gitlab Veritabanın Silinmesi](#gitlab-veritaban%C4%B1n-silinmesi)
   - [PHP Git Commit Olayı](#php-git-commit-olay%C4%B1)
+  - [SolarWinds Tedarik Zinciri Saldırısı (2020)](#solarwinds-tedarik-zinciri-sald%C4%B1r%C4%B1s%C4%B1-2020)
   - [4 Ekim Facebook Çöküşü](#4-ekim-facebook-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [Cloudflare 2019 Çöküşü](#cloudflare-2019-%C3%87%C3%B6k%C3%BC%C5%9F%C3%BC)
   - [2017 Equifax Veri Sızıntısı](#2017-equifax-veri-s%C4%B1z%C4%B1nt%C4%B1s%C4%B1)
@@ -198,6 +199,20 @@ Ek kaynaklar:
 
 - [Git commit işleyişinde değişiklikler](https://news-web.php.net/php.internals/113838)
 - [PHP hadisesi kullanılan araçların doğrulanması gerekliğini gösterdi](https://www.csoonline.com/article/3613593/php-backdoor-attempt-shows-need-for-better-code-authenticity-verification.html)
+
+### SolarWinds Tedarik Zinciri Saldırısı (2020)
+
+> Kampanyanın arkasındaki grup, FireEye tarafından "Dark Halo" olarak adlandırıldı; SolarWinds'in yazılım tedarik zincirini, Orion BT yönetim platformunun güncellemesine kötü amaçlı arka kapı yerleştirerek ihlal etti.
+>
+> [Wikipedia](https://en.wikipedia.org/wiki/SolarWinds_supply_chain_attack)
+
+2020'nin sonlarında, SolarWinds'in yazılım tedarik zincirine yönelik sofistike bir siber saldırı şirketin Orion BT yönetim platformunu ve bunun sonucunda dünya çapında binlerce kuruluşu etkiledi. Saldırganlar, yasal SolarWinds güncellemelerine zararlı bir arka kapı yerleştirerek downstream sistemlere fark edilmeden erişim sağladı. Kampanya, bir güvenlik firması şüpheli etkinliği tespit edip bunu ihlal edilmiş güncelleme sürecine kadar izlediğinde keşfedildi. Bu olay, modern tarihinin en önemli tedarik zinciri saldırılarından biri olarak görülüyor ve yazılım bütünlüğü doğrulaması, satıcı güvenliği ve tehdit izleme konularının önemini yeniden vurguluyor.
+
+Ek kaynaklar:
+
+- [SolarWinds tedarik zinciri saldırısı](https://en.wikipedia.org/wiki/SolarWinds_supply_chain_attack)
+- [The SolarWinds Cyberattack: What Happened, and Why It Matters](https://www.cisa.gov/news-events/news/solarwinds-cyberattack-what-happened-and-why-it-matters)
+- [FireEye: APT29 and the SolarWinds supply chain compromise](https://www.fireeye.com/blog/threat-research/2020/12/apt29-and-the-solarwinds-supply-chain-compromise.html)
 
 ### 4 Ekim Facebook Çöküşü
 

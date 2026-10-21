@@ -25,6 +25,7 @@ A curated list of bugs, problems and failures that developers may find useful to
   - [Stack Overflow Outage On July 20, 2016](#stack-overflow-outage-on-july-20-2016)
   - [Gitlab Database Outage](#gitlab-database-outage)
   - [PHP Git Commit Incident](#php-git-commit-incident)
+  - [SolarWinds Supply Chain Attack (2020)](#solarwinds-supply-chain-attack-2020)
   - [October 4th Facebook Outage](#october-4th-facebook-outage)
   - [Cloudflare Outage 2019](#cloudflare-outage-2019)
   - [Equifax Data Breach 2017](#equifax-data-breach-2017)
@@ -198,6 +199,20 @@ Further readings:
 
 - [Changes to Git commit workflow](https://news-web.php.net/php.internals/113838)
 - [PHP backdoor attempt shows need for better code authenticity verification](https://www.csoonline.com/article/3613593/php-backdoor-attempt-shows-need-for-better-code-authenticity-verification.html)
+
+### SolarWinds Supply Chain Attack (2020)
+
+> The group behind the campaign, dubbed "Dark Halo" by FireEye, compromised the software supply chain of SolarWinds by planting a malicious backdoor in an update to the Orion IT management platform.
+>
+> [Wikipedia](https://en.wikipedia.org/wiki/SolarWinds_supply_chain_attack)
+
+In late 2020, a sophisticated cyberattack against SolarWinds' software supply chain compromised the company's Orion IT management platform and, by extension, thousands of organizations around the world. Attackers inserted a malicious backdoor into legitimate SolarWinds updates, allowing them to gain stealthy access to downstream systems. The campaign was discovered after a security vendor identified suspicious activity and traced it to the compromised update process. The incident is widely regarded as one of the most significant supply-chain attacks in modern history and highlighted the critical importance of software integrity verification, vendor hardening, and threat monitoring.
+
+Further readings:
+
+- [SolarWinds supply chain attack](https://en.wikipedia.org/wiki/SolarWinds_supply_chain_attack)
+- [The SolarWinds Cyberattack: What Happened, and Why It Matters](https://www.cisa.gov/news-events/news/solarwinds-cyberattack-what-happened-and-why-it-matters)
+- [FireEye: APT29 and the SolarWinds supply chain compromise](https://www.fireeye.com/blog/threat-research/2020/12/apt29-and-the-solarwinds-supply-chain-compromise.html)
 
 ### October 4th Facebook Outage
 
